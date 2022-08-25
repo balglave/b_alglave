@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nFormulas describing fish population dynamics\n\\[\ng\\left(\\mathbf{n}_{s, t}\\right)=\\mathbf{G}\\left(\\mathbf{n}_{s, t-1} \\circ \\exp \\left(-\\mathbf{m}_{s, t-1}-\\mathbf{v} f_{s, t-1}\\right)\\right)+\\mathbf{r}_{s, t}\n\\]\n\\[\n\\mathbf{c}_{s, t}=\\frac{\\mathbf{v} f_{s, t}}{\\mathbf{v} f_{s, t}+\\mathbf{m}_{s, t}} \\circ\\left(1-\\exp \\left(-\\mathbf{m}_{s, t}-\\mathbf{v} f_{s, t}\\right)\\right) \\circ \\mathbf{n}_{s, t}\n\\]"
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\nFINALEMENT CA MARCHE\nFormulas describing fish population dynamics\n\\[\ng\\left(\\mathbf{n}_{s, t}\\right)=\\mathbf{G}\\left(\\mathbf{n}_{s, t-1} \\circ \\exp \\left(-\\mathbf{m}_{s, t-1}-\\mathbf{v} f_{s, t-1}\\right)\\right)+\\mathbf{r}_{s, t}\n\\]\n\\[\n\\mathbf{c}_{s, t}=\\frac{\\mathbf{v} f_{s, t}}{\\mathbf{v} f_{s, t}+\\mathbf{m}_{s, t}} \\circ\\left(1-\\exp \\left(-\\mathbf{m}_{s, t}-\\mathbf{v} f_{s, t}\\right)\\right) \\circ \\mathbf{n}_{s, t}\n\\]"
   }
 ]
