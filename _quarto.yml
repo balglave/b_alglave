@@ -3,18 +3,18 @@ project:
   output-dir: docs
   
 website:
-  title: "b_alglave"
+  title: "Baptiste Alglave"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: research_interest.qmd
+        text: Research interest
+      - bio.qmd
+      - sci_prod.qmd
+      - contact.qmd
 
+  
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

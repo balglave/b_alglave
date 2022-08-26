@@ -1,0 +1,44 @@
+---
+title: "Teaching and supervision"
+editor: visual
+---
+
+# Teaching experience
+
+**Practical work in spatial modelling (Msc)** \hfill (2021)
+
+Institut Agro (Rennes), 4 hours.
+
+**Practical work in statistics for fisheries science (MSc)** \hfill (2020)
+
+Institut Agro (Rennes), 20 hours.
+
+**Practical work in basics of probability theory (BSc)** \hfill (2020)
+
+University of Nantes, 20 hours.
+
+# Student and project supervision
+
+**Master student** \hfill (May - July 2022)
+
+*Subject:* Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology.
+
+*Student:* Théo Fabien.
+
+*Co-supervision with:* Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.
+
+**Master thesis** \hfill (February - August 2021)
+
+*Subject:* Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay.
+
+*Student:* Florian Quemper.
+
+*Co-supervision with:* Etienne Rivot and Marie-Pierre Etienne.
+
+**Student project (MSc)** \hfill (November 2020 - February 2021)
+
+*Subject:* Investigating the effect of catch reallocation on VMS pings for species distribution model predictions.
+
+*Students:* Chloé Tellier, Juliette Theoleyre, Océane Guitton.
+
+*Co-supervision with:* Marie-Pierre Etienne.

@@ -4,5 +4,23 @@
   },
   "index.qmd": {
     "index.html": "b4a6ba1e"
+  },
+  "sci_prod.qmd": {
+    "sci_prod.html": "8bfee2d3"
+  },
+  "contact.qmd": {
+    "contact.html": "d637d53a"
+  },
+  "research_interest.qmd": {
+    "research_interest.html": "3ca101ac"
+  },
+  "stat_meth.qmd": {
+    "stat_meth.html": "3101afa0"
+  },
+  "bio.qmd": {
+    "bio.html": "6ef3a2d7"
+  },
+  "teaching_supervision.qmd": {
+    "teaching_supervision.html": "1156fa09"
   }
 }

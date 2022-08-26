@@ -1,0 +1,44 @@
+---
+title: "Contact, lab commitment, references, etc."
+---
+
+## Contact
+
+**Email:**
+
+-   baptiste.alglave\@agrocampus-ouest.fr
+
+-   baptiste.alglave\@ifremer.fr
+
+**Adress:**
+
+-   professionnal: pôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France
+-   personnal: 185 rue de Fleury, 92140 Clamart, France
+
+## Lab commitment
+
+**Amédée seminars**
+
+organization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. <a href=https://halieutique.institut-agro-rennes-angers.fr/fr/seminaires-amedee>link</a>
+
+**Ifremer working group \`Science with and for society'**
+
+Working group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction.
+
+## References
+
+**Etienne Rivot**
+
+DECOD (Ecosystem Dynamics and Sustainability), Institut Agro, IFREMER, INRAE, Rennes, France. email: etienne.rivot\@agrocampus-ouest.fr
+
+**Marie-Pierre Etienne**
+
+Mathematical Research Institute of Rennes IRMAR, Rennes University, Rennes, France. email: marie-pierre.etienne\@agrocampus-ouest.fr
+
+**Youen Vermard**
+
+DECOD (Ecosystem Dynamics and Sustainability), IFREMER, Institut Agro, INRAE, Nantes, France. email: youen.vermard\@ifremer.fr
+
+**Mathieu Woillez**
+
+DECOD (Ecosystem Dynamics and Sustainability), IFREMER, Institut Agro, INRAE, Plouzané, France. email: mathieu.woillez\@ifremer.fr

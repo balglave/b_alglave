@@ -1,0 +1,17 @@
+---
+title: "Research interests"
+---
+
+I am mainly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. The methods that I develop are . My domain of application are marine ecology and fisheries science.
+
+#### PhD work
+
+I currently work to develop statistical models combining commercial catch declarations and scientific survey data to infer the spatio-temporal distribution of marine harvested species and identify their essential habitats. The big challenge of this work is to develop models to integrate fishermen declarations data into inference, but overall the methodological ideas that
+
+This is a major challenge as these data:
+
+-   do not have a standardized sampling and that may be preferentially sampled in areas of higher resources (preferential sampling).
+
+-   are often aggregated over large scales while management requires fine-scale species distribution (change of support issue).
+
+When properly integrated into inference, these data give access to high quantity of information at high spatial and temporal resolution (possibly the month) and allow to model processes that were inaccessible before (reproduction period, seasonal migrations, etc.). I aim at developing the methods that allow to integrate properly these and to model the ecological processes.
