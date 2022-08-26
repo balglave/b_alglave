@@ -3,7 +3,7 @@ title: "Teaching & supervision"
 editor: visual
 ---
 
-# Teaching experience
+## Teaching experience
 
 **Practical work in spatial modelling (Msc)** \hfill (2021)
 
@@ -17,7 +17,7 @@ Institut Agro (Rennes), 20 hours.
 
 University of Nantes, 20 hours.
 
-# Student and project supervision
+## Student and project supervision
 
 **Master student** \hfill (May - July 2022)
 

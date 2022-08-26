@@ -2,8 +2,6 @@
 title: "Lab commitment"
 ---
 
-## Lab commitment
-
 **Amédée seminars**
 
 Organization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. <a href=https://halieutique.institut-agro-rennes-angers.fr/fr/seminaires-amedee>link</a>

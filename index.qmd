@@ -1,3 +1,19 @@
 ---
-title: "Main interests"
+title: "About me"
 ---
+
+I am a PhD student working for Ifremer and Institut Agro (Rennes). I'm finishing my last year of phD (hopefully, will survive this last year... ;) ). I am mainly specialized in fisheries science, quantitative ecology and statistical modelling. I actually develop methods for understanding how exploited fish population are distributed in space and time. You'll find plenty of details in the following pages!
+
+If you want to contact me, here are some information!
+
+**My Email:**
+
+baptiste.alglave@agrocampus-ouest.fr
+
+baptiste.alglave@ifremer.fr
+
+**My actual adress:**
+
+pôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France
+
+**And a CV:** <a href=ressource/pdf/cv_baptiste_alglave.pdf>link</a>

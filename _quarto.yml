@@ -6,13 +6,12 @@ website:
   title: "Baptiste Alglave"
   navbar:
     left:
-      - href: research_interest.qmd
-        text: Research interests
+      - research_interest.qmd
       - bio.qmd
       - sci_prod.qmd
       - teaching_supervision.qmd
       - stat_meth.qmd
-      - contact.qmd
+      - lab_comm.qmd
 
   
 format:
