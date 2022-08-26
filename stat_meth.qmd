@@ -4,8 +4,18 @@ title: "Statistics & methods"
 
 **Modelling approach:** hierarchical modeling, species distribution models, spatio-temporal statistics, data integration, multivariate analysis.
 
-**Inference methods:** I mainly build my models under Template Model Builder, a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (R-INLA, JAGS and Nimble).
+**Inference methods:** I mainly build my models under Template Model Builder (<a href=https://kaskr.github.io/adcomp/Introduction.html>TMB</a>), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (<a href=https://www.r-inla.org/>R-INLA</a>, JAGS and <a href=https://r-nimble.org/Nimble>R-INLA</a>).
 
 **Languages:** mainly R and C++ but also some Java, SQL and Python.
 
-For some TMB codes examples, see <a href=>link</a>
+For some personal TMB codes examples, see the <a href=https://github.com/balglave/example_tmb_ba>link</a>
+
+## FishMap hierarchical model
+
+A hierarchical model to integrate scientific survey data and commercial catch declarations data to infer species distribution at fine spatio-temporal resolution.
+
+![FishMap model](ressource/images/model_rep.png)
+
+## Multivariate analysis of spatio-temporal data
+
+In progress
