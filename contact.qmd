@@ -1,5 +1,5 @@
 ---
-title: "Contact, lab commitment, references, etc."
+title: "Contacts & lab commitment"
 ---
 
 ## Contact
@@ -19,7 +19,7 @@ title: "Contact, lab commitment, references, etc."
 
 **Amédée seminars**
 
-organization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. <a href=https://halieutique.institut-agro-rennes-angers.fr/fr/seminaires-amedee>link</a>
+Organization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. <a href=https://halieutique.institut-agro-rennes-angers.fr/fr/seminaires-amedee>link</a>
 
 **Ifremer working group \`Science with and for society'**
 

@@ -7,9 +7,11 @@ website:
   navbar:
     left:
       - href: research_interest.qmd
-        text: Research interest
+        text: Research interests
       - bio.qmd
       - sci_prod.qmd
+      - teaching_supervision.qmd
+      - stat_meth.qmd
       - contact.qmd
 
   
