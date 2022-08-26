@@ -4,7 +4,7 @@
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "PhD work\nI currently work to develop statistical models combining commercial catch declarations and scientific survey data to infer the spatio-temporal distribution of marine harvested species and identify their essential habitats. The big challenge of this work is to develop models to integrate fishermen declarations data into inference, but overall the methodological ideas that\nThis is a major challenge as these data:\n\ndo not have a standardized sampling and that may be preferentially sampled in areas of higher resources (preferential sampling).\nare often aggregated over large scales while management requires fine-scale species distribution (change of support issue).\n\nWhen properly integrated into inference, these data give access to high quantity of information at high spatial and temporal resolution (possibly the month) and allow to model processes that were inaccessible before (reproduction period, seasonal migrations, etc.). I aim at developing the methods that allow to integrate properly these and to model the ecological processes."
+    "text": "PhD work\nI currently work to develop statistical models combining commercial catch declarations and scientific survey data to infer the spatio-temporal distribution of marine harvested species and identify their essential habitats. The big challenge of this work is to develop models to integrate fishermen declarations data into inference, but overall the methodological ideas that\nThis is a major challenge as these data:\n\ndo not have a standardized sampling and that may be preferentially sampled in areas of higher resources (preferential sampling).\nare often aggregated over large scales while management requires fine-scale species distribution (change of support issue).\n\nWhen properly integrated into inference, these data give access to high quantity of information at high spatial and temporal resolution (possibly the month) and allow to model processes that were inaccessible before (reproduction period, seasonal migrations, etc.). I aim at developing the methods that allow to integrate properly these data to model species distribution maps with fine spatio-temporal resolution."
   },
   {
     "objectID": "bio.html",
@@ -58,28 +58,28 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Contact, lab commitment, references, etc.",
+    "title": "Contacts & lab commitment",
     "section": "",
     "text": "Email:\n\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\n\nAdress:\n\nprofessionnal: pôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France\npersonnal: 185 rue de Fleury, 92140 Clamart, France"
   },
   {
     "objectID": "contact.html#lab-commitment",
     "href": "contact.html#lab-commitment",
-    "title": "Contact, lab commitment, references, etc.",
+    "title": "Contacts & lab commitment",
     "section": "Lab commitment",
-    "text": "Lab commitment\nAmédée seminars\norganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
+    "text": "Lab commitment\nAmédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
   },
   {
     "objectID": "contact.html#references",
     "href": "contact.html#references",
-    "title": "Contact, lab commitment, references, etc.",
+    "title": "Contacts & lab commitment",
     "section": "References",
     "text": "References\nEtienne Rivot\nDECOD (Ecosystem Dynamics and Sustainability), Institut Agro, IFREMER, INRAE, Rennes, France. email: etienne.rivot@agrocampus-ouest.fr\nMarie-Pierre Etienne\nMathematical Research Institute of Rennes IRMAR, Rennes University, Rennes, France. email: marie-pierre.etienne@agrocampus-ouest.fr\nYouen Vermard\nDECOD (Ecosystem Dynamics and Sustainability), IFREMER, Institut Agro, INRAE, Nantes, France. email: youen.vermard@ifremer.fr\nMathieu Woillez\nDECOD (Ecosystem Dynamics and Sustainability), IFREMER, Institut Agro, INRAE, Plouzané, France. email: mathieu.woillez@ifremer.fr"
   },
   {
     "objectID": "teaching_supervision.html",
     "href": "teaching_supervision.html",
-    "title": "Teaching and supervision",
+    "title": "Teaching & supervision",
     "section": "",
     "text": "Student and project supervision\nMaster student (May - July 2022)\nSubject: Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology.\nStudent: Théo Fabien.\nCo-supervision with: Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.\nMaster thesis (February - August 2021)\nSubject: Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay.\nStudent: Florian Quemper.\nCo-supervision with: Etienne Rivot and Marie-Pierre Etienne.\nStudent project (MSc) (November 2020 - February 2021)\nSubject: Investigating the effect of catch reallocation on VMS pings for species distribution model predictions.\nStudents: Chloé Tellier, Juliette Theoleyre, Océane Guitton.\nCo-supervision with: Marie-Pierre Etienne."
   }
