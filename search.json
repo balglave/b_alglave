@@ -39,7 +39,21 @@
     "href": "stat_meth.html",
     "title": "Statistics & methods",
     "section": "",
-    "text": "Inference methods: I mainly build my models under Template Model Builder, a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (R-INLA, JAGS and Nimble).\nLanguages: mainly R and C++ but also some Java, SQL and Python.\nFor some TMB codes examples, see link"
+    "text": "Modelling approach: hierarchical modeling, species distribution models, spatio-temporal statistics, data integration, multivariate analysis.\nInference methods: I mainly build my models under Template Model Builder (TMB), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (R-INLA, JAGS and R-INLA).\nLanguages: mainly R and C++ but also some Java, SQL and Python.\nFor some personal TMB codes examples, see the link"
+  },
+  {
+    "objectID": "stat_meth.html#fishmap-hierarchical-model",
+    "href": "stat_meth.html#fishmap-hierarchical-model",
+    "title": "Statistics & methods",
+    "section": "FishMap hierarchical model",
+    "text": "FishMap hierarchical model\nA hierarchical model to integrate scientific survey data and commercial catch declarations data to infer species distribution at fine spatio-temporal resolution.\n\n\n\nFishMap model"
+  },
+  {
+    "objectID": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
+    "href": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
+    "title": "Statistics & methods",
+    "section": "Multivariate analysis of spatio-temporal data",
+    "text": "Multivariate analysis of spatio-temporal data\nIn progress"
   },
   {
     "objectID": "contact.html",
