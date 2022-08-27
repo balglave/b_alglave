@@ -25,7 +25,7 @@ Alglave Baptiste, Vermard Youen, Bez Nicolas, Etienne Marie-Pierre, Kristensen K
 
 Alglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2022). **Can we use catch declarations data to map fish spatial distribution?** International Statistical Ecology Conference (ISEC). June 2022, Cape Town, South Africa. <a href=ressource/pdf/isec_2022_alglave.pdf>link</a>
 
-Alglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). **Downscaling coarse observations to predict continuous species spatio-temporal distribution.** Annual meeting of the RESSTE network 'Spatio-temporal statistics for remote sensing data\`. May 2022, Paris, France. <a href=ressource/pdf/resste_2022_alglave.pdf>link</a>
+Alglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). **Downscaling coarse observations to predict continuous species spatio-temporal distribution.** Meeting of the RESSTE network \`Spatio-temporal statistics for remote sensing data'. May 2022, Paris, France. <a href=ressource/pdf/resste_2022_alglave.pdf>link</a>
 
 Alglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). **Going from coarse landings data to fine scale species distribution.** Annual meeting of the GdR \`Ecology and statistics'. April 2022, Montpellier, France. <a href=ressource/pdf/gdrecostat_2022_alglave.pdf>link</a>
 
