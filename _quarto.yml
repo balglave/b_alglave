@@ -19,3 +19,6 @@ format:
     theme: materia
     css: styles.css
     toc: true
+
+# Publishing Jekyll style on github: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html
+# Jekyll styles: https://github.com/topics/jekyll-theme
