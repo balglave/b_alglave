@@ -9,15 +9,13 @@ editor: visual
 
 Institut Agro (Rennes), 4 hours.
 
-Here are some <a href=ressource/pdf/cours_td_sdm_2022.pdf>generalities</a>, <a href=ressource/pdf/td_halieut_inla_2022.pdf>an R-INLA introduction </a> and <a href=ressource/codes/td_halieut_inla.zip>the related codes</a>.
+Here are some <a href=ressource/pdf/cours_td_sdm_2022.pdf>generalities</a>, <a href=ressource/pdf/td_halieut_inla_2022.pdf>an R-INLA introduction</a> and <a href=ressource/codes/td_halieut_inla.zip>the related codes</a>.
 
 N.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.
 
 **Practical work in statistics for fisheries science (MSc)** \hfill (2020)
 
 Institut Agro (Rennes), 20 hours.
-
-Base of statistics: linear model, variance analysis,
 
 **Practical work in basics of probability theory (BSc)** \hfill (2020)
 
