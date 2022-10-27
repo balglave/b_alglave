@@ -16,7 +16,7 @@ website:
   
 format:
   html:
-    theme: materia
+    theme: regmtait/Toasty-Jekyll
     css: styles.css
     toc: true
 
