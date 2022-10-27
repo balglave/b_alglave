@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.120">
+<meta name="generator" content="quarto-1.2.247">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -80,22 +80,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./research_interest.html" aria-current="page">Research interests</a>
+    <a class="nav-link active" href="./research_interest.html" aria-current="page">
+ <span class="menu-text">Research interests</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bio.html">Biography</a>
+    <a class="nav-link" href="./sci_prod.html">
+ <span class="menu-text">Scientific work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./sci_prod.html">Scientific production</a>
+    <a class="nav-link" href="./teaching_supervision.html">
+ <span class="menu-text">Teaching &amp; supervision</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching_supervision.html">Teaching &amp; supervision</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./stat_meth.html">Statistics &amp; methods</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lab_comm.html">Lab commitment</a>
+    <a class="nav-link" href="./stat_meth.html">
+ <span class="menu-text">Statistics &amp; methods</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -123,28 +121,22 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
 
 </header>
 
-<p>I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My domain of application are marine ecology and fisheries science.</p>
-<p>I currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declarations data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to consider potential sampling bias, data aggregation issues and many other methodological challenges related to the integration of several data sources. I also have experience with complex mechanistic population dynamics modelling and the assessment of management strategy regulations on these simulated populations (also known as Management Strategy Evaluation).</p>
+<p>I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.</p>
 <section id="phd-work" class="level4">
 <h4 class="anchored" data-anchor-id="phd-work">PhD work</h4>
-<p>I currently work to develop statistical models combining commercial catch declarations and scientific survey data to infer the spatio-temporal distribution of marine harvested species and identify their essential habitats. The big challenge of this work is to develop models to integrate fishermen declarations data into inference, but overall the methodological ideas that</p>
-<p>This is a major challenge as these data:</p>
-<ul>
-<li><p>do not have a standardized sampling and that may be preferentially sampled in areas of higher resources (preferential sampling).</p></li>
-<li><p>are often aggregated over large scales while management requires fine-scale species distribution (change of support issue).</p></li>
-</ul>
-<p>When properly integrated into inference, these data give access to high quantity of information at high spatial and temporal resolution (possibly the month) and allow to model processes that were inaccessible before (reproduction period, seasonal migrations, etc.). I aim at developing the methods that allow to integrate properly these data to model species distribution maps at fine spatio-temporal resolution.</p>
-<p>Future (exciting!) challenges:</p>
-<ul>
-<li><p>Developing spatio-temporal methods to extract the main spatial and temporal patterns that structure the model predictions.</p></li>
-<li><p>Integrating mechanistic processes within these models to estimate fish spatio-temporal dynamics.</p></li>
-</ul>
+<p>I currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).</p>
+<p>When combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.</p>
+</section>
+<section id="postodoc-work" class="level4">
+<h4 class="anchored" data-anchor-id="postodoc-work">Postodoc work</h4>
+<p>Coming soon ;)</p>
 
 
 </section>
@@ -191,7 +183,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -227,24 +236,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

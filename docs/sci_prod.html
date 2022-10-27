@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.120">
+<meta name="generator" content="quarto-1.2.247">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Baptiste Alglave - Scientific production</title>
+<title>Baptiste Alglave - Scientific work</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,22 +80,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./research_interest.html">Research interests</a>
+    <a class="nav-link" href="./research_interest.html">
+ <span class="menu-text">Research interests</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bio.html">Biography</a>
+    <a class="nav-link active" href="./sci_prod.html" aria-current="page">
+ <span class="menu-text">Scientific work</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./sci_prod.html" aria-current="page">Scientific production</a>
+    <a class="nav-link" href="./teaching_supervision.html">
+ <span class="menu-text">Teaching &amp; supervision</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching_supervision.html">Teaching &amp; supervision</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./stat_meth.html">Statistics &amp; methods</a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./lab_comm.html">Lab commitment</a>
+    <a class="nav-link" href="./stat_meth.html">
+ <span class="menu-text">Statistics &amp; methods</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -117,6 +115,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#technical-report" id="toc-technical-report" class="nav-link" data-scroll-target="#technical-report">Technical report</a></li>
   <li><a href="#additional-reports" id="toc-additional-reports" class="nav-link" data-scroll-target="#additional-reports">Additional reports</a></li>
   <li><a href="#projects-and-working-groups" id="toc-projects-and-working-groups" class="nav-link" data-scroll-target="#projects-and-working-groups">Projects and working groups</a></li>
+  <li><a href="#student-supervision" id="toc-student-supervision" class="nav-link" data-scroll-target="#student-supervision">Student supervision</a></li>
   </ul>
 </nav>
     </div>
@@ -125,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Scientific production</h1>
+<h1 class="title">Scientific work</h1>
 </div>
 
 
@@ -133,6 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -183,6 +183,21 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>EWG 22-01 - West Med closure areas</strong> (2022)</p>
 <p>Working group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.</p>
 <p><em>Contribution:</em> production of monthly species distribution maps for key data-poor species of the Bay of Biscay.</p>
+</section>
+<section id="student-supervision" class="level2">
+<h2 class="anchored" data-anchor-id="student-supervision">Student supervision</h2>
+<p><strong>Master student</strong> (May - July 2022)</p>
+<p><em>Subject:</em> Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology. <a href="ressource/pdf/stage_M1_2022_fabien.pdf">link</a></p>
+<p><em>Student:</em> Théo Fabien.</p>
+<p><em>Co-supervision with:</em> Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.</p>
+<p><strong>Master thesis</strong> (February - August 2021)</p>
+<p><em>Subject:</em> Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay. <a href="https://archimer.ifremer.fr/doc/00756/86774/">link</a></p>
+<p><em>Student:</em> Florian Quemper.</p>
+<p><em>Co-supervision with:</em> Etienne Rivot and Marie-Pierre Etienne.</p>
+<p><strong>Student project (MSc)</strong> (November 2020 - February 2021)</p>
+<p><em>Subject:</em> Investigating the effect of catch reallocation on VMS pings for species distribution model predictions. <a href="ressource/pdf/projet_stat_2022_gtt.pdf">link</a></p>
+<p><em>Students:</em> Chloé Tellier, Juliette Theoleyre, Océane Guitton.</p>
+<p><em>Co-supervision with:</em> Marie-Pierre Etienne.</p>
 
 
 </section>
@@ -229,7 +244,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -265,24 +297,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
