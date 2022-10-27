@@ -1,5 +1,5 @@
 ---
-title: "Teaching & supervision"
+title: "Teaching"
 editor: visual
 ---
 
