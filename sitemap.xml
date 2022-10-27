@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/balglave/b_alglave/lab_comm.html</loc>
-    <lastmod>2022-08-27T20:00:05.049Z</lastmod>
-  </url>
-  <url>
     <loc>https://github.com/balglave/b_alglave/index.html</loc>
-    <lastmod>2022-08-27T20:00:05.653Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/balglave/b_alglave/research_interest.html</loc>
-    <lastmod>2022-08-27T20:00:05.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/balglave/b_alglave/bio.html</loc>
-    <lastmod>2022-08-27T20:00:06.265Z</lastmod>
+    <lastmod>2022-10-27T13:31:05.551Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/balglave/b_alglave/sci_prod.html</loc>
-    <lastmod>2022-08-27T20:00:06.573Z</lastmod>
+    <lastmod>2022-10-27T13:31:06.463Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/balglave/b_alglave/bio.html</loc>
+    <lastmod>2022-10-27T13:31:06.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/balglave/b_alglave/research_interest.html</loc>
+    <lastmod>2022-10-27T13:31:07.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/balglave/b_alglave/lab_comm.html</loc>
+    <lastmod>2022-10-27T13:31:07.599Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/balglave/b_alglave/stat_meth.html</loc>
-    <lastmod>2022-08-27T20:00:06.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/balglave/b_alglave/contact.html</loc>
-    <lastmod>2022-08-27T20:00:07.129Z</lastmod>
+    <lastmod>2022-10-27T13:31:07.947Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/balglave/b_alglave/teaching_supervision.html</loc>
-    <lastmod>2022-08-27T20:00:07.413Z</lastmod>
+    <lastmod>2022-10-27T13:31:08.279Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/balglave/b_alglave/contact.html</loc>
+    <lastmod>2022-10-27T13:31:08.643Z</lastmod>
   </url>
 </urlset>
