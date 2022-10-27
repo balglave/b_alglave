@@ -74,7 +74,7 @@
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "PhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as sampling bias / preferential sampling or data aggregation (also referred as change of support).\n\n\nPostodoc work\nComing soon ;)"
+    "text": "PhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nPostodoc work\nComing soon ;)"
   },
   {
     "objectID": "lab_comm.html",
