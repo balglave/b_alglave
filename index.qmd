@@ -6,7 +6,7 @@ about:
   image-width: 8em
 ---
 
-I am a PhD student working for Ifremer and Institut Agro (Rennes). I'm finishing my last year of PhD. I am mainly specialized in fisheries science, quantitative ecology and statistical modelling. I actually develop methods for understanding how exploited fish populations are distributed in space and time. You'll find plenty of details in the following pages!
+I am a PhD student working for Ifremer and Institut Agro (Rennes). I am finishing my last year of PhD and I am mainly interested in quantitative ecology and statistical modeling with application in fisheries science. I actually develop methods for mapping fish populations in space and time by combining multiple heterogeneous data sources. You'll find plenty of details in the following pages!
 
 If you want to contact me, here are some information!
 

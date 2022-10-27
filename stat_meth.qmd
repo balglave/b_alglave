@@ -4,7 +4,7 @@ title: "Statistics & methods"
 
 **Modelling approach:** hierarchical modeling, species distribution models, spatio-temporal statistics, data integration, multivariate analysis.
 
-**Inference methods:** I mainly build my models under Template Model Builder (<a href=https://kaskr.github.io/adcomp/Introduction.html>TMB</a>), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (<a href=https://www.r-inla.org/>R-INLA</a>, JAGS and <a href=https://r-nimble.org/Nimble>R-INLA</a>).
+**Inference methods:** I mainly build my models under Template Model Builder (<a href=https://kaskr.github.io/adcomp/Introduction.html>TMB</a>), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (<a href=https://www.r-inla.org/>R-INLA</a>, JAGS).
 
 **Languages:** mainly R and C++ but also some Java, SQL and Python.
 

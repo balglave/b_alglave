@@ -2,24 +2,12 @@
 title: "Research interests"
 ---
 
-I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My domain of application are marine ecology and fisheries science.
-
-I currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declarations data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to consider potential sampling bias, data aggregation issues and many other methodological challenges related to the integration of several data sources. I also have experience with complex mechanistic population dynamics modelling and the assessment of management strategy regulations on these simulated populations (also known as Management Strategy Evaluation).
+I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.
 
 #### PhD work
 
-I currently work to develop statistical models combining commercial catch declarations and scientific survey data to infer the spatio-temporal distribution of marine harvested species and identify their essential habitats. The big challenge of this work is to develop models to integrate fishermen declarations data into inference, but overall the methodological ideas that
+I currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as sampling bias / preferential sampling or data aggregation (also referred as change of support).
 
-This is a major challenge as these data:
+#### Postodoc work
 
--   do not have a standardized sampling and that may be preferentially sampled in areas of higher resources (preferential sampling).
-
--   are often aggregated over large scales while management requires fine-scale species distribution (change of support issue).
-
-When properly integrated into inference, these data give access to high quantity of information at high spatial and temporal resolution (possibly the month) and allow to model processes that were inaccessible before (reproduction period, seasonal migrations, etc.). I aim at developing the methods that allow to integrate properly these data to model species distribution maps at fine spatio-temporal resolution.
-
-Future (exciting!) challenges:
-
--   Developing spatio-temporal methods to extract the main spatial and temporal patterns that structure the model predictions.
-
--   Integrating mechanistic processes within these models to estimate fish spatio-temporal dynamics.
+Coming soon ;)
