@@ -4,7 +4,70 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "If you want to contact me, here are some information!\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy actual adress:\npôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France\nAnd a CV: link"
+    "text": "I am a PhD student working for Ifremer and Institut Agro (Rennes). I am finishing my last year of PhD and I am mainly interested in quantitative ecology and statistical modeling with application in fisheries science. I actually develop methods for mapping fish populations in space and time by combining multiple heterogeneous data sources. You’ll find plenty of details in the following pages!\nIf you want to contact me, here are some information!\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy actual adress:\npôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France\nAnd a CV: link"
+  },
+  {
+    "objectID": "research_interest.html",
+    "href": "research_interest.html",
+    "title": "Research interests",
+    "section": "",
+    "text": "I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.\n\nPhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nPostodoc work\nComing soon ;)"
+  },
+  {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Biography",
+    "section": "",
+    "text": "2019 - 2022\nSubject: Inferring fish spatio-temporal distribution and identifying essential habitats: tackling the challenges of heterogeneous data integration, preferential sampling and change of support.\nInstitute: Ifremer and Institut Agro (Rennes) - UMR DECOD\nSupervisors: Youen Vermard, Marie-Pierre Etienne, Mathieu Woillez, Etienne Rivot.\nMobility (August - October 2021): DTU Aqua, Copenhagen, Danemark. Supervision of Kasper Kristensen."
+  },
+  {
+    "objectID": "bio.html#msc",
+    "href": "bio.html#msc",
+    "title": "Biography",
+    "section": "MSc",
+    "text": "MSc\n2018 - 2019\nMajor: Fisheries science and quantitative ecology\nInstitute: Institut Agro (Rennes)\nMaster thesis (February - August 2019)\nInstitute: Ifremer Nantes - EMH Research Unit\nSubject: Management Strategy Evaluation under stock structure uncertainty. Application to the common sole in the Eastern English Channel.\nSupervisors: Sigrid Lehuta, Youen Vermard."
+  },
+  {
+    "objectID": "bio.html#bsc",
+    "href": "bio.html#bsc",
+    "title": "Biography",
+    "section": "BSc",
+    "text": "BSc\n2015 - 2017\nMajor: agriculture, food and environment\nInstitutes: Institut Agro (Rennes), CPGE Janson de Sailly (Paris)\nMobility (August - December 2017): semester study at University College Cork, Ireland."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Lab commitment",
+    "section": "",
+    "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
+  },
+  {
+    "objectID": "teaching_supervision.html",
+    "href": "teaching_supervision.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Practical work in spatial modelling (Msc) (2022)\nInstitut Agro (Rennes), 4 hours.\nHere are some generalities, an R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.\nPractical work in statistics for fisheries science (MSc) (2020)\nInstitut Agro (Rennes), 20 hours.\nPractical work in basics of probability theory (BSc) (2020)\nUniversity of Nantes, 20 hours."
+  },
+  {
+    "objectID": "stat_meth.html",
+    "href": "stat_meth.html",
+    "title": "Statistics & methods",
+    "section": "",
+    "text": "Modelling approach: hierarchical modeling, species distribution models, spatio-temporal statistics, data integration, multivariate analysis.\nInference methods: I mainly build my models under Template Model Builder (TMB), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (R-INLA, JAGS).\nLanguages: mainly R and C++ but also some Java, SQL and Python.\nFor some personal TMB codes examples, see the link"
+  },
+  {
+    "objectID": "stat_meth.html#fishmap-hierarchical-model",
+    "href": "stat_meth.html#fishmap-hierarchical-model",
+    "title": "Statistics & methods",
+    "section": "FishMap hierarchical model",
+    "text": "FishMap hierarchical model\nA hierarchical model to integrate scientific survey data and commercial catch declarations data to infer species distribution at fine spatio-temporal resolution.\n\n\n\nFishMap model"
+  },
+  {
+    "objectID": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
+    "href": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
+    "title": "Statistics & methods",
+    "section": "Multivariate analysis of spatio-temporal data",
+    "text": "Multivariate analysis of spatio-temporal data\nIn progress"
   },
   {
     "objectID": "sci_prod.html",
@@ -49,71 +112,8 @@
     "text": "Student supervision\nMaster student (May - July 2022)\nSubject: Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology. link\nStudent: Théo Fabien.\nCo-supervision with: Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.\nMaster thesis (February - August 2021)\nSubject: Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay. link\nStudent: Florian Quemper.\nCo-supervision with: Etienne Rivot and Marie-Pierre Etienne.\nStudent project (MSc) (November 2020 - February 2021)\nSubject: Investigating the effect of catch reallocation on VMS pings for species distribution model predictions. link\nStudents: Chloé Tellier, Juliette Theoleyre, Océane Guitton.\nCo-supervision with: Marie-Pierre Etienne."
   },
   {
-    "objectID": "bio.html",
-    "href": "bio.html",
-    "title": "Biography",
-    "section": "",
-    "text": "2019 - 2022\nSubject: Inferring fish spatio-temporal distribution and identifying essential habitats: tackling the challenges of heterogeneous data integration, preferential sampling and change of support.\nInstitute: Ifremer and Institut Agro (Rennes) - UMR DECOD\nSupervisors: Youen Vermard, Marie-Pierre Etienne, Mathieu Woillez, Etienne Rivot.\nMobility (August - October 2021): DTU Aqua, Copenhagen, Danemark. Supervision of Kasper Kristensen."
-  },
-  {
-    "objectID": "bio.html#msc",
-    "href": "bio.html#msc",
-    "title": "Biography",
-    "section": "MSc",
-    "text": "MSc\n2018 - 2019\nMajor: Fisheries science and quantitative ecology\nInstitute: Institut Agro (Rennes)\nMaster thesis (February - August 2019)\nInstitute: Ifremer Nantes - EMH Research Unit\nSubject: Management Strategy Evaluation under stock structure uncertainty. Application to the common sole in the Eastern English Channel.\nSupervisors: Sigrid Lehuta, Youen Vermard."
-  },
-  {
-    "objectID": "bio.html#bsc",
-    "href": "bio.html#bsc",
-    "title": "Biography",
-    "section": "BSc",
-    "text": "BSc\n2015 - 2017\nMajor: agriculture, food and environment\nInstitutes: Institut Agro (Rennes), CPGE Janson de Sailly (Paris)\nMobility (August - December 2017): semester study at University College Cork, Ireland."
-  },
-  {
-    "objectID": "research_interest.html",
-    "href": "research_interest.html",
-    "title": "Research interests",
-    "section": "",
-    "text": "PhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nPostodoc work\nComing soon ;)"
-  },
-  {
     "objectID": "lab_comm.html",
     "href": "lab_comm.html",
-    "title": "Lab commitment",
-    "section": "",
-    "text": "Organization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
-  },
-  {
-    "objectID": "stat_meth.html",
-    "href": "stat_meth.html",
-    "title": "Statistics & methods",
-    "section": "",
-    "text": "Modelling approach: hierarchical modeling, species distribution models, spatio-temporal statistics, data integration, multivariate analysis.\nInference methods: I mainly build my models under Template Model Builder (TMB), a package mainly built for Maximum Likelihood Estimation. I also have some experience with Bayesian inference (R-INLA, JAGS).\nLanguages: mainly R and C++ but also some Java, SQL and Python.\nFor some personal TMB codes examples, see the link"
-  },
-  {
-    "objectID": "stat_meth.html#fishmap-hierarchical-model",
-    "href": "stat_meth.html#fishmap-hierarchical-model",
-    "title": "Statistics & methods",
-    "section": "FishMap hierarchical model",
-    "text": "FishMap hierarchical model\nA hierarchical model to integrate scientific survey data and commercial catch declarations data to infer species distribution at fine spatio-temporal resolution.\n\n\n\nFishMap model"
-  },
-  {
-    "objectID": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
-    "href": "stat_meth.html#multivariate-analysis-of-spatio-temporal-data",
-    "title": "Statistics & methods",
-    "section": "Multivariate analysis of spatio-temporal data",
-    "text": "Multivariate analysis of spatio-temporal data\nIn progress"
-  },
-  {
-    "objectID": "teaching_supervision.html",
-    "href": "teaching_supervision.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Institut Agro (Rennes), 4 hours.\nHere are some generalities, an R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.\nPractical work in statistics for fisheries science (MSc) (2020)\nInstitut Agro (Rennes), 20 hours.\nPractical work in basics of probability theory (BSc) (2020)\nUniversity of Nantes, 20 hours."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
     "title": "Lab commitment",
     "section": "",
     "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
