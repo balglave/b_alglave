@@ -15,9 +15,7 @@ Alglave Baptiste, Vermard Youen, Rivot Etienne, Etienne Marie-Pierre, Woillez Ma
 
 #### In preparation
 
-Alglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (in prep). **Downscaling coarse observations to predict continuous wild species spatial distribution.** Expected submission: end September 2022. Link soon available.
-
-Alglave Baptiste, Bez Nicolas, Etienne Marie-Pierre, Grandremy Nina, Vermard Youen, Woillez Mathieu, Rivot Etienne (in prep). **Analysing the main spatio-temporal patterns from species distribution models can help identifying fish essential habitats.** Expected submission: October/November 2022. Link soon available.
+Alglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (in prep). **Inferring fine scale wild species distribution from spatially aggregated data.** Link soon available.
 
 ## Conference presentations
 
@@ -45,7 +43,6 @@ Alglave Baptiste, Vermard Youen (2022). Ad-hoc contract for the preparation of S
 
 Alglave Baptiste (2019). **Management Strategy Evaluation of the Eastern English Channel common sole: management approach under uncertainty.** Master thesis. Institut Agro, Rennes. Specialization in fisheries science and quantitative ecology. <a href=https://archimer.ifremer.fr/doc/00756/86773/>link</a>
 
-
 ## Projects and working groups
 
 **Commitment in the MACCO project**
@@ -61,7 +58,6 @@ Identification of the target species and by-catch of the Bay of Biscay mixed fis
 Working group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.
 
 *Contribution:* production of monthly species distribution maps for key data-poor species of the Bay of Biscay.
-
 
 ## Student supervision
 

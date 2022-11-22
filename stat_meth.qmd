@@ -8,7 +8,7 @@ title: "Statistics & methods"
 
 **Languages:** mainly R and C++ but also some Java, SQL and Python.
 
-For some personal TMB codes examples, see the <a href=https://github.com/balglave/example_tmb_ba>link</a>
+For some personal TMB codes examples, see the <a href=https://github.com/balglave/sdm_vms_logbooks.git>link</a>
 
 ## FishMap hierarchical model
 
