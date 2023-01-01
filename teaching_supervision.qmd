@@ -9,12 +9,12 @@ This is a short introduction on spatio-temporal modeling. It starts with base co
 
 <a href=ressource/pdf/cours_td_stats_st_2022.pdf>slides</a> and <a href=ressource/pdf/cours_td_stats_st_2022.zip>the related codes</a>.
 
-::: {layout-nrow=1 layout-valign="bottom"}
-![Hierarchical model](docs/ressource/images/teaching/dag_ssm.png){width=60%}
+::: {layout-nrow=1 layout-valign="center"}
+![](docs/ressource/images/teaching/dag_ssm.png){width=60%}
 
-![CO2 concentration](docs/ressource/images/teaching/co2.PNG){width=40%}
+![](docs/ressource/images/teaching/co2.PNG){width=40%}
 
-![Abdul Abbas](docs/ressource/images/teaching/semivariogram.png){width=50%}
+![](docs/ressource/images/teaching/semivariogram.png){width=60%}
 :::
 
 

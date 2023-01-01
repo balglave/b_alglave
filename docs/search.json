@@ -116,7 +116,7 @@
     "href": "teaching_supervision.html",
     "title": "Teaching",
     "section": "",
-    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the\nslides and the related codes.\n\n\n\n\n\n\nHierarchical model\n\n\n\n\n\n\n\nCO2 concentration\n\n\n\n\n\n\n\nAbdul Abbas\n\n\n\n\n\nWorkshop on R-INLA\nan R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop."
+    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the\nslides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop on R-INLA\nan R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop."
   },
   {
     "objectID": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
