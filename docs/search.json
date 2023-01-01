@@ -46,7 +46,7 @@
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.\n\nPhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nPostodoc work\nComing soon ;)"
+    "text": "I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science."
   },
   {
     "objectID": "sci_prod.html",
@@ -114,8 +114,36 @@
   {
     "objectID": "teaching_supervision.html",
     "href": "teaching_supervision.html",
-    "title": "Teaching & supervision",
+    "title": "Teaching",
     "section": "",
-    "text": "Practical work in spatial modelling (Msc) (2022)\nInstitut Agro (Rennes), 4 hours.\nHere are some generalities, an R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.\nPractical work in statistics for fisheries science (MSc) (2020)\nInstitut Agro (Rennes), 20 hours.\nPractical work in basics of probability theory (BSc) (2020)\nUniversity of Nantes, 20 hours."
+    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the\nslides and the related codes.\n\n\n\n\n\n\nHierarchical model\n\n\n\n\n\n\n\nCO2 concentration\n\n\n\n\n\n\n\nAbdul Abbas\n\n\n\n\n\nWorkshop on R-INLA\nan R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop."
+  },
+  {
+    "objectID": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
+    "href": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
+    "title": "Research interests",
+    "section": "Spatial modeling with a focus on species distribution modelling",
+    "text": "Spatial modeling with a focus on species distribution modelling\n\nIntegrated species distribution models\n\n\nPreferential sampling\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nChange of support\n\n\nOperational applications\nCommitment in the MACCO project\nIdentification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nEWG 22-01 - West Med closure areas (2022)\nWorking group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
+  },
+  {
+    "objectID": "research_interest.html#population-dynamics-modeling",
+    "href": "research_interest.html#population-dynamics-modeling",
+    "title": "Research interests",
+    "section": "Population dynamics modeling",
+    "text": "Population dynamics modeling\nComing soon ;)"
+  },
+  {
+    "objectID": "research_interest.html#community-analysis",
+    "href": "research_interest.html#community-analysis",
+    "title": "Research interests",
+    "section": "Community analysis",
+    "text": "Community analysis"
+  },
+  {
+    "objectID": "research_interest.html#dynamic-systems-inference",
+    "href": "research_interest.html#dynamic-systems-inference",
+    "title": "Research interests",
+    "section": "Dynamic systems inference",
+    "text": "Dynamic systems inference"
   }
 ]

@@ -4,12 +4,42 @@ title: "Research interests"
 
 I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.
 
-#### PhD work
+## Spatial modeling with a focus on species distribution modelling
+
+### Integrated species distribution models
+
+### Preferential sampling
 
 I currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).
 
 When combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the 'Scientific work' section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.
 
-#### Postodoc work
+### Change of support
+
+### Operational applications
+
+**Commitment in the MACCO project**
+
+Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.
+
+*Contribution:* production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. <a href=https://www.macco.fr/>link</a>
+
+*Head of the project:* Stéphanie Mahévas (Ifremer Nantes).
+
+**EWG 22-01 - West Med closure areas** (2022)
+
+Working group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.
+
+*Contribution:* production of monthly species distribution maps for key data-poor species of the Bay of Biscay.
+
+
+
+## Population dynamics modeling
 
 Coming soon ;)
+
+
+## Community analysis
+
+
+## Dynamic systems inference

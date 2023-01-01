@@ -7,11 +7,7 @@ website:
   navbar:
     left:
       - research_interest.qmd
-      # - bio.qmd
-      - sci_prod.qmd
       - teaching_supervision.qmd
-      - stat_meth.qmd
-      # - lab_comm.qmd
 
   
 format:

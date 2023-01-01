@@ -3,18 +3,23 @@ title: "Teaching"
 editor: visual
 ---
 
-**Practical work in spatial modelling (Msc)** \hfill (2022)
+**Spatial and spatio-temporal statistics for ecology**
 
-Institut Agro (Rennes), 4 hours.
+This is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the 
 
-Here are some <a href=ressource/pdf/cours_td_sdm_2022.pdf>generalities</a>, <a href=ressource/pdf/td_halieut_inla_2022.pdf>an R-INLA introduction</a> and <a href=ressource/codes/td_halieut_inla.zip>the related codes</a>.
+<a href=ressource/pdf/cours_td_stats_st_2022.pdf>slides</a> and <a href=ressource/pdf/cours_td_stats_st_2022.zip>the related codes</a>.
+
+::: {layout-nrow=1 layout-valign="bottom"}
+![Hierarchical model](docs/ressource/images/teaching/dag_ssm.png){width=60%}
+
+![CO2 concentration](docs/ressource/images/teaching/co2.PNG){width=40%}
+
+![Abdul Abbas](docs/ressource/images/teaching/semivariogram.png){width=50%}
+:::
+
+
+**Workshop on R-INLA**
+
+<a href=ressource/pdf/td_halieut_inla_2022.pdf>an R-INLA introduction</a> and <a href=ressource/codes/td_halieut_inla.zip>the related codes</a>.
 
 N.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.
-
-**Practical work in statistics for fisheries science (MSc)** \hfill (2020)
-
-Institut Agro (Rennes), 20 hours.
-
-**Practical work in basics of probability theory (BSc)** \hfill (2020)
-
-University of Nantes, 20 hours.
