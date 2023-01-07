@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Baptiste Alglave",
+    "objectID": "teaching_supervision.html",
+    "href": "teaching_supervision.html",
+    "title": "Teaching",
     "section": "",
-    "text": "I am a PhD student working for Ifremer and Institut Agro (Rennes). I am finishing my last year of PhD and I am mainly interested in quantitative ecology and statistical modeling with application in fisheries science. I actually develop methods for mapping fish populations in space and time by combining multiple heterogeneous data sources. You’ll find plenty of details in the following pages!\nIf you want to contact me, here are some information!\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy actual adress:\npôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France\nAnd a CV: link"
-  },
-  {
-    "objectID": "research_interest.html",
-    "href": "research_interest.html",
-    "title": "Research interests",
-    "section": "",
-    "text": "I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science.\n\nPhD work\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nPostodoc work\nComing soon ;)"
+    "text": "Spatial and spatio-temporal statistics for ecology (3h)\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA (1h)\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
   },
   {
     "objectID": "bio.html",
@@ -35,20 +28,6 @@
     "text": "BSc\n2015 - 2017\nMajor: agriculture, food and environment\nInstitutes: Institut Agro (Rennes), CPGE Janson de Sailly (Paris)\nMobility (August - December 2017): semester study at University College Cork, Ireland."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Lab commitment",
-    "section": "",
-    "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
-  },
-  {
-    "objectID": "teaching_supervision.html",
-    "href": "teaching_supervision.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Practical work in spatial modelling (Msc) (2022)\nInstitut Agro (Rennes), 4 hours.\nHere are some generalities, an R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.\nPractical work in statistics for fisheries science (MSc) (2020)\nInstitut Agro (Rennes), 20 hours.\nPractical work in basics of probability theory (BSc) (2020)\nUniversity of Nantes, 20 hours."
-  },
-  {
     "objectID": "stat_meth.html",
     "href": "stat_meth.html",
     "title": "Statistics & methods",
@@ -70,46 +49,53 @@
     "text": "Multivariate analysis of spatio-temporal data\nIn progress"
   },
   {
-    "objectID": "sci_prod.html",
-    "href": "sci_prod.html",
-    "title": "Scientific work",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baptiste Alglave",
     "section": "",
-    "text": "Alglave, B., Rivot, E., Etienne, M. P., Woillez, M., Thorson, J. T., & Vermard, Y. (2022). Combining scientific survey and commercial catch data to map fish distribution. ICES Journal of Marine Science, 79(4), 1133-1149. link\n\n\n\nAlglave Baptiste, Vermard Youen, Rivot Etienne, Etienne Marie-Pierre, Woillez Mathieu (under review). Identifying reproduction areas from space-time modeling of catch declarations and scientific survey data. Submitted in the Canadian Journal of Fisheries and Aquatic Sciences. link\n\n\n\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (in prep). Inferring fine scale wild species distribution from spatially aggregated data. Link soon available."
+    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy current adress:\n1122 NE Boat St Box 355020, Seattle, WA 98195\nAnd a CV: link"
   },
   {
-    "objectID": "sci_prod.html#conference-presentations",
-    "href": "sci_prod.html#conference-presentations",
-    "title": "Scientific work",
-    "section": "Conference presentations",
-    "text": "Conference presentations\nAlglave Baptiste, Vermard Youen, Bez Nicolas, Etienne Marie-Pierre, Kristensen Kasper, Thorson James T., Woillez Mathieu, Rivot Etienne (2022). Can we trust commercial catch declarations data to map fish spatio-temporal distribution and identify fish essential habitats? 15th conference of the AFH `Fisheries research and sustainable development’. June 2022, Brest, France. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2022). Can we use catch declarations data to map fish spatial distribution? International Statistical Ecology Conference (ISEC). June 2022, Cape Town, South Africa. link\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). Downscaling coarse observations to predict continuous species spatio-temporal distribution. Meeting of the RESSTE network `Spatio-temporal statistics for remote sensing data’. May 2022, Paris, France. link\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). Going from coarse landings data to fine scale species distribution. Annual meeting of the GdR `Ecology and statistics’. April 2022, Montpellier, France. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2021). Can we trust commercial landings data to identify essential habitats of harvested fish? Application to several demersal species in the Bay of Biscay. ISOBAY 17 - XVII International Symposium on Oceanography of the Bay of Biscay. June 2021, virtual event. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2021). Can we identify fish essential habitats with landings data? Application to the common sole of the Bay of Biscay. Ecostat 2021: annual meeting of the GdR `Ecology and statistics’. April 2021, virtual event. link\nAlglave Baptiste, Etienne Marie-Pierre, Vermard Youen, Woillez Mathieu, Rivot Etienne (2020). Spatio-temporal modeling of fishery functional zones by combining catch declarations data and scientific survey data. Annual meeting of the GdR `Ecology and statistics’. March 2020, Rennes, France. link\nAlglave Baptiste, Lehuta Sigrid, Leforestier Sophie, Vermard Youen (2019). Management Strategy Evaluation of the Eastern English Channel common sole: management approach under uncertainty. 14th conference of the AFH `Fisheries research and sustainable development’. June 2019 , University of Caen Normandie, France. link"
+    "objectID": "research_interest.html",
+    "href": "research_interest.html",
+    "title": "Research interests",
+    "section": "",
+    "text": "This is currently being updated"
   },
   {
-    "objectID": "sci_prod.html#technical-report",
-    "href": "sci_prod.html#technical-report",
-    "title": "Scientific work",
-    "section": "Technical report",
-    "text": "Technical report\nAlglave Baptiste, Vermard Youen (2022). Ad-hoc contract for the preparation of STECF EWG 22-01 concerning closure areas to protect juveniles and spawners of all demersal stocks in western Mediterranean Sea."
+    "objectID": "research_interest.html#fishmap",
+    "href": "research_interest.html#fishmap",
+    "title": "Research interests",
+    "section": "FishMap",
+    "text": "FishMap\nAn integrated model for mapping fish distribution based on catch declarations and scientific survey data\n\nConceptual framework\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
   },
   {
-    "objectID": "sci_prod.html#additional-reports",
-    "href": "sci_prod.html#additional-reports",
-    "title": "Scientific work",
-    "section": "Additional reports",
-    "text": "Additional reports\nAlglave Baptiste (2019). Management Strategy Evaluation of the Eastern English Channel common sole: management approach under uncertainty. Master thesis. Institut Agro, Rennes. Specialization in fisheries science and quantitative ecology. link"
+    "objectID": "research_interest.html#aclim",
+    "href": "research_interest.html#aclim",
+    "title": "Research interests",
+    "section": "ACLIM",
+    "text": "ACLIM\nMSE for the Snow Crab of the Bering Sea"
   },
   {
-    "objectID": "sci_prod.html#projects-and-working-groups",
-    "href": "sci_prod.html#projects-and-working-groups",
-    "title": "Scientific work",
-    "section": "Projects and working groups",
-    "text": "Projects and working groups\nCommitment in the MACCO project\nIdentification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nEWG 22-01 - West Med closure areas (2022)\nWorking group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
+    "objectID": "research_interest.html#community-analysis-based-on-pln",
+    "href": "research_interest.html#community-analysis-based-on-pln",
+    "title": "Research interests",
+    "section": "Community analysis based on PLN",
+    "text": "Community analysis based on PLN"
   },
   {
-    "objectID": "sci_prod.html#student-supervision",
-    "href": "sci_prod.html#student-supervision",
-    "title": "Scientific work",
-    "section": "Student supervision",
-    "text": "Student supervision\nMaster student (May - July 2022)\nSubject: Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology. link\nStudent: Théo Fabien.\nCo-supervision with: Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.\nMaster thesis (February - August 2021)\nSubject: Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay. link\nStudent: Florian Quemper.\nCo-supervision with: Etienne Rivot and Marie-Pierre Etienne.\nStudent project (MSc) (November 2020 - February 2021)\nSubject: Investigating the effect of catch reallocation on VMS pings for species distribution model predictions. link\nStudents: Chloé Tellier, Juliette Theoleyre, Océane Guitton.\nCo-supervision with: Marie-Pierre Etienne."
+    "objectID": "research_interest.html#dynamic-systems-inference",
+    "href": "research_interest.html#dynamic-systems-inference",
+    "title": "Research interests",
+    "section": "Dynamic systems inference",
+    "text": "Dynamic systems inference"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Lab commitment",
+    "section": "",
+    "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
   },
   {
     "objectID": "lab_comm.html",
