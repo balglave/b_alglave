@@ -4,7 +4,6 @@ project:
   
 website:
   title: "Baptiste Alglave"
-  twitter-card: true
   navbar:
     left:
       - research_interest.qmd
