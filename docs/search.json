@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "I am a PhD student working for Ifremer and Institut Agro (Rennes). I am finishing my last year of PhD and I am mainly interested in quantitative ecology and statistical modeling with application in fisheries science. I actually develop methods for mapping fish populations in space and time by combining multiple heterogeneous data sources. You’ll find plenty of details in the following pages!\nIf you want to contact me, here are some information!\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy actual adress:\npôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France\nAnd a CV: link"
+    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy current adress:\n1122 NE Boat St Box 355020, Seattle, WA 98195\nAnd a CV: link"
   },
   {
     "objectID": "lab_comm.html",
@@ -46,7 +46,7 @@
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "I am broadly interested in statistical modeling for ecology with a specific focus on spatio-temporal modeling. My main domain of application is fisheries science."
+    "text": "This is currently being updated"
   },
   {
     "objectID": "sci_prod.html",
@@ -116,7 +116,7 @@
     "href": "teaching_supervision.html",
     "title": "Teaching",
     "section": "",
-    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the\nslides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkshop on R-INLA\nan R-INLA introduction and the related codes.\nN.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop."
+    "text": "Spatial and spatio-temporal statistics for ecology (3h)\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA (1h)\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
   },
   {
     "objectID": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
@@ -145,5 +145,54 @@
     "title": "Research interests",
     "section": "Dynamic systems inference",
     "text": "Dynamic systems inference"
+  },
+  {
+    "objectID": "research_interest.html#aclim-mse-for-the-snow-crab-bering-sea",
+    "href": "research_interest.html#aclim-mse-for-the-snow-crab-bering-sea",
+    "title": "Research interests",
+    "section": "ACLIM | MSE for the Snow Crab Bering Sea",
+    "text": "ACLIM | MSE for the Snow Crab Bering Sea"
+  },
+  {
+    "objectID": "research_interest.html#community-analysis-based-on-poisson-lognormal-model-pln",
+    "href": "research_interest.html#community-analysis-based-on-poisson-lognormal-model-pln",
+    "title": "Research interests",
+    "section": "Community analysis based on Poisson Lognormal Model (PLN)",
+    "text": "Community analysis based on Poisson Lognormal Model (PLN)"
+  },
+  {
+    "objectID": "research_interest.html#aclim-mse-for-the-snow-crab-of-the-bering-sea",
+    "href": "research_interest.html#aclim-mse-for-the-snow-crab-of-the-bering-sea",
+    "title": "Research interests",
+    "section": "ACLIM | MSE for the Snow Crab of the Bering Sea",
+    "text": "ACLIM | MSE for the Snow Crab of the Bering Sea"
+  },
+  {
+    "objectID": "research_interest.html#fishmap-an-integrated-model-for-mapping-fish-distribution-based-on-catch-declarations-and-scientific-survey-data",
+    "href": "research_interest.html#fishmap-an-integrated-model-for-mapping-fish-distribution-based-on-catch-declarations-and-scientific-survey-data",
+    "title": "Research interests",
+    "section": "FishMap | An integrated model for mapping fish distribution based on catch declarations and scientific survey data",
+    "text": "FishMap | An integrated model for mapping fish distribution based on catch declarations and scientific survey data\n\nConceptual framework\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
+  },
+  {
+    "objectID": "research_interest.html#fishmap",
+    "href": "research_interest.html#fishmap",
+    "title": "Research interests",
+    "section": "FishMap",
+    "text": "FishMap\nAn integrated model for mapping fish distribution based on catch declarations and scientific survey data\n\nConceptual framework\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
+  },
+  {
+    "objectID": "research_interest.html#aclim",
+    "href": "research_interest.html#aclim",
+    "title": "Research interests",
+    "section": "ACLIM",
+    "text": "ACLIM\nMSE for the Snow Crab of the Bering Sea"
+  },
+  {
+    "objectID": "research_interest.html#community-analysis-based-on-pln",
+    "href": "research_interest.html#community-analysis-based-on-pln",
+    "title": "Research interests",
+    "section": "Community analysis based on PLN",
+    "text": "Community analysis based on PLN"
   }
 ]

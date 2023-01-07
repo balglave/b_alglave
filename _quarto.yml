@@ -4,6 +4,7 @@ project:
   
 website:
   title: "Baptiste Alglave"
+  twitter-card: true
   navbar:
     left:
       - research_interest.qmd
@@ -12,9 +13,11 @@ website:
   
 format:
   html:
-    theme: materia
+    theme: Litera
     css: styles.css
     toc: true
 
+
 # Publishing Jekyll style on github: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html
 # Jekyll styles: https://github.com/topics/jekyll-theme
+# for information: https://quarto.org/docs/websites/

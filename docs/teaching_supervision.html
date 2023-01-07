@@ -98,7 +98,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#spatial-and-spatio-temporal-statistics-for-ecology-3h" id="toc-spatial-and-spatio-temporal-statistics-for-ecology-3h" class="nav-link active" data-scroll-target="#spatial-and-spatio-temporal-statistics-for-ecology-3h">Spatial and spatio-temporal statistics for ecology (3h)</a></li>
+  <li><a href="#workshop-on-r-inla-1h" id="toc-workshop-on-r-inla-1h" class="nav-link" data-scroll-target="#workshop-on-r-inla-1h">Workshop on R-INLA (1h)</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -120,27 +127,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Spatial and spatio-temporal statistics for ecology</strong></p>
-<p>This is a short introduction on spatio-temporal modeling. It starts with base concepts related to hierarchical modeling and then introduce the</p>
-<p><a href="ressource/pdf/cours_td_stats_st_2022.pdf">slides</a> and <a href="ressource/pdf/cours_td_stats_st_2022.zip">the related codes</a>.</p>
+<section id="spatial-and-spatio-temporal-statistics-for-ecology-3h" class="level3">
+<h3 class="anchored" data-anchor-id="spatial-and-spatio-temporal-statistics-for-ecology-3h">Spatial and spatio-temporal statistics for ecology (3h)</h3>
+<p>This is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand <code>R-INLA</code>, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the <a href="ressource/pdf/cours_td_stats_st_2022.pdf">slides</a> and the related <a href="ressource/pdf/cours_td_stats_st_2022.zip">codes</a>.</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 37.5%;justify-content: center;">
-<p><img src="docs/ressource/images/teaching/dag_ssm.png" class="img-fluid"></p>
+<p><img src="ressource/images/teaching/dag_ssm.png" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
-<p><img src="docs/ressource/images/teaching/co2.PNG" class="img-fluid"></p>
+<p><img src="ressource/images/teaching/co2.PNG" class="img-fluid"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 37.5%;justify-content: center;">
-<p><img src="docs/ressource/images/teaching/semivariogram.png" class="img-fluid"></p>
+<p><img src="ressource/images/teaching/semivariogram.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
-<p><strong>Workshop on R-INLA</strong></p>
-<p><a href="ressource/pdf/td_halieut_inla_2022.pdf">an R-INLA introduction</a> and <a href="ressource/codes/td_halieut_inla.zip">the related codes</a>.</p>
-<p>N.b. the codes are partly based on codes provided by Thomas Opitz and Denis Allard during an R-INLA workshop.</p>
+<p><br></p>
+<p>These slides are mainly based on:</p>
+<ul>
+<li><p>Wikle, C. K., Zammit-Mangion, A., &amp; Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. <a href="https://spacetimewithr.org/">link</a></p></li>
+<li><p>Krainski, Elias, et al.&nbsp;Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. <a href="https://becarioprecario.bitbucket.io/spde-gitbook/">link</a></p></li>
+<li><p>Cressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley &amp; Sons, 2015.</p></li>
+<li><p>a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href="https://www6.inrae.fr/mia-paris/Seminaires/Workshop/">link</a></p></li>
+</ul>
+<p><br></p>
+</section>
+<section id="workshop-on-r-inla-1h" class="level3">
+<h3 class="anchored" data-anchor-id="workshop-on-r-inla-1h">Workshop on R-INLA (1h)</h3>
+<p>This is a short introduction to the <code>R-INLA</code> tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in <code>R-INLA</code>. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in <code>R-INLA</code> to ease the computation burden related to spatial and spatio-temporal model inference. Here are the <a href="ressource/pdf/td_halieut_inla_2022.pdf">slides</a> and the related <a href="ressource/codes/td_halieut_inla.zip">codes</a>.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-center">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="ressource/images/teaching/inla.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="ressource/images/teaching/mesh.PNG" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><img src="ressource/images/teaching/pred.PNG" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<p><br></p>
+<p>These slides are mainly based on:</p>
+<ul>
+<li><p>Krainski, Elias, et al.&nbsp;Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. <a href="https://becarioprecario.bitbucket.io/spde-gitbook/">link</a></p></li>
+<li><p>a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href="https://www6.inrae.fr/mia-paris/Seminaires/Workshop/">link</a></p></li>
+</ul>
+<p><br></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

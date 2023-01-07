@@ -1,14 +1,29 @@
 ---
-title: "Baptiste Alglave"
-image: ressource/images/baptiste_alglave.jpg
-about:
-  template: marquee
-  image-width: 8em
+title: ""
 ---
 
-I am a PhD student working for Ifremer and Institut Agro (Rennes). I am finishing my last year of PhD and I am mainly interested in quantitative ecology and statistical modeling with application in fisheries science. I actually develop methods for mapping fish populations in space and time by combining multiple heterogeneous data sources. You'll find plenty of details in the following pages!
+:::: {.columns}
+::: {.column width="75%"}
 
-If you want to contact me, here are some information!
+I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).
+
+Since January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.
+
+I also have interest in methods related to community ecology and inference of dynamic systems (differential equations).
+
+You'll find additional details in the following pages!
+
+:::
+::: {.column width="5%"}
+
+:::
+::: {.column width="20%"}
+![](ressource/images/baptiste_alglave.jpg)
+:::
+::::
+
+
+If you want to contact me, here are some information.
 
 **My Email:**
 
@@ -16,8 +31,8 @@ baptiste.alglave@agrocampus-ouest.fr
 
 baptiste.alglave@ifremer.fr
 
-**My actual adress:**
+**My current adress:**
 
-pôle halieutique, 65 Rue de Saint-Brieuc, 35042 Rennes, France
+1122 NE Boat St Box 355020, Seattle, WA 98195
 
 **And a CV:** <a href=ressource/pdf/cv_baptiste_alglave.pdf>link</a>
