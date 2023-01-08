@@ -21,7 +21,7 @@ You'll find additional details in the following pages!
 <center>
 ![](ressource/images/baptiste_alglave.jpg)
 
-<a href="ressource/pdf/cv_baptiste_alglave.pdf" style="color:#d0d3d4;">CV</a>
+<a href="ressource/pdf/cv_baptiste_alglave.pdf" style="color:#d0d3d4;font-weight:bold;text-decoration:none">CV</a>
 </center>
 :::
 ::::
