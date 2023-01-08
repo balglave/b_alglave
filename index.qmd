@@ -18,7 +18,11 @@ You'll find additional details in the following pages!
 
 :::
 ::: {.column width="20%"}
+<center>
 ![](ressource/images/baptiste_alglave.jpg)
+
+<a href="ressource/pdf/cv_baptiste_alglave.pdf" style="color:#d0d3d4;">CV</a>
+</center>
 :::
 ::::
 
@@ -34,5 +38,3 @@ baptiste.alglave@ifremer.fr
 **My current adress:**
 
 1122 NE Boat St Box 355020, Seattle, WA 98195
-
-**And a CV:** <a href=ressource/pdf/cv_baptiste_alglave.pdf>link</a>
