@@ -6,12 +6,21 @@ This is currently being updated
 
 ## FishMap
 
-**An integrated model for mapping fish distribution based on catch declarations and scientific survey data**
-
 ### Conceptual framework
 
-![](ressource/images/conceptual_framework.png)
+This model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.
 
+To map fish biomass distribution in space and time ($S(x,t)$) based on commercial catch declarations ($Y_{com}$) data and scientific survey data ($Y_{sci}$), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets $j$ and several surveys $s$) while accounting for the sampling specificities of catch declarations data.
+
+First, fishing locations $X_{com}$ are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity $\lambda(x,t)$ is related to the biomass field $S(x,t)$. This part of the model is described in <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> and <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (under review)</a>.
+
+In addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a>.
+
+At the moment, each challenge (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.
+
+<center>
+![**Conceptual diagram of the FishMap model**](ressource/images/conceptual_framework.png)
+</center>
 
 ### Operational applications
 
