@@ -59,6 +59,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -136,10 +137,21 @@ ul.task-list li input[type="checkbox"] {
 <p>This is currently being updated</p>
 <section id="fishmap" class="level2">
 <h2 class="anchored" data-anchor-id="fishmap">FishMap</h2>
-<p><strong>An integrated model for mapping fish distribution based on catch declarations and scientific survey data</strong></p>
 <section id="conceptual-framework" class="level3">
 <h3 class="anchored" data-anchor-id="conceptual-framework">Conceptual framework</h3>
-<p><img src="ressource/images/conceptual_framework.png" class="img-fluid"></p>
+<p>This model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.</p>
+<p>To map fish biomass distribution in space and time (<span class="math inline">\(S(x,t)\)</span>) based on commercial catch declarations (<span class="math inline">\(Y_{com}\)</span>) data and scientific survey data (<span class="math inline">\(Y_{sci}\)</span>), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets <span class="math inline">\(j\)</span> and several surveys <span class="math inline">\(s\)</span>) while accounting for the sampling specificities of catch declarations data.</p>
+<p>First, fishing locations <span class="math inline">\(X_{com}\)</span> are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity <span class="math inline">\(\lambda(x,t)\)</span> is related to the biomass field <span class="math inline">\(S(x,t)\)</span>. This part of the model is described in <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al.&nbsp;(2022)</a> and <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al.&nbsp;(under review)</a>.</p>
+<p>In addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a>.</p>
+<p>At the moment, each challenge (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.</p>
+<center>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ressource/images/conceptual_framework.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption"><strong>Conceptual diagram of the FishMap model</strong></figcaption><p></p>
+</figure>
+</div>
+</center>
 </section>
 <section id="operational-applications" class="level3">
 <h3 class="anchored" data-anchor-id="operational-applications">Operational applications</h3>
