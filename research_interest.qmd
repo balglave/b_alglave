@@ -16,7 +16,7 @@ First, fishing locations $X_{com}$ are sampled preferentially in areas of higher
 
 In addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a>.
 
-At the moment, each challenge (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.
+At the moment, these challenges (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.
 
 <center>
 ![**Conceptual diagram of the FishMap model**](ressource/images/conceptual_framework.png)
