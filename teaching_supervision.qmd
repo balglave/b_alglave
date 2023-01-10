@@ -5,7 +5,7 @@ editor: visual
 
 ### Spatial and spatio-temporal statistics for ecology (3h)
 
-This is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand `R-INLA`, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the <a href=ressource/pdf/cours_td_stats_st_2022.pdf>slides</a> and the related <a href=ressource/pdf/cours_td_stats_st_2022/>codes</a>.
+This is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand `R-INLA`, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the <a href=ressource/pdf/cours_td_stats_st_2022.pdf>slides</a> and the related <a href=https://github.com/balglave/workshop/tree/main/cours_td_stats_st_2022/>codes</a>.
 
 ::: {layout-nrow="1" layout-valign="center"}
 ![](ressource/images/teaching/dag_ssm.png){width="60%"}
@@ -31,7 +31,7 @@ These slides are mainly based on:
 
 ### Workshop on R-INLA (1h)
 
-This is a short introduction to the `R-INLA` tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in `R-INLA`. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in `R-INLA` to ease the computation burden related to spatial and spatio-temporal model inference. Here are the <a href=ressource/pdf/td_halieut_inla_2022.pdf>slides</a> and the related <a href=ressource/codes/td_halieut_inla/>codes</a>.
+This is a short introduction to the `R-INLA` tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in `R-INLA`. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in `R-INLA` to ease the computation burden related to spatial and spatio-temporal model inference. Here are the <a href=ressource/pdf/td_halieut_inla_2022.pdf>slides</a> and the related <a href=https://github.com/balglave/workshop/tree/main/td_halieut_inla/>codes</a>.
 
 ::: {layout-nrow="1" layout-valign="center"}
 ![](ressource/images/teaching/inla.png){width="60%"}
