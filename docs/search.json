@@ -49,46 +49,18 @@
     "text": "This is currently being updated :)"
   },
   {
-    "objectID": "sci_prod.html",
-    "href": "sci_prod.html",
-    "title": "Scientific work",
-    "section": "",
-    "text": "Alglave, B., Rivot, E., Etienne, M. P., Woillez, M., Thorson, J. T., & Vermard, Y. (2022). Combining scientific survey and commercial catch data to map fish distribution. ICES Journal of Marine Science, 79(4), 1133-1149. link\n\n\n\nAlglave Baptiste, Vermard Youen, Rivot Etienne, Etienne Marie-Pierre, Woillez Mathieu (under review). Identifying reproduction areas from space-time modeling of catch declarations and scientific survey data. Submitted in the Canadian Journal of Fisheries and Aquatic Sciences. link\n\n\n\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (in prep). Downscaling coarse observations to predict continuous wild species spatial distribution. Expected submission: end September 2022. Link soon available.\nAlglave Baptiste, Bez Nicolas, Etienne Marie-Pierre, Grandremy Nina, Vermard Youen, Woillez Mathieu, Rivot Etienne (in prep). Analysing the main spatio-temporal patterns from species distribution models can help identifying fish essential habitats. Expected submission: October/November 2022. Link soon available."
+    "objectID": "research_interest.html#building-spatial-models-based-on-declarative-data",
+    "href": "research_interest.html#building-spatial-models-based-on-declarative-data",
+    "title": "Research interests",
+    "section": "Building spatial models based on declarative data",
+    "text": "Building spatial models based on declarative data\nDeclarative data are progressively becoming available in many fields of research. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can be very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However this requires to handle some methodological challenges to provide unbiased estimates/predictions from these data. Two common processes that need to be handled are (1) preferential sampling and (2) change of support. Preferential sampling occurs when locations of data samples are not independent from the process under study. In this case, not accounting for the sampling process in inference may introduce a bias in model predictions. Change of support is an issue that deals with reconciling spatial scales between data sets that do not have the same spatial resolution (or support). When roughly accounted for, this can lead to biased estimates too. Accounting properly for these processes is then a major challenge to infer spatial processes from declarative data and to combine these with other standardized data sets.\nDuring my PhD, I developed a spatio-temporal hierarchical model based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data as well as the difference of spatial support between the different data sources.\nYou’ll find some description of our approach in the following references: - Alglave et al. (2022) for a spatial version of the framework. - Alglave et al. (in press) for a spatio-temporal version of the framework. - Alglave et al. (under review) for a model accounting for change of support.\n\n\n\n\nConceptual diagram of the hierarchical model"
   },
   {
-    "objectID": "sci_prod.html#conference-presentations",
-    "href": "sci_prod.html#conference-presentations",
-    "title": "Scientific work",
-    "section": "Conference presentations",
-    "text": "Conference presentations\nAlglave Baptiste, Vermard Youen, Bez Nicolas, Etienne Marie-Pierre, Kristensen Kasper, Thorson James T., Woillez Mathieu, Rivot Etienne (2022). Can we trust commercial catch declarations data to map fish spatio-temporal distribution and identify fish essential habitats? 15th conference of the AFH `Fisheries research and sustainable development’. June 2022, Brest, France. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2022). Can we use catch declarations data to map fish spatial distribution? International Statistical Ecology Conference (ISEC). June 2022, Cape Town, South Africa. link\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). Downscaling coarse observations to predict continuous species spatio-temporal distribution. Meeting of the RESSTE network `Spatio-temporal statistics for remote sensing data’. May 2022, Paris, France. link\nAlglave Baptiste, Kristensen Kasper, Vermard Youen, Rivot Etienne, Woillez Mathieu, Etienne Marie-Pierre (2022). Going from coarse landings data to fine scale species distribution. Annual meeting of the GdR `Ecology and statistics’. April 2022, Montpellier, France. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2021). Can we trust commercial landings data to identify essential habitats of harvested fish? Application to several demersal species in the Bay of Biscay. ISOBAY 17 - XVII International Symposium on Oceanography of the Bay of Biscay. June 2021, virtual event. link\nAlglave Baptiste, Vermard Youen, Etienne Marie-Pierre, Woillez Mathieu, Rivot Etienne (2021). Can we identify fish essential habitats with landings data? Application to the common sole of the Bay of Biscay. Ecostat 2021: annual meeting of the GdR `Ecology and statistics’. April 2021, virtual event. link\nAlglave Baptiste, Etienne Marie-Pierre, Vermard Youen, Woillez Mathieu, Rivot Etienne (2020). Spatio-temporal modeling of fishery functional zones by combining catch declarations data and scientific survey data. Annual meeting of the GdR `Ecology and statistics’. March 2020, Rennes, France. link\nAlglave Baptiste, Lehuta Sigrid, Leforestier Sophie, Vermard Youen (2019). Management Strategy Evaluation of the Eastern English Channel common sole: management approach under uncertainty. 14th conference of the AFH `Fisheries research and sustainable development’. June 2019 , University of Caen Normandie, France. link"
-  },
-  {
-    "objectID": "sci_prod.html#technical-report",
-    "href": "sci_prod.html#technical-report",
-    "title": "Scientific work",
-    "section": "Technical report",
-    "text": "Technical report\nAlglave Baptiste, Vermard Youen (2022). Ad-hoc contract for the preparation of STECF EWG 22-01 concerning closure areas to protect juveniles and spawners of all demersal stocks in western Mediterranean Sea."
-  },
-  {
-    "objectID": "sci_prod.html#additional-reports",
-    "href": "sci_prod.html#additional-reports",
-    "title": "Scientific work",
-    "section": "Additional reports",
-    "text": "Additional reports\nAlglave Baptiste (2019). Management Strategy Evaluation of the Eastern English Channel common sole: management approach under uncertainty. Master thesis. Institut Agro, Rennes. Specialization in fisheries science and quantitative ecology. link"
-  },
-  {
-    "objectID": "sci_prod.html#projects-and-working-groups",
-    "href": "sci_prod.html#projects-and-working-groups",
-    "title": "Scientific work",
-    "section": "Projects and working groups",
-    "text": "Projects and working groups\nCommitment in the MACCO project\nIdentification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nEWG 22-01 - West Med closure areas (2022)\nWorking group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
-  },
-  {
-    "objectID": "sci_prod.html#student-supervision",
-    "href": "sci_prod.html#student-supervision",
-    "title": "Scientific work",
-    "section": "Student supervision",
-    "text": "Student supervision\nMaster student (May - July 2022)\nSubject: Contributions of the lognormal Poisson model in multivariate analysis analysis in community ecology. link\nStudent: Théo Fabien.\nCo-supervision with: Marie-Pierre Etienne, Thomas Outrequin and Jean-Louis Marchand.\nMaster thesis (February - August 2021)\nSubject: Combining commercial and scientific data to infer the space-time distribution of sardine in the Bay of Biscay. link\nStudent: Florian Quemper.\nCo-supervision with: Etienne Rivot and Marie-Pierre Etienne.\nStudent project (MSc) (November 2020 - February 2021)\nSubject: Investigating the effect of catch reallocation on VMS pings for species distribution model predictions. link\nStudents: Chloé Tellier, Juliette Theoleyre, Océane Guitton.\nCo-supervision with: Marie-Pierre Etienne."
+    "objectID": "research_interest.html#spatial-modeling-of-population-dynamics-in-context-of-climate-change",
+    "href": "research_interest.html#spatial-modeling-of-population-dynamics-in-context-of-climate-change",
+    "title": "Research interests",
+    "section": "Spatial modeling of population dynamics in context of climate change",
+    "text": "Spatial modeling of population dynamics in context of climate change\n\nMSE for the Snow Crab of the Bering Sea"
   },
   {
     "objectID": "stat_meth.html",
@@ -117,117 +89,5 @@
     "title": "Teaching",
     "section": "",
     "text": "Spatial and spatio-temporal statistics for ecology (3h)\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA (1h)\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
-  },
-  {
-    "objectID": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
-    "href": "research_interest.html#spatial-modeling-with-a-focus-on-species-distribution-modelling",
-    "title": "Research interests",
-    "section": "Spatial modeling with a focus on species distribution modelling",
-    "text": "Spatial modeling with a focus on species distribution modelling\n\nIntegrated species distribution models\n\n\nPreferential sampling\nI currently develop spatio-temporal statistical models to predict fish distribution by combining scientific survey data and catch declaration data. These later are massive data sources that are not sampled for a scientific purpose, but for a declarative purpose (like hunting records, air pollution data or healthcare data). This requires to deal with complex methodological issues such as preferential sampling or data aggregation (also referred as change of support).\nWhen combined properly, these data sources provide fine scale information on fish essential habitats and specifically on spawning grounds. Some description of the method is given in the ‘Scientific work’ section. Further development of the framework will consist in extending the framework to include population dynamics, to account for the mutlispecies dimension of fisheries and to complexify the fishing location process.\n\n\nChange of support\n\n\nOperational applications\nCommitment in the MACCO project\nIdentification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nEWG 22-01 - West Med closure areas (2022)\nWorking group aiming at identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
-  },
-  {
-    "objectID": "research_interest.html#population-dynamics-modeling",
-    "href": "research_interest.html#population-dynamics-modeling",
-    "title": "Research interests",
-    "section": "Population dynamics modeling",
-    "text": "Population dynamics modeling\nComing soon ;)"
-  },
-  {
-    "objectID": "research_interest.html#community-analysis",
-    "href": "research_interest.html#community-analysis",
-    "title": "Research interests",
-    "section": "Community analysis",
-    "text": "Community analysis"
-  },
-  {
-    "objectID": "research_interest.html#dynamic-systems-inference",
-    "href": "research_interest.html#dynamic-systems-inference",
-    "title": "Research interests",
-    "section": "Dynamic systems inference",
-    "text": "Dynamic systems inference"
-  },
-  {
-    "objectID": "research_interest.html#aclim-mse-for-the-snow-crab-bering-sea",
-    "href": "research_interest.html#aclim-mse-for-the-snow-crab-bering-sea",
-    "title": "Research interests",
-    "section": "ACLIM | MSE for the Snow Crab Bering Sea",
-    "text": "ACLIM | MSE for the Snow Crab Bering Sea"
-  },
-  {
-    "objectID": "research_interest.html#community-analysis-based-on-poisson-lognormal-model-pln",
-    "href": "research_interest.html#community-analysis-based-on-poisson-lognormal-model-pln",
-    "title": "Research interests",
-    "section": "Community analysis based on Poisson Lognormal Model (PLN)",
-    "text": "Community analysis based on Poisson Lognormal Model (PLN)"
-  },
-  {
-    "objectID": "research_interest.html#aclim-mse-for-the-snow-crab-of-the-bering-sea",
-    "href": "research_interest.html#aclim-mse-for-the-snow-crab-of-the-bering-sea",
-    "title": "Research interests",
-    "section": "ACLIM | MSE for the Snow Crab of the Bering Sea",
-    "text": "ACLIM | MSE for the Snow Crab of the Bering Sea"
-  },
-  {
-    "objectID": "research_interest.html#fishmap-an-integrated-model-for-mapping-fish-distribution-based-on-catch-declarations-and-scientific-survey-data",
-    "href": "research_interest.html#fishmap-an-integrated-model-for-mapping-fish-distribution-based-on-catch-declarations-and-scientific-survey-data",
-    "title": "Research interests",
-    "section": "FishMap | An integrated model for mapping fish distribution based on catch declarations and scientific survey data",
-    "text": "FishMap | An integrated model for mapping fish distribution based on catch declarations and scientific survey data\n\nConceptual framework\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
-  },
-  {
-    "objectID": "research_interest.html#fishmap",
-    "href": "research_interest.html#fishmap",
-    "title": "Research interests",
-    "section": "FishMap",
-    "text": "FishMap\n\nConceptual framework\nThis model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.\nTo map fish biomass distribution in space and time (\\(S(x,t)\\)) based on commercial catch declarations (\\(Y_{com}\\)) data and scientific survey data (\\(Y_{sci}\\)), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets \\(j\\) and several surveys \\(s\\)) while accounting for the sampling specificities of catch declarations data.\nFirst, fishing locations \\(X_{com}\\) are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity \\(\\lambda(x,t)\\) is related to the biomass field \\(S(x,t)\\). This part of the model is described in Alglave et al. (2022) and Alglave et al. (under review).\nIn addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in Alglave et al. (under review).\nAt the moment, each challenge (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.\n\n\n\n\nConceptual diagram of the FishMap model\n\n\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
-  },
-  {
-    "objectID": "research_interest.html#aclim",
-    "href": "research_interest.html#aclim",
-    "title": "Research interests",
-    "section": "ACLIM",
-    "text": "ACLIM\nMSE for the Snow Crab of the Bering Sea"
-  },
-  {
-    "objectID": "research_interest.html#community-analysis-based-on-pln",
-    "href": "research_interest.html#community-analysis-based-on-pln",
-    "title": "Research interests",
-    "section": "Community analysis based on PLN",
-    "text": "Community analysis based on PLN"
-  },
-  {
-    "objectID": "research_interest.html#modelling-population-dynamics-in-space",
-    "href": "research_interest.html#modelling-population-dynamics-in-space",
-    "title": "Research interests",
-    "section": "Modelling population dynamics in space",
-    "text": "Modelling population dynamics in space\nMSE for the Snow Crab of the Bering Sea"
-  },
-  {
-    "objectID": "research_interest.html#community-analysis-based-on-multivariate-modeling",
-    "href": "research_interest.html#community-analysis-based-on-multivariate-modeling",
-    "title": "Research interests",
-    "section": "Community analysis based on multivariate modeling",
-    "text": "Community analysis based on multivariate modeling"
-  },
-  {
-    "objectID": "research_interest.html#building-spatial-models-based-on-declarative-data",
-    "href": "research_interest.html#building-spatial-models-based-on-declarative-data",
-    "title": "Research interests",
-    "section": "Building spatial models based on declarative data",
-    "text": "Building spatial models based on declarative data\n\nConceptual framework\nTo map fish biomass distribution in space and time (\\(S(x,t)\\)) based on commercial catch declarations (\\(Y_{com}\\)) data and scientific survey data (\\(Y_{sci}\\)), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets \\(j\\) and several surveys \\(s\\)) while accounting for the sampling specificities of catch declarations data.\nFirst, fishing locations \\(X_{com}\\) are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity \\(\\lambda(x,t)\\) is related to the biomass field \\(S(x,t)\\). This part of the model is described in Alglave et al. (2022) and Alglave et al. (in press).\nIn addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in Alglave et al. (under review).\nAt the moment, these challenges (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.\nThis model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.\n\n\n\n\nConceptual diagram of the FishMap model\n\n\n\n\n\nOperational applications\nMACCO project\nAim of the project: Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.\nHead of the project: Stéphanie Mahévas (Ifremer Nantes).\nContribution: production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. link\nEWG 22-01 - West Med closure areas (2022)\nAim of the WG: identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.\nContribution: production of monthly species distribution maps for key data-poor species of the Bay of Biscay."
-  },
-  {
-    "objectID": "research_interest.html#modeling-population-dynamics-in-space",
-    "href": "research_interest.html#modeling-population-dynamics-in-space",
-    "title": "Research interests",
-    "section": "Modeling population dynamics in space",
-    "text": "Modeling population dynamics in space\nMSE for the Snow Crab of the Bering Sea"
-  },
-  {
-    "objectID": "research_interest.html#spatial-modeling-of-population-dynamics-in-context-of-climate-change",
-    "href": "research_interest.html#spatial-modeling-of-population-dynamics-in-context-of-climate-change",
-    "title": "Research interests",
-    "section": "Spatial modeling of population dynamics in context of climate change",
-    "text": "Spatial modeling of population dynamics in context of climate change\nMSE for the Snow Crab of the Bering Sea"
   }
 ]
