@@ -11,8 +11,11 @@ Declarative data are progressively becoming available in many fields of research
 During my PhD, I developed a spatio-temporal hierarchical model based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data as well as the difference of spatial support between the different data sources.
 
 You'll find some description of our approach in the following references:
+
 - <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> for a spatial version of the framework.
+
 - <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (in press)</a> for a spatio-temporal version of the framework.
+
 - <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
 <center>
