@@ -6,42 +6,24 @@ This is currently being updated :)
 
 ## Building spatial models based on declarative data
 
-### Conceptual framework
+Declarative data are progressively becoming available in many fields of research. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can be very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However this requires to handle some methodological challenges to provide unbiased estimates/predictions from these data. Two common processes that need to be handled are (1) preferential sampling and (2) change of support. Preferential sampling occurs when locations of data samples are not independent from the process under study. In this case, not accounting for the sampling process in inference may introduce a bias in model predictions. Change of support is an issue that deals with reconciling spatial scales between data sets that do not have the same spatial resolution (or support). When roughly accounted for, this can lead to biased estimates too. Accounting properly for these processes is then a major challenge to infer spatial processes from declarative data and to combine these with other standardized data sets.
 
-To map fish biomass distribution in space and time ($S(x,t)$) based on commercial catch declarations ($Y_{com}$) data and scientific survey data ($Y_{sci}$), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets $j$ and several surveys $s$) while accounting for the sampling specificities of catch declarations data.
+During my PhD, I developed a spatio-temporal hierarchical model based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data as well as the difference of spatial support between the distinct data sources.
 
-First, fishing locations $X_{com}$ are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity $\lambda(x,t)$ is related to the biomass field $S(x,t)$. This part of the model is described in <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> and <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (in press)</a>.
+You'll find some description of our approach in the following references:
 
-In addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a>.
-
-At the moment, these challenges (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.
-
-This model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.
+- <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> for a spatial version of the framework.
+- <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (in press)</a> for a spatio-temporal version of the framework.
+- <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
 <center>
 ![**Conceptual diagram of the FishMap model**](ressource/images/conceptual_framework.png)
 </center>
 
-### Operational applications
-
-**MACCO project**
-
-*Aim of the project:* Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.
-
-*Head of the project:* Stéphanie Mahévas (Ifremer Nantes).
-
-*Contribution:* production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. <a href=https://www.macco.fr/>link</a>
-
-
-**EWG 22-01 - West Med closure areas** (2022)
-
-*Aim of the WG:* identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.
-
-*Contribution:* production of monthly species distribution maps for key data-poor species of the Bay of Biscay.
-
-
 
 ## Spatial modeling of population dynamics in context of climate change
+
+<!-- Climate change is an ongoing issue that is and will strongly affect population dynamics. There are strong uncertainties  -->
 
 **MSE for the Snow Crab of the Bering Sea**
 
