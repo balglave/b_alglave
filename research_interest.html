@@ -59,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -103,11 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#building-spatial-models-based-on-declarative-data" id="toc-building-spatial-models-based-on-declarative-data" class="nav-link active" data-scroll-target="#building-spatial-models-based-on-declarative-data">Building spatial models based on declarative data</a>
-  <ul class="collapse">
-  <li><a href="#conceptual-framework" id="toc-conceptual-framework" class="nav-link" data-scroll-target="#conceptual-framework">Conceptual framework</a></li>
-  <li><a href="#operational-applications" id="toc-operational-applications" class="nav-link" data-scroll-target="#operational-applications">Operational applications</a></li>
-  </ul></li>
+  <li><a href="#building-spatial-models-based-on-declarative-data" id="toc-building-spatial-models-based-on-declarative-data" class="nav-link active" data-scroll-target="#building-spatial-models-based-on-declarative-data">Building spatial models based on declarative data</a></li>
   <li><a href="#spatial-modeling-of-population-dynamics-in-context-of-climate-change" id="toc-spatial-modeling-of-population-dynamics-in-context-of-climate-change" class="nav-link" data-scroll-target="#spatial-modeling-of-population-dynamics-in-context-of-climate-change">Spatial modeling of population dynamics in context of climate change</a></li>
   </ul>
 </nav>
@@ -135,13 +130,14 @@ ul.task-list li input[type="checkbox"] {
 <p>This is currently being updated :)</p>
 <section id="building-spatial-models-based-on-declarative-data" class="level2">
 <h2 class="anchored" data-anchor-id="building-spatial-models-based-on-declarative-data">Building spatial models based on declarative data</h2>
-<section id="conceptual-framework" class="level3">
-<h3 class="anchored" data-anchor-id="conceptual-framework">Conceptual framework</h3>
-<p>To map fish biomass distribution in space and time (<span class="math inline">\(S(x,t)\)</span>) based on commercial catch declarations (<span class="math inline">\(Y_{com}\)</span>) data and scientific survey data (<span class="math inline">\(Y_{sci}\)</span>), we developed a hierarchical integrated framework that fits both data sources (with potentially several commercial fleets <span class="math inline">\(j\)</span> and several surveys <span class="math inline">\(s\)</span>) while accounting for the sampling specificities of catch declarations data.</p>
-<p>First, fishing locations <span class="math inline">\(X_{com}\)</span> are sampled preferentially in areas of higher biomass. This requires to handle preferential sampling in the model to provide unbiased predictions of species distribution. To do so, the fishing locations are modeled as an homogeneous Poisson point process whose intensity <span class="math inline">\(\lambda(x,t)\)</span> is related to the biomass field <span class="math inline">\(S(x,t)\)</span>. This part of the model is described in <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al.&nbsp;(2022)</a> and <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al.&nbsp;(in press)</a>.</p>
-<p>In addition, catch declarations data are declared at a rough scale while predictions of species distribution are required at a finer resolution for spatial management. Such issue is often referred as a problem of change of support in the statistical literature. The related method is described in <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a>.</p>
-<p>At the moment, these challenges (preferential sampling and change of support) are tackled separately when fitting the model. The next step is to deal with both processes when estimating the parameters.</p>
-<p>This model was first developed for fisheries applications, but it could find applications in many other fields of application such as ecology, health science, epidemiology or climate science.</p>
+<p>Declarative data are progressively becoming available in many fields of research. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can be very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However this requires to handle some methodological challenges to provide unbiased estimates/predictions from these data. Two common processes that need to be handled are (1) preferential sampling and (2) change of support. Preferential sampling occurs when locations of data samples are not independent from the process under study. In this case, not accounting for the sampling process in inference may introduce a bias in model predictions. Change of support is an issue that deals with reconciling spatial scales between data sets that do not have the same spatial resolution (or support). When roughly accounted for, this can lead to biased estimates too. Accounting properly for these processes is then a major challenge to infer spatial processes from declarative data and to combine these with other standardized data sets.</p>
+<p>During my PhD, I developed a spatio-temporal hierarchical model based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data as well as the difference of spatial support between the distinct data sources.</p>
+<p>You’ll find some description of our approach in the following references:</p>
+<ul>
+<li><a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al.&nbsp;(2022)</a> for a spatial version of the framework.</li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al.&nbsp;(in press)</a> for a spatio-temporal version of the framework.</li>
+<li><a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a> for a model accounting for change of support.</li>
+</ul>
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -151,19 +147,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </center>
 </section>
-<section id="operational-applications" class="level3">
-<h3 class="anchored" data-anchor-id="operational-applications">Operational applications</h3>
-<p><strong>MACCO project</strong></p>
-<p><em>Aim of the project:</em> Identification of the target species and by-catch of the Bay of Biscay mixed fishery and evaluation of alternative management strategies.</p>
-<p><em>Head of the project:</em> Stéphanie Mahévas (Ifremer Nantes).</p>
-<p><em>Contribution:</em> production of monthly species distribution maps for the main targeted and by-caught demersal species of the Bay of Biscay. <a href="https://www.macco.fr/">link</a></p>
-<p><strong>EWG 22-01 - West Med closure areas</strong> (2022)</p>
-<p><em>Aim of the WG:</em> identifying and evaluating the potential closure areas for the demersal species of the Western Mediterranean Sea.</p>
-<p><em>Contribution:</em> production of monthly species distribution maps for key data-poor species of the Bay of Biscay.</p>
-</section>
-</section>
 <section id="spatial-modeling-of-population-dynamics-in-context-of-climate-change" class="level2">
 <h2 class="anchored" data-anchor-id="spatial-modeling-of-population-dynamics-in-context-of-climate-change">Spatial modeling of population dynamics in context of climate change</h2>
+<!-- Climate change is an ongoing issue that is and will strongly affect population dynamics. There are strong uncertainties  -->
 <p><strong>MSE for the Snow Crab of the Bering Sea</strong></p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-center">
