@@ -17,7 +17,7 @@ You'll find some description of our approach in the following references:
 - <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
 <center>
-![**Conceptual diagram of the FishMap model**](ressource/images/conceptual_framework.png)
+![**Conceptual diagram of the hierarchical model**](ressource/images/conceptual_framework.png)
 </center>
 
 
