@@ -1,10 +1,45 @@
 [
   {
+    "objectID": "bio.html",
+    "href": "bio.html",
+    "title": "Biography",
+    "section": "",
+    "text": "2019 - 2022\nSubject: Inferring fish spatio-temporal distribution and identifying essential habitats: tackling the challenges of heterogeneous data integration, preferential sampling and change of support.\nInstitute: Ifremer and Institut Agro (Rennes) - UMR DECOD\nSupervisors: Youen Vermard, Marie-Pierre Etienne, Mathieu Woillez, Etienne Rivot.\nMobility (August - October 2021): DTU Aqua, Copenhagen, Danemark. Supervision of Kasper Kristensen."
+  },
+  {
+    "objectID": "bio.html#msc",
+    "href": "bio.html#msc",
+    "title": "Biography",
+    "section": "MSc",
+    "text": "MSc\n2018 - 2019\nMajor: Fisheries science and quantitative ecology\nInstitute: Institut Agro (Rennes)\nMaster thesis (February - August 2019)\nInstitute: Ifremer Nantes - EMH Research Unit\nSubject: Management Strategy Evaluation under stock structure uncertainty. Application to the common sole in the Eastern English Channel.\nSupervisors: Sigrid Lehuta, Youen Vermard."
+  },
+  {
+    "objectID": "bio.html#bsc",
+    "href": "bio.html#bsc",
+    "title": "Biography",
+    "section": "BSc",
+    "text": "BSc\n2015 - 2017\nMajor: agriculture, food and environment\nInstitutes: Institut Agro (Rennes), CPGE Janson de Sailly (Paris)\nMobility (August - December 2017): semester study at University College Cork, Ireland."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@agrocampus-ouest.fr\nbaptiste.alglave@ifremer.fr\nMy current adress:\n1122 NE Boat St Box 355020, Seattle, WA 98195"
+    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Emails:\nbalglave@uw.edu\nbaptiste.alglave@agrocampus-ouest.fr\nMy current adress:\n1122 NE Boat St Box 355020, Seattle, WA 98195"
+  },
+  {
+    "objectID": "lab_comm.html",
+    "href": "lab_comm.html",
+    "title": "Lab commitment",
+    "section": "",
+    "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
+  },
+  {
+    "objectID": "teaching_supervision.html",
+    "href": "teaching_supervision.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Spatial and spatio-temporal statistics for ecology (3h)\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA (1h)\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
   },
   {
     "objectID": "research_interest.html",
@@ -28,36 +63,8 @@
     "text": "Spatial modeling of population dynamics in context of climate change\nClimate change is an ongoing issue that is and will strongly affect population dynamics. There are strong uncertainties related to the effect of climate change on population dynamics and developing management strategies that are robust to climate change is a key challenge for fisheries science.\nACLIM aims precisely at developing and assessing management strategies that are robust to climate change. A simulation model has been developed for the Snow Crab of the Bering Sea which reproduces the population life-cycle and the assessment procedure. Based on this case study, I will explore whether the actual assessment methods are robust to climate change and if alternative spatio-temporal stock assessment models allow to handle climate change."
   },
   {
-    "objectID": "teaching_supervision.html",
-    "href": "teaching_supervision.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Spatial and spatio-temporal statistics for ecology (3h)\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA (1h)\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
-  },
-  {
-    "objectID": "bio.html",
-    "href": "bio.html",
-    "title": "Biography",
-    "section": "",
-    "text": "2019 - 2022\nSubject: Inferring fish spatio-temporal distribution and identifying essential habitats: tackling the challenges of heterogeneous data integration, preferential sampling and change of support.\nInstitute: Ifremer and Institut Agro (Rennes) - UMR DECOD\nSupervisors: Youen Vermard, Marie-Pierre Etienne, Mathieu Woillez, Etienne Rivot.\nMobility (August - October 2021): DTU Aqua, Copenhagen, Danemark. Supervision of Kasper Kristensen."
-  },
-  {
-    "objectID": "bio.html#msc",
-    "href": "bio.html#msc",
-    "title": "Biography",
-    "section": "MSc",
-    "text": "MSc\n2018 - 2019\nMajor: Fisheries science and quantitative ecology\nInstitute: Institut Agro (Rennes)\nMaster thesis (February - August 2019)\nInstitute: Ifremer Nantes - EMH Research Unit\nSubject: Management Strategy Evaluation under stock structure uncertainty. Application to the common sole in the Eastern English Channel.\nSupervisors: Sigrid Lehuta, Youen Vermard."
-  },
-  {
-    "objectID": "bio.html#bsc",
-    "href": "bio.html#bsc",
-    "title": "Biography",
-    "section": "BSc",
-    "text": "BSc\n2015 - 2017\nMajor: agriculture, food and environment\nInstitutes: Institut Agro (Rennes), CPGE Janson de Sailly (Paris)\nMobility (August - December 2017): semester study at University College Cork, Ireland."
-  },
-  {
-    "objectID": "lab_comm.html",
-    "href": "lab_comm.html",
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Lab commitment",
     "section": "",
     "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
@@ -82,12 +89,5 @@
     "title": "Statistics & methods",
     "section": "Multivariate analysis of spatio-temporal data",
     "text": "Multivariate analysis of spatio-temporal data\nIn progress"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Lab commitment",
-    "section": "",
-    "text": "Amédée seminars\nOrganization of semestrial seminars with a focus on methodological development in fisheries science and marine ecology. link\nIfremer working group `Science with and for society’\nWorking group aiming at evaluating the interactions between science and society within Ifremer. It led to several surveys among researchers, post-doctoral and doctoral students and to internal reports for the Ifremer scientific direction."
   }
 ]
