@@ -2,15 +2,21 @@
 title: "Research interests"
 ---
 
-This is currently being updated :)
+Massive data sources data are progressively becoming available in the field of ecology, agronomy, epidemiology or climatology. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.
 
-## Building spatial models based on declarative data
+My research focus on the **development of statistical methods to infer spatio-temporal ecological processes from these massive and heterogeneous data sources**. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the data sources. Provided these are handled, these data should be used to infer ecological mechanisms such as population dynamics at fine spatio-temporal resolution. Finally, as these data often regroup a large set of diverse variables, this requires to develop multivariate analysis suited for spatio-temporal analysis.
 
-Declarative data are progressively becoming available in many fields of research. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However this requires to handle some methodological challenges to provide unbiased estimates/predictions from these data. 
+## Handling observation and sampling issues
 
-Two common processes that need to be handled are (1) preferential sampling and (2) change of support. Preferential sampling occurs when the locations of data samples are not independent from the process under study. In this case, not accounting for the sampling process in inference may introduce a bias in model predictions. Change of support is an issue that deals with reconciling spatial scales between data sets that do not have the same spatial resolution (or support). When roughly accounted for, this can lead to biased estimates too. Accounting properly for these processes is then a major challenge to infer spatial processes from declarative data and to combine these with other standardized data sets.
+Two major issues lies in the modelling of the sampling and of the observation process of the data.
 
-During my PhD, I developed spatio-temporal hierarchical models based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data and for the difference of spatial support between the different data sources.
+For instance, sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (**preferential sampling**). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.
+
+The data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as **change of support**.
+
+Developing methods that handle these issues is a major challenge to infer spatial processes from these massive data.
+
+During my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.
 
 You'll find some description of our approach in the following references:
 
@@ -25,11 +31,13 @@ You'll find some description of our approach in the following references:
 </center>
 
 
-## Spatial modeling of population dynamics in context of climate change
+## Spatio-temporal modelling of population dynamics processes.
 
-Climate change is an ongoing issue that is and will strongly affect population dynamics. There are strong uncertainties related to the effect of climate change on population dynamics and developing management strategies that are robust to climate change is a key challenge for fisheries science.
+Population dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.
 
-ACLIM aims precisely at developing and assessing management strategies that are robust to climate change. A simulation model has been developed for the Snow Crab of the Bering Sea which reproduces the population life-cycle and the assessment procedure. Based on this case study, I will explore whether the actual assessment methods are robust to climate change and if alternative spatio-temporal stock assessment models allow to handle climate change.
+However, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new inference tools (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and newly available extensive data sources will provide fine scale information to inform these processes.
+
+In my postdoc, based on the Management Strategy Evaluation conceptual framework, I intend to illustrate the potential and the challenges related to the spatial extension of population dynamics models.
 
 
 ::: {layout-nrow="1" layout-valign="center"}
@@ -38,7 +46,7 @@ ACLIM aims precisely at developing and assessing management strategies that are 
 ![](ressource/images/ACLIM/op_mod.png){width="50%"}
 :::
 
-<!-- ## Community analysis based on multivariate modeling -->
+## Multivariate analysis of spatio-temporal ecological data.
 
 
 

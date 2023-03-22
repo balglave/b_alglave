@@ -101,8 +101,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#building-spatial-models-based-on-declarative-data" id="toc-building-spatial-models-based-on-declarative-data" class="nav-link active" data-scroll-target="#building-spatial-models-based-on-declarative-data">Building spatial models based on declarative data</a></li>
-  <li><a href="#spatial-modeling-of-population-dynamics-in-context-of-climate-change" id="toc-spatial-modeling-of-population-dynamics-in-context-of-climate-change" class="nav-link" data-scroll-target="#spatial-modeling-of-population-dynamics-in-context-of-climate-change">Spatial modeling of population dynamics in context of climate change</a></li>
+  <li><a href="#handling-observation-and-sampling-issues" id="toc-handling-observation-and-sampling-issues" class="nav-link active" data-scroll-target="#handling-observation-and-sampling-issues">Handling observation and sampling issues</a></li>
+  <li><a href="#spatio-temporal-modelling-of-population-dynamics-processes." id="toc-spatio-temporal-modelling-of-population-dynamics-processes." class="nav-link" data-scroll-target="#spatio-temporal-modelling-of-population-dynamics-processes.">Spatio-temporal modelling of population dynamics processes.</a></li>
+  <li><a href="#multivariate-analysis-of-spatio-temporal-ecological-data." id="toc-multivariate-analysis-of-spatio-temporal-ecological-data." class="nav-link" data-scroll-target="#multivariate-analysis-of-spatio-temporal-ecological-data.">Multivariate analysis of spatio-temporal ecological data.</a></li>
   </ul>
 </nav>
     </div>
@@ -126,12 +127,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is currently being updated :)</p>
-<section id="building-spatial-models-based-on-declarative-data" class="level2">
-<h2 class="anchored" data-anchor-id="building-spatial-models-based-on-declarative-data">Building spatial models based on declarative data</h2>
-<p>Declarative data are progressively becoming available in many fields of research. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However this requires to handle some methodological challenges to provide unbiased estimates/predictions from these data.</p>
-<p>Two common processes that need to be handled are (1) preferential sampling and (2) change of support. Preferential sampling occurs when the locations of data samples are not independent from the process under study. In this case, not accounting for the sampling process in inference may introduce a bias in model predictions. Change of support is an issue that deals with reconciling spatial scales between data sets that do not have the same spatial resolution (or support). When roughly accounted for, this can lead to biased estimates too. Accounting properly for these processes is then a major challenge to infer spatial processes from declarative data and to combine these with other standardized data sets.</p>
-<p>During my PhD, I developed spatio-temporal hierarchical models based on fisheries application to map fish distribution. It feeds on both catch declaration data and scientific survey data and it accounts for preferential sampling of commercial data and for the difference of spatial support between the different data sources.</p>
+<p>Massive data sources data are progressively becoming available in the field of ecology, agronomy, epidemiology or climatology. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.</p>
+<p>My research focus on the <strong>development of statistical methods to infer spatio-temporal ecological processes from these massive and heterogeneous data sources</strong>. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the data sources. Provided these are handled, these data should be used to infer ecological mechanisms such as population dynamics at fine spatio-temporal resolution. Finally, as these data often regroup a large set of diverse variables, this requires to develop multivariate analysis suited for spatio-temporal analysis.</p>
+<section id="handling-observation-and-sampling-issues" class="level2">
+<h2 class="anchored" data-anchor-id="handling-observation-and-sampling-issues">Handling observation and sampling issues</h2>
+<p>Two major issues lies in the modelling of the sampling and of the observation process of the data.</p>
+<p>For instance, sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (<strong>preferential sampling</strong>). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.</p>
+<p>The data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as <strong>change of support</strong>.</p>
+<p>Developing methods that handle these issues is a major challenge to infer spatial processes from these massive data.</p>
+<p>During my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.</p>
 <p>You’ll find some description of our approach in the following references:</p>
 <ul>
 <li><p><a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al.&nbsp;(2022)</a> for a spatial version of the framework.</p></li>
@@ -147,10 +151,11 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </center>
 </section>
-<section id="spatial-modeling-of-population-dynamics-in-context-of-climate-change" class="level2">
-<h2 class="anchored" data-anchor-id="spatial-modeling-of-population-dynamics-in-context-of-climate-change">Spatial modeling of population dynamics in context of climate change</h2>
-<p>Climate change is an ongoing issue that is and will strongly affect population dynamics. There are strong uncertainties related to the effect of climate change on population dynamics and developing management strategies that are robust to climate change is a key challenge for fisheries science.</p>
-<p>ACLIM aims precisely at developing and assessing management strategies that are robust to climate change. A simulation model has been developed for the Snow Crab of the Bering Sea which reproduces the population life-cycle and the assessment procedure. Based on this case study, I will explore whether the actual assessment methods are robust to climate change and if alternative spatio-temporal stock assessment models allow to handle climate change.</p>
+<section id="spatio-temporal-modelling-of-population-dynamics-processes." class="level2">
+<h2 class="anchored" data-anchor-id="spatio-temporal-modelling-of-population-dynamics-processes.">Spatio-temporal modelling of population dynamics processes.</h2>
+<p>Population dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial; however, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new tools for inference (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and to move towards spatio-temporal population dynamics model.</p>
+<p>In my postdoc, I work on the development and the evaluation of spatio-temporal stock assessment methods. More precisely,</p>
+<p>Our final goal is to evaluate this framework and assess the robustness of several management strategies under alternative climate change scenarios.</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-center">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
@@ -161,7 +166,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<!-- ## Community analysis based on multivariate modeling -->
+</section>
+<section id="multivariate-analysis-of-spatio-temporal-ecological-data." class="level2">
+<h2 class="anchored" data-anchor-id="multivariate-analysis-of-spatio-temporal-ecological-data.">Multivariate analysis of spatio-temporal ecological data.</h2>
 <!-- ## Dynamic systems inference -->
 
 
