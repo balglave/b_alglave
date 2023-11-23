@@ -15,7 +15,10 @@ format:
     theme: styles.scss
     toc: true
 
-
+runs:
+  using: 'node20'
+  main: 'main.js'
+  
 # Publishing Jekyll style on github: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html
 # Jekyll styles: https://github.com/topics/jekyll-theme
 # for information: https://quarto.org/docs/websites/
