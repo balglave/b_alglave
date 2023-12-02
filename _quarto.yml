@@ -7,7 +7,8 @@ website:
   navbar:
     left:
       - research_interest.qmd
-      - teaching_supervision.qmd
+      - teaching.qmd
+      - supervision.qmd
 
   
 format:

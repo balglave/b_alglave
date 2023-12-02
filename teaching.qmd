@@ -1,0 +1,52 @@
+---
+title: "Teaching"
+editor: visual
+---
+
+### Spatial and spatio-temporal statistics for ecology
+
+This is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand `R-INLA`, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the <a href=ressource/pdf/cours_td_stats_st_2022.pdf>slides</a> and the related <a href=https://github.com/balglave/workshop/tree/main/cours_td_stats_st_2022/>codes</a>.
+
+::: {layout-nrow="1" layout-valign="center"}
+![](ressource/images/teaching/dag_ssm.png){width="60%"}
+
+![](ressource/images/teaching/co2.PNG){width="40%"}
+
+![](ressource/images/teaching/semivariogram.png){width="60%"}
+:::
+
+<br>
+
+These slides are mainly based on:
+
+-   Wikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. <a href=https://spacetimewithr.org/>link</a>
+
+-   Krainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. <a href=https://becarioprecario.bitbucket.io/spde-gitbook/>link</a>
+
+-   Cressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.
+
+-   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href=https://www6.inrae.fr/mia-paris/Seminaires/Workshop/>link</a>
+
+<br>
+
+### Workshop on R-INLA
+
+This is a short introduction to the `R-INLA` tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in `R-INLA`. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in `R-INLA` to ease the computation burden related to spatial and spatio-temporal model inference. Here are the <a href=ressource/pdf/td_halieut_inla_2022.pdf>slides</a> and the related <a href=https://github.com/balglave/workshop/tree/main/td_halieut_inla/>codes</a>.
+
+::: {layout-nrow="1" layout-valign="center"}
+![](ressource/images/teaching/inla.png){width="60%"}
+
+![](ressource/images/teaching/mesh.PNG){width="60%"}
+
+![](ressource/images/teaching/pred.PNG){width="60%"}
+:::
+
+<br>
+
+These slides are mainly based on:
+
+-   Krainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. <a href=https://becarioprecario.bitbucket.io/spde-gitbook/>link</a>
+
+-   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href=https://www6.inrae.fr/mia-paris/Seminaires/Workshop/>link</a>
+
+<br>

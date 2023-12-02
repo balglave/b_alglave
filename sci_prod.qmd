@@ -1,4 +1,0 @@
----
-title: "Scientific work"
-editor: visual
----

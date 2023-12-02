@@ -2,7 +2,11 @@
 title: "Research interests"
 ---
 
-Massive data sources data are progressively becoming available in the field of ecology, agronomy, epidemiology or climatology. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.
+Massive data sources data are progressively becoming available in the field of ecology, geography, agronomy, epidemiology or climatology. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. 
+
+They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. 
+
+However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.
 
 My research focus on the **development of statistical methods to infer spatio-temporal ecological processes from these massive and heterogeneous data sources**. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the data sources. Provided these are handled, these data should be used to infer ecological mechanisms such as population dynamics at fine spatio-temporal resolution. Finally, as these data often regroup a large set of diverse variables, this requires to develop multivariate analysis suited for spatio-temporal analysis.
 
