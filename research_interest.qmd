@@ -12,12 +12,12 @@ However they also raise key methodological challenges to (1) properly integrate 
 
 My research focus on the **development of statistical methods to infer spatio-temporal processes from these massive and heterogeneous data sources**. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the distinct data sources to integrate the different data sources. Also, these data can be used to infer mechanism in a statistical framework provided some knowledge is available on the hidden dynamics of the observed variables (e.g. population dynamics).
 
-The spatio-temporal maps obtained from these data can regroup large set of variables on long time series. This requires to be able to extract the main mode of variation of these data through multivariate analysis suited for the spatio-temporal context.
+The spatio-temporal maps obtained from these data can regroup large set of variables on long time series. This requires to be able to extract the main mode of variation of these data through spatio-temporal multivariate analysis. A second step of the analysis would require to identify in these modes groups of locations and time steps that are similar and that can be regrouped into clusters.
 
 My main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.
 
 
-## Handling observation and sampling issues
+## Handling observation and sampling issues.
 
 Two major issues lies in the modelling of the sampling and of the observation process of the data.
 
@@ -42,7 +42,7 @@ You'll find some description of this approach in the following references:
 </center>
 
 
-## Spatio-temporal modelling of population dynamics processes.
+## Modelling mechanisms in hierarchical spatio-temporal models.
 
 Population dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.
 
@@ -50,17 +50,20 @@ However, it is now recognized that including spatial dimension in those model is
 
 During my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.
 
+- <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal stock assessment model.
 
-::: {layout-nrow="1" layout-valign="center"}
-![](ressource/images/ACLIM/mse_loop.png){width="50%"}
-
-![](ressource/images/ACLIM/op_mod.png){width="50%"}
+::: {layout-ncol="1" layout-valign="center"}
+![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"}
 :::
 
-## Multivariate analysis of spatio-temporal ecological data.
+## Multivariate analysis of spatial/spatio-temporal data
 
+Massive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods.
 
+\
 
+::: {layout-ncol="1" layout-valign="center"}
+![**EOF loading factors (left) and maps (right) for sole distribution between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
+:::
 
 <!-- ## Dynamic systems inference -->
-

@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Emails:\nbalglave@uw.edu\nbaptiste.alglave@agrocampus-ouest.fr\nMy current adress:\n1122 NE Boat St Box 355020, Seattle, WA 98195"
+    "text": "I am a quantitative ecologist and applied statistician with a specific interest in spatio-temporal modeling and applications in fisheries science and marine ecology. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats. Specifically, I developed methods to account for preferential sampling of commercial data and difference of spatial resolution between distinct data sources (change of support issues).\nSince January 2023, I’m a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with a specific focus on the Snow Crab of the Bering Sea.\nI also have interest in methods related to community ecology and inference of dynamic systems (differential equations).\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
   },
   {
     "objectID": "lab_comm.html",
@@ -46,7 +46,7 @@
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "Massive data sources data are progressively becoming available in the field of ecology, agronomy, epidemiology or climatology. Hunting records, healthcare data or fishermen catch declarations are common examples of such kind of data. They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.\nMy research focus on the development of statistical methods to infer spatio-temporal ecological processes from these massive and heterogeneous data sources. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the data sources. Provided these are handled, these data should be used to infer ecological mechanisms such as population dynamics at fine spatio-temporal resolution. Finally, as these data often regroup a large set of diverse variables, this requires to develop multivariate analysis suited for spatio-temporal analysis."
+    "text": "In all field of environment science, massive data sources data are progressively becoming available. Outputs of climatic models, remote sensing data, data from Geographic Information System, healthcare records, hunting or fishermen declarations are common examples of this kind of data that can be used in climatology, agronomy, geography, epidemiology or ecology.\nThey can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc.\nHowever they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.\nMy research focus on the development of statistical methods to infer spatio-temporal processes from these massive and heterogeneous data sources. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the distinct data sources to integrate the different data sources. Also, these data can be used to infer mechanism in a statistical framework provided some knowledge is available on the hidden dynamics of the observed variables (e.g. population dynamics).\nThe spatio-temporal maps obtained from these data can regroup large set of variables on long time series. This requires to be able to extract the main mode of variation of these data through spatio-temporal multivariate analysis. A second step of the analysis would require to identify in these modes groups of locations and time steps that are similar and that can be regrouped into clusters.\nMy main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas."
   },
   {
     "objectID": "stat_meth.html",
@@ -81,14 +81,14 @@
     "href": "research_interest.html#handling-observation-and-sampling-issues",
     "title": "Research interests",
     "section": "Handling observation and sampling issues",
-    "text": "Handling observation and sampling issues\nTwo major issues lies in the modelling of the sampling and of the observation process of the data.\nFor instance, sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (preferential sampling). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.\nThe data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as change of support.\nDeveloping methods that handle these issues is a major challenge to infer spatial processes from these massive data.\nDuring my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.\nYou’ll find some description of our approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (in press) for a spatio-temporal version of the framework.\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
+    "text": "Handling observation and sampling issues\nTwo major issues lies in the modelling of the sampling and of the observation process of the data.\nThe sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (preferential sampling). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.\nThe data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as change of support.\nDeveloping methods that handle these issues is a major challenge to infer spatial processes from these massive data.\nDuring my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (in press) for a spatio-temporal version of the framework.\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
   },
   {
     "objectID": "research_interest.html#spatio-temporal-modelling-of-population-dynamics-processes.",
     "href": "research_interest.html#spatio-temporal-modelling-of-population-dynamics-processes.",
     "title": "Research interests",
     "section": "Spatio-temporal modelling of population dynamics processes.",
-    "text": "Spatio-temporal modelling of population dynamics processes.\nPopulation dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial; however, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new tools for inference (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and to move towards spatio-temporal population dynamics model.\nIn my postdoc, I work on the development and the evaluation of spatio-temporal stock assessment methods. More precisely,\nOur final goal is to evaluate this framework and assess the robustness of several management strategies under alternative climate change scenarios."
+    "text": "Spatio-temporal modelling of population dynamics processes.\nPopulation dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.\nHowever, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new inference tools (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and newly available extensive data sources will provide fine scale information to inform these processes.\nDuring my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.\n\nOlmos et al. (2023) for a spatio-temporal stock assessment model."
   },
   {
     "objectID": "research_interest.html#multivariate-analysis-of-spatio-temporal-ecological-data.",
@@ -96,5 +96,89 @@
     "title": "Research interests",
     "section": "Multivariate analysis of spatio-temporal ecological data.",
     "text": "Multivariate analysis of spatio-temporal ecological data."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Opportunities",
+    "section": "",
+    "text": "Master thesis (M2). Mapping and profiling French cities based on local climate zones. link"
+  },
+  {
+    "objectID": "supervision.html#opportunities",
+    "href": "supervision.html#opportunities",
+    "title": "Supervision projects",
+    "section": "",
+    "text": "Master thesis (M2). Mapping and profiling French cities based on local climate zones. link"
+  },
+  {
+    "objectID": "supervision.html#now",
+    "href": "supervision.html#now",
+    "title": "Supervision projects",
+    "section": "Now",
+    "text": "Now"
+  },
+  {
+    "objectID": "supervision.html#past",
+    "href": "supervision.html#past",
+    "title": "Supervision projects",
+    "section": "Past",
+    "text": "Past\ndf"
+  },
+  {
+    "objectID": "research_interest.html#handling-observation-and-sampling-issues-fisheries-application",
+    "href": "research_interest.html#handling-observation-and-sampling-issues-fisheries-application",
+    "title": "Research interests",
+    "section": "Handling observation and sampling issues (fisheries application)",
+    "text": "Handling observation and sampling issues (fisheries application)\nTwo major issues lies in the modelling of the sampling and of the observation process of the data.\nThe sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (preferential sampling). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.\nThe data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as change of support.\nDeveloping methods that handle these issues is a major challenge to infer spatial processes from these massive data.\nDuring my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (in press) for a spatio-temporal version of the framework.\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
+  },
+  {
+    "objectID": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models-fisheries-application.",
+    "href": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models-fisheries-application.",
+    "title": "Research interests",
+    "section": "Modelling mechanisms in hierarchical spatio-temporal models (fisheries application).",
+    "text": "Modelling mechanisms in hierarchical spatio-temporal models (fisheries application).\nPopulation dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.\nHowever, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new inference tools (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and newly available extensive data sources will provide fine scale information to inform these processes.\nDuring my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.\n\nOlmos et al. (2023) for a spatio-temporal stock assessment model."
+  },
+  {
+    "objectID": "research_interest.html#multivariate-analysis-and-clustering-of-spatialspatio-temporal-data-fisheries-and-geography-application",
+    "href": "research_interest.html#multivariate-analysis-and-clustering-of-spatialspatio-temporal-data-fisheries-and-geography-application",
+    "title": "Research interests",
+    "section": "Multivariate analysis and clustering of spatial/spatio-temporal data (fisheries and geography application)",
+    "text": "Multivariate analysis and clustering of spatial/spatio-temporal data (fisheries and geography application)"
+  },
+  {
+    "objectID": "research_interest.html#handling-observation-and-sampling-issues.",
+    "href": "research_interest.html#handling-observation-and-sampling-issues.",
+    "title": "Research interests",
+    "section": "Handling observation and sampling issues.",
+    "text": "Handling observation and sampling issues.\nTwo major issues lies in the modelling of the sampling and of the observation process of the data.\nThe sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (preferential sampling). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.\nThe data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as change of support.\nDeveloping methods that handle these issues is a major challenge to infer spatial processes from these massive data.\nDuring my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (in press) for a spatio-temporal version of the framework.\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
+  },
+  {
+    "objectID": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models.",
+    "href": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models.",
+    "title": "Research interests",
+    "section": "Modelling mechanisms in hierarchical spatio-temporal models.",
+    "text": "Modelling mechanisms in hierarchical spatio-temporal models.\nPopulation dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.\nHowever, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new inference tools (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and newly available extensive data sources will provide fine scale information to inform these processes.\nDuring my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.\n\nOlmos et al. (2023) for a spatio-temporal stock assessment model.\n\n\n\n\n\n\n\nEstimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)"
+  },
+  {
+    "objectID": "research_interest.html#multivariate-analysis-and-clustering-of-spatialspatio-temporal-data",
+    "href": "research_interest.html#multivariate-analysis-and-clustering-of-spatialspatio-temporal-data",
+    "title": "Research interests",
+    "section": "Multivariate analysis and clustering of spatial/spatio-temporal data",
+    "text": "Multivariate analysis and clustering of spatial/spatio-temporal data\nMassive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods."
+  },
+  {
+    "objectID": "research_interest.html#multivariate-analysis-of-spatialspatio-temporal-data",
+    "href": "research_interest.html#multivariate-analysis-of-spatialspatio-temporal-data",
+    "title": "Research interests",
+    "section": "Multivariate analysis of spatial/spatio-temporal data",
+    "text": "Multivariate analysis of spatial/spatio-temporal data\nMassive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods.\n\n\n\n\n\n\n\n\nEOF loading factors (left) and maps (right) for sole distribution between 2008 and 2018"
   }
 ]

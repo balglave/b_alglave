@@ -1,10 +1,6 @@
 ---
-title: "Supervised projects (now and past)"
+title: "Opportunities"
 editor: visual
 ---
 
-## Now
-
-## Past 
-
-df
+-   Master thesis (M2). **Mapping and profiling French cities based on local climate zones**. [link](https://github.com/balglave/b_alglave/blob/b25ab47d2c5e913752d1b1730d90a51fd2fe6444/ressource/pdf/stage_zcl_2023.pdf)

@@ -25,5 +25,11 @@
   },
   "lab_comm.qmd": {
     "lab_comm.html": "1036dfde"
+  },
+  "teaching.qmd": {
+    "teaching.html": "f759c03b"
+  },
+  "supervision.qmd": {
+    "supervision.html": "6fca9552"
   }
 }
