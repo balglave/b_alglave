@@ -4,36 +4,19 @@ title: "Research interests"
 
 <!-- Linking statistical methods and field of applications in environment. -->
 
-In all field of environment science, massive data sources data are progressively becoming available. Outputs of climatic models, remote sensing data, data from Geographic Information System, healthcare records, hunting or fishermen declarations are common examples of this kind of data that can be used in climatology, agronomy, geography, epidemiology or ecology.
+## Preferential sampling
 
-They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc. 
-
-However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.
-
-My research focus on the **development of statistical methods to infer spatio-temporal processes from these massive and heterogeneous data sources**. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the distinct data sources to integrate the different data sources. Also, these data can be used to infer mechanism in a statistical framework provided some knowledge is available on the hidden dynamics of the observed variables (e.g. population dynamics).
-
-The spatio-temporal maps obtained from these data can regroup large set of variables on long time series. This requires to be able to extract the main mode of variation of these data through spatio-temporal multivariate analysis. A second step of the analysis would require to identify in these modes groups of locations and time steps that are similar and that can be regrouped into clusters.
-
-My main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.
-
-
-## Handling observation and sampling issues.
-
-Two major issues lies in the modelling of the sampling and of the observation process of the data.
-
-The sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (**preferential sampling**). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.
-
-The data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as **change of support**.
-
-Developing methods that handle these issues is a major challenge to infer spatial processes from these massive data.
-
-During my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.
+During my PhD, I developed a spatio-temporal hierarchical model based on fisheries data sources to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial data.
 
 You'll find some description of this approach in the following references:
 
 - <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> for a spatial version of the framework.
 
 - <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (in press)</a> for a spatio-temporal version of the framework.
+
+## Change of support
+
+I also developped a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine aggregated massive data and fine scale survey data to map fish distribution.
 
 - <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
@@ -42,7 +25,7 @@ You'll find some description of this approach in the following references:
 </center>
 
 
-## Modelling mechanisms in hierarchical spatio-temporal models.
+## Modelling mechanisms in hierarchical spatio-temporal models
 
 Population dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.
 
@@ -66,6 +49,5 @@ Massive data sources give access to huge amount of spatial information on long t
 ![**EOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
 </center>
 
-:::
 
 <!-- ## Dynamic systems inference -->

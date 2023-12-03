@@ -3,4 +3,10 @@ title: "Opportunities"
 editor: visual
 ---
 
--   Master thesis (M2). **Mapping and profiling French cities based on local climate zones**. [link](https://github.com/balglave/b_alglave/blob/b25ab47d2c5e913752d1b1730d90a51fd2fe6444/ressource/pdf/stage_zcl_2023.pdf)
+-   Master thesis (M2, 6 months). **Mapping and profiling French cities based on local climate zones**. [link](https://github.com/balglave/b_alglave/blob/b25ab47d2c5e913752d1b1730d90a51fd2fe6444/ressource/pdf/stage_zcl_2023.pdf)
+
+<center>
+
+![**Local climate zones for Renes**](ressource/images/lcz_rennes.png){width="40%"}
+
+</center>

@@ -108,8 +108,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#handling-observation-and-sampling-issues." id="toc-handling-observation-and-sampling-issues." class="nav-link active" data-scroll-target="#handling-observation-and-sampling-issues.">Handling observation and sampling issues.</a></li>
-  <li><a href="#modelling-mechanisms-in-hierarchical-spatio-temporal-models." id="toc-modelling-mechanisms-in-hierarchical-spatio-temporal-models." class="nav-link" data-scroll-target="#modelling-mechanisms-in-hierarchical-spatio-temporal-models.">Modelling mechanisms in hierarchical spatio-temporal models.</a></li>
+  <li><a href="#preferential-sampling" id="toc-preferential-sampling" class="nav-link active" data-scroll-target="#preferential-sampling">Preferential sampling</a></li>
+  <li><a href="#change-of-support" id="toc-change-of-support" class="nav-link" data-scroll-target="#change-of-support">Change of support</a></li>
+  <li><a href="#modelling-mechanisms-in-hierarchical-spatio-temporal-models" id="toc-modelling-mechanisms-in-hierarchical-spatio-temporal-models" class="nav-link" data-scroll-target="#modelling-mechanisms-in-hierarchical-spatio-temporal-models">Modelling mechanisms in hierarchical spatio-temporal models</a></li>
   <li><a href="#multivariate-analysis-of-spatialspatio-temporal-data" id="toc-multivariate-analysis-of-spatialspatio-temporal-data" class="nav-link" data-scroll-target="#multivariate-analysis-of-spatialspatio-temporal-data">Multivariate analysis of spatial/spatio-temporal data</a></li>
   </ul>
 </nav>
@@ -135,24 +136,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <!-- Linking statistical methods and field of applications in environment. -->
-<p>In all field of environment science, massive data sources data are progressively becoming available. Outputs of climatic models, remote sensing data, data from Geographic Information System, healthcare records, hunting or fishermen declarations are common examples of this kind of data that can be used in climatology, agronomy, geography, epidemiology or ecology.</p>
-<p>They can reveal very informative of spatial processes such as fish or animal distribution, distribution of some disease, etc.</p>
-<p>However they also raise key methodological challenges to (1) properly integrate these data sources and (2) to infer the ecological processes of interest and extract the ecological information from these complex data sources.</p>
-<p>My research focus on the <strong>development of statistical methods to infer spatio-temporal processes from these massive and heterogeneous data sources</strong>. This implies developing methods that accounts for potential non-standardized sampling of the data as well as differences in the spatial resolution of the distinct data sources to integrate the different data sources. Also, these data can be used to infer mechanism in a statistical framework provided some knowledge is available on the hidden dynamics of the observed variables (e.g.&nbsp;population dynamics).</p>
-<p>The spatio-temporal maps obtained from these data can regroup large set of variables on long time series. This requires to be able to extract the main mode of variation of these data through spatio-temporal multivariate analysis. A second step of the analysis would require to identify in these modes groups of locations and time steps that are similar and that can be regrouped into clusters.</p>
-<p>My main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.</p>
-<section id="handling-observation-and-sampling-issues." class="level2">
-<h2 class="anchored" data-anchor-id="handling-observation-and-sampling-issues.">Handling observation and sampling issues.</h2>
-<p>Two major issues lies in the modelling of the sampling and of the observation process of the data.</p>
-<p>The sampling of these massive data sources is not necessarily standardized and in some cases it can be preferential towards the process under study (<strong>preferential sampling</strong>). In such case, not accounting for the sampling process in inference may introduce a bias in model predictions.</p>
-<p>The data sources may not have the same spatial resolution. When roughly accounted for, this can lead to biased estimates too. Such issue is commonly referred as <strong>change of support</strong>.</p>
-<p>Developing methods that handle these issues is a major challenge to infer spatial processes from these massive data.</p>
-<p>During my PhD, I developed spatio-temporal hierarchical models based on fisheries data sources to map fish distribution. It feeds on massive and spatially rough catch declaration data and standardized fine-scale scientific survey data. It accounts both for preferential sampling of commercial data and for the difference of spatial support between the different data sources.</p>
+<section id="preferential-sampling" class="level2">
+<h2 class="anchored" data-anchor-id="preferential-sampling">Preferential sampling</h2>
+<p>During my PhD, I developed a spatio-temporal hierarchical model based on fisheries data sources to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial data.</p>
 <p>You’ll find some description of this approach in the following references:</p>
 <ul>
 <li><p><a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al.&nbsp;(2022)</a> for a spatial version of the framework.</p></li>
 <li><p><a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al.&nbsp;(in press)</a> for a spatio-temporal version of the framework.</p></li>
-<li><p><a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a> for a model accounting for change of support.</p></li>
+</ul>
+</section>
+<section id="change-of-support" class="level2">
+<h2 class="anchored" data-anchor-id="change-of-support">Change of support</h2>
+<p>I also developped a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine aggregated massive data and fine scale survey data to map fish distribution.</p>
+<ul>
+<li><a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a> for a model accounting for change of support.</li>
 </ul>
 <center>
 <div class="quarto-figure quarto-figure-center">
@@ -163,44 +160,36 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </center>
 </section>
-<section id="modelling-mechanisms-in-hierarchical-spatio-temporal-models." class="level2">
-<h2 class="anchored" data-anchor-id="modelling-mechanisms-in-hierarchical-spatio-temporal-models.">Modelling mechanisms in hierarchical spatio-temporal models.</h2>
+<section id="modelling-mechanisms-in-hierarchical-spatio-temporal-models" class="level2">
+<h2 class="anchored" data-anchor-id="modelling-mechanisms-in-hierarchical-spatio-temporal-models">Modelling mechanisms in hierarchical spatio-temporal models</h2>
 <p>Population dynamics model are widely used in ecology to estimate the demographic processes affecting of populations. They are extensively used for conservation and management of wildlife species. In fisheries science, these are major tools for estimating the level of exploitation of marine harvested population. These models are most often non-spatial.</p>
 <p>However, it is now recognized that including spatial dimension in those model is crucial because demographic processes have spatial variability. The development of new inference tools (INLA, TMB) has enable huge computation gains in inference of spatio-temporal models and newly available extensive data sources will provide fine scale information to inform these processes.</p>
 <p>During my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.</p>
 <ul>
 <li>See <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al.&nbsp;(2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.</li>
 </ul>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="ressource/images/snow_crab_ab.png" class="img-fluid figure-img"></p>
+<p><img src="ressource/images/snow_crab_ab.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption class="figure-caption"><strong>Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al.&nbsp;(2023)</strong></figcaption>
 </figure>
 </div>
-</div>
-</div>
-</div>
+</center>
 </section>
 <section id="multivariate-analysis-of-spatialspatio-temporal-data" class="level2">
 <h2 class="anchored" data-anchor-id="multivariate-analysis-of-spatialspatio-temporal-data">Multivariate analysis of spatial/spatio-temporal data</h2>
 <p>Massive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods.</p>
 <p><br>
 </p>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-center">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
+<center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="ressource/images/phenology_sole.png" class="img-fluid figure-img"></p>
+<p><img src="ressource/images/phenology_sole.png" class="img-fluid figure-img" style="width:75.0%"></p>
 <figcaption class="figure-caption"><strong>EOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018</strong></figcaption>
 </figure>
 </div>
-</div>
-</div>
-</div>
+</center>
 <!-- ## Dynamic systems inference -->
 
 

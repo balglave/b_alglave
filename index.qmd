@@ -5,11 +5,17 @@ title: ""
 :::: {.columns}
 ::: {.column width="75%"}
 
-I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment. During my PhD, I developed statistical hierarchical models combining commercial catch declarations data and scientific survey data to infer fish spatio-temporal distribution and identify their essential habitats for use in Marine Spatial Planning. Specifically, I developed methods to combine heterogeneous and massive data sources while accounting for preferential sampling of fisheries commercial data and difference in spatial resolution between the distinct data sources (change of support issues).
+I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment. 
 
-From January to June 2023, I was a post-doc fellow at the University of Washington (Seattle, USA) to develop spatio-temporal population dynamics models to project and address the effect of climate change on harvested population with the Snow Crab of the Bering Sea as case study.
+My research focus on the **development of statistical methods to infer spatio-temporal processes from massive and heterogeneous spatio-temporal data sources** (e.g. fishermen declarations, data from Geographic Information System, outputs of climatic models). 
 
-I am now assistant professor at the University Institute of Technology (IUT) in Vannes and at the Lab-STICC for research (DECIDE team). With the group focused on GIS, I am working on the interaction of urban landscape and climate. We aim at developing operational tools to help managers to plan urban areas in a context of land pressure, threat on ecosystems and climate change.
+This implies developing methods that accounts for potential non-standardized sampling of the data (**preferential sampling**) as well as differences in the spatial resolution of the distinct data sources (**change of support**) in order to integrate heterogeneous data sources in a single framework.
+
+Ultimately, these data can be used to infer **mechanism** within a statistical framework provided some knowledge is available on the hidden dynamics of the processes (e.g. population dynamics for ecological applications). 
+
+Also, this kind of massive data requires to develop methods handling the spatial and temporal dimension of the data to summarise the information into few modes of variation (**decomposition technics**), identify groups of time steps and locations that share similar variation or structure (**clustering technics**) and provide a synthetic summary of these data.
+
+My main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.
 
 You'll find additional details in the following pages!
 
