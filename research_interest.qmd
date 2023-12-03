@@ -50,7 +50,7 @@ However, it is now recognized that including spatial dimension in those model is
 
 During my postdoc I have worked on the spatial modelling of population dynamics. One paper is out and other should be published in the next years.
 
-- <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal stock assessment model.
+- See <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.
 
 ::: {layout-ncol="1" layout-valign="center"}
 ![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"}
