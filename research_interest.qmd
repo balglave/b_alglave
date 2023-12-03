@@ -63,7 +63,7 @@ Massive data sources give access to huge amount of spatial information on long t
 \
 
 ::: {layout-ncol="1" layout-valign="center"}
-![**EOF loading factors (left) and maps (right) for sole distribution between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
+![**EOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
 :::
 
 <!-- ## Dynamic systems inference -->
