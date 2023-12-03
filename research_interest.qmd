@@ -52,9 +52,9 @@ During my postdoc I have worked on the spatial modelling of population dynamics.
 
 - See <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.
 
-::: {layout-ncol="1" layout-valign="center"}
+<center>
 ![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"}
-:::
+</center>
 
 ## Multivariate analysis of spatial/spatio-temporal data
 
@@ -62,8 +62,10 @@ Massive data sources give access to huge amount of spatial information on long t
 
 \
 
-::: {layout-ncol="1" layout-valign="center"}
+<center>
 ![**EOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
+</center>
+
 :::
 
 <!-- ## Dynamic systems inference -->
