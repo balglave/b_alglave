@@ -1,1 +1,1 @@
-Sitemap: https://github.com/balglave/b_alglave/sitemap.xml
+Sitemap: https://balglave.github.io/b_alglave/sitemap.xml
