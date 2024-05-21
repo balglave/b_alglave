@@ -7,13 +7,6 @@
     "text": "I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment.\nMy research focus on the development of statistical methods to infer spatio-temporal processes from massive and heterogeneous spatio-temporal data sources (e.g. fishermen declarations, data from Geographic Information System, outputs of climatic models).\nThis implies developing methods that accounts for potential non-standardized sampling of the data (preferential sampling) as well as differences in the spatial resolution of the distinct data sources (change of support) in order to integrate heterogeneous data sources in a single framework.\nUltimately, these data can be used to infer mechanism within a statistical framework provided some knowledge is available on the hidden dynamics of the processes (e.g. population dynamics for ecological applications).\nAlso, this kind of massive data requires to develop methods handling the spatial and temporal dimension of the data to summarise the information into few modes of variation (decomposition technics), identify groups of time steps and locations that share similar variation or structure (clustering technics) and provide a synthetic summary of these data.\nMy main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
   },
   {
-    "objectID": "supervision.html",
-    "href": "supervision.html",
-    "title": "Opportunities",
-    "section": "",
-    "text": "Master thesis (M2, 6 months). Mapping and profiling French cities based on local climate zones. link\n\n\n\n\n\nLocal climate zones for Renes"
-  },
-  {
     "objectID": "research_interest.html",
     "href": "research_interest.html",
     "title": "Research interests",
@@ -47,6 +40,13 @@
     "title": "Research interests",
     "section": "Multivariate analysis of spatial/spatio-temporal data",
     "text": "Multivariate analysis of spatial/spatio-temporal data\nMassive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods.\n\n\n\n\n\n\nEOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018"
+  },
+  {
+    "objectID": "supervision.html",
+    "href": "supervision.html",
+    "title": "Opportunities",
+    "section": "",
+    "text": "Master thesis (M2, 6 months). Mapping and profiling French cities based on local climate zones. link\n\n\n\n\n\nLocal climate zones for Renes"
   },
   {
     "objectID": "teaching.html",
