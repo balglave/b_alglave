@@ -8,7 +8,7 @@ website:
     left:
       - research_interest.qmd
       - teaching.qmd
-      - supervision.qmd
+      # - supervision.qmd
 
   
 format:
