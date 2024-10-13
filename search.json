@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Baptiste Alglave",
-    "section": "",
-    "text": "I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment.\nMy research focus on the development of statistical methods to infer spatio-temporal processes from massive and heterogeneous spatio-temporal data sources (e.g. fishermen declarations, data from Geographic Information System, outputs of climatic models).\nThis implies developing methods that accounts for potential non-standardized sampling of the data (preferential sampling) as well as differences in the spatial resolution of the distinct data sources (change of support) in order to integrate heterogeneous data sources in a single framework.\nUltimately, these data can be used to infer mechanism within a statistical framework provided some knowledge is available on the hidden dynamics of the processes (e.g. population dynamics for ecological applications).\nAlso, this kind of massive data requires to develop methods handling the spatial and temporal dimension of the data to summarise the information into few modes of variation (decomposition technics), identify groups of time steps and locations that share similar variation or structure (clustering technics) and provide a synthetic summary of these data.\nMy main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
-  },
-  {
     "objectID": "research_interest.html",
     "href": "research_interest.html",
     "title": "Research interests",
@@ -54,5 +40,19 @@
     "title": "Opportunities",
     "section": "",
     "text": "Master thesis (M2, 6 months). Mapping and profiling French cities based on local climate zones. link\n\n\n\n\n\nLocal climate zones for Renes"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Spatial and spatio-temporal statistics for ecology\nThis is a short introduction of spatio-temporal modeling. It starts with basic concepts related to hierarchical modeling in a spatio-temporal context before moving to specific notions regarding the specification of the spatial and spatio-temporal variance-covariance function. Some inference methods are also described (kriging, maximum likelihood method and Bayesian inference with a focus on INLA). Some codes are presented to take in hand R-INLA, a R package to infer spatial and spatio-temporal models through Bayesian inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nWikle, C. K., Zammit-Mangion, A., & Cressie, N. Spatio-temporal Statistics with R. Chapman and Hall/CRC, 2019. link\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\nCressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link\n\n\n\n\nWorkshop on R-INLA\nThis is a short introduction to the R-INLA tool, a R package to infer spatial and spatio-temporal models through Bayesian inference. It first describes the global structure of the models implemented in R-INLA. Second, it introduces the SPDE approach and the Integrated Nested Laplace Approximation two methods implemented in R-INLA to ease the computation burden related to spatial and spatio-temporal model inference. Here are the slides and the related codes.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThese slides are mainly based on:\n\nKrainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. link\na workshop provided by Thomas Opitz and Denis Allard at Rochebrune. link"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baptiste Alglave",
+    "section": "",
+    "text": "I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment.\nMy research focus on the development of statistical methods to infer spatio-temporal processes from massive and heterogeneous spatio-temporal data sources (e.g. fishermen declarations, data from Geographic Information System, outputs of climatic models).\nThis implies developing methods that accounts for potential non-standardized sampling of the data (preferential sampling) as well as differences in the spatial resolution of the distinct data sources (change of support) in order to integrate heterogeneous data sources in a single framework.\nUltimately, these data can be used to infer mechanism within a statistical framework provided some knowledge is available on the hidden dynamics of the processes (e.g. population dynamics for ecological applications).\nAlso, this kind of massive data requires to develop methods handling the spatial and temporal dimension of the data to summarise the information into few modes of variation (decomposition technics), identify groups of time steps and locations that share similar variation or structure (clustering technics) and provide a synthetic summary of these data.\nMy main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
   }
 ]
