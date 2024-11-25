@@ -4,19 +4,19 @@ title: "Research interests"
 
 <!-- Linking statistical methods and field of applications in environment. -->
 
-## Preferential sampling
+## Handling non-homogeneous and preferential sampling
 
-During my PhD, I developed a spatio-temporal hierarchical model based on fisheries data sources to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial data.
+I developed an integrated spatio-temporal hierarchical model to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial declaration data.
 
 You'll find some description of this approach in the following references:
 
 - <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> for a spatial version of the framework.
 
-- <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (in press)</a> for a spatio-temporal version of the framework.
+- <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (2023)</a> for a spatio-temporal version of the framework.
 
 ## Change of support
 
-I also developped a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine aggregated massive data and fine scale survey data to map fish distribution.
+I also developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution.
 
 - <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
@@ -27,9 +27,13 @@ I also developped a statistical approach handling change of support for complex 
 
 ## Modelling mechanisms in hierarchical spatio-temporal models
 
-During my postdoc, I have worked on the development of an hierarchical framework modelling population dynamics in space by integrating survey data and commercial catch data. 
+I have worked on the development of spatio-temporal population dynamics models that combines massive sources of data to tackle the effect of climate change on marine populations.
 
-- See <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.
+See:
+
+- <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.
+
+- <a href="https://doi.org/10.1093/icesjms/fsae002">Rovellini et al. (2024)</a> for a mechanistic spatio-temporal model linking climate stressors to ecological processes.
 
 <center>
 ![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"}
@@ -37,12 +41,16 @@ During my postdoc, I have worked on the development of an hierarchical framework
 
 ## Multivariate analysis of spatial/spatio-temporal data
 
-Massive data sources give access to huge amount of spatial information on long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOF (Empirical Orthogonal Function) method. I am interested in the development of these methods, how these methods are related between each other and how new research avenues could be drawn from these methods.
+Massive data sources give access to huge amount of spatial information over long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOFs method (Empirical Orthogonal Functions). I am interested in the development of these methods, how these methods are related between each other and how they can be used to analyse environmental spatio-temporal processes in the context of climate change.
 
-\
+Here are some references to my work:
+
+- <a href="https://hal.science/hal-04693871">Alglave et al. (under review)</a> for an introduction to the basics of EOFs and some statistical development of EOFs.
+
+- <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2024)</a> for an application of EOFs to identify essential habitats from a spatio-temporal species distrution model.
 
 <center>
-![**EOF loading factors (left) and maps (right) for sole inthe Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
+![**EOFs results for common sole in the Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
 </center>
 
 

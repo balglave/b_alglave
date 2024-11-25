@@ -5,17 +5,9 @@ title: ""
 :::: {.columns}
 ::: {.column width="75%"}
 
-I am an applied statistician with a specific interest in spatio-temporal modeling and applications in environment. 
+I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment. 
 
-My research focus on the **development of statistical methods to infer spatio-temporal processes from massive and heterogeneous spatio-temporal data sources** (e.g. fishermen declarations, data from Geographic Information System, outputs of climatic models). 
-
-This implies developing methods that accounts for potential non-standardized sampling of the data (**preferential sampling**) as well as differences in the spatial resolution of the distinct data sources (**change of support**) in order to integrate heterogeneous data sources in a single framework.
-
-Ultimately, these data can be used to infer **mechanism** within a statistical framework provided some knowledge is available on the hidden dynamics of the processes (e.g. population dynamics for ecological applications). 
-
-Also, this kind of massive data requires to develop methods handling the spatial and temporal dimension of the data to summarise the information into few modes of variation (**decomposition technics**), identify groups of time steps and locations that share similar variation or structure (**clustering technics**) and provide a synthetic summary of these data.
-
-My main fields of application are marine ecology, fisheries science, geography and micro-climate of urban areas.
+My research focus on the **statistical integration of heterogeneous datasets to infer spatio-temporal ecological and environmental processes**. My main fields of application are species distribution  modeling, marine ecology, geography and micro-climate of urban areas.
 
 You'll find additional details in the following pages!
 
