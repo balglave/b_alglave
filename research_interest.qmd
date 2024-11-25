@@ -14,7 +14,7 @@ You'll find some description of this approach in the following references:
 
 - <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (2023)</a> for a spatio-temporal version of the framework.
 
-## Change of support
+## Handling change of support
 
 I also developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution.
 

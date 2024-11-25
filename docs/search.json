@@ -32,7 +32,7 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment.\nMy research focus on the statistical integration of heterogeneous datasets to infer spatio-temporal ecological and environmental processes. My main fields of application are species distribution modeling, marine ecology, geography and micro-climate of urban areas.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
+    "text": "I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment. I currently work at University Bretagne Sud as associate professor in statistics (IUT Vannes, Data Science department). Regarding research, I work within the GIS group of the Lab-STICC (UMR 6285,  DECIDE team).\nMy research focus on the statistical integration of heterogeneous datasets to infer spatio-temporal ecological and environmental processes. My main fields of application are species distribution modeling, marine ecology, geography and micro-climate of urban areas.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email:\nbaptiste.alglave@univ-ubs.fr\nMy current adress:\n8 Rue Michel de Montaigne, 56000 Vannes"
   },
   {
     "objectID": "lab_comm.html",
@@ -208,5 +208,12 @@
     "title": "Research interests",
     "section": "",
     "text": "I developed an integrated spatio-temporal hierarchical model to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial declaration data.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (2023) for a spatio-temporal version of the framework."
+  },
+  {
+    "objectID": "research_interest.html#handling-change-of-support",
+    "href": "research_interest.html#handling-change-of-support",
+    "title": "Research interests",
+    "section": "Handling change of support",
+    "text": "Handling change of support\nI also developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution.\n\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
   }
 ]
