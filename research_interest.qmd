@@ -4,7 +4,7 @@ title: "Research interests"
 
 <!-- Linking statistical methods and field of applications in environment. -->
 
-## Handling non-homogeneous and preferential sampling
+## Handling preferential sampling in hierarchical models
 
 I developed an integrated spatio-temporal hierarchical model to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial declaration data.
 
@@ -41,7 +41,7 @@ See:
 
 ## Dimension reduction for spatial/spatio-temporal data
 
-Massive data sources give access to huge amount of spatial information over long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOFs method (Empirical Orthogonal Functions). I am interested in the development of these methods, how these methods are related between each other and how they can be used to analyse environmental spatio-temporal processes in the context of climate change.
+Massive data sources give access to huge amount of spatial information over long time series. Methods to reduce the dimension of these data are critical to analyse and interpret such data.
 
 Here are some references to my work:
 
