@@ -16,7 +16,7 @@ Integrating all these datasets requires tackling strong methodological issues. C
 
 When all the data are integrated, they give access to a huge amount of information (*i.e.* spatial information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping the process under study (**dimension-reduction**).
 
-In the few sections below, I present the different axes of my research work. At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with a specific emphasis on fish distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to environmental topics, particularly the interactions between climate and territorial spatial planning.
+In the few sections below, I present the different axes of my research work. At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with an emphasis on fish spatio-temporal distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to other environmental topics, particularly the interactions between climate and territorial spatial planning.
 
 <center>
 ![**Abundance spatio-temporal predictions of an integrated population dynamics model <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">(Olmos et al., 2023)</a>**](ressource/images/snow_crab_ab.png){width="75%"}
@@ -56,7 +56,7 @@ I'm currently working on an integrated hierarchical spatio-temporal model that a
 
 Once integrated, all these data sources give access to a huge amount of spatial information over long time series (*e.g.* species distribution on large spatial domain that cover a wide temporal span). Methods to reduce the dimension of these data are critical to analyse and interpret such data. Empirical Orthogonal Functions (EOFs) are the keystone method for reducing the dimension of spatio-temporal data.
 
-In my research, I intend to adapt these methods to address ecological issues (e.g. extend these methods to the multivariate case, set constrains on EOFs to ensure ecological interpretability).
+In my research, I intend to adapt these methods to address specific ecological issues (e.g. extend these methods to the multivariate case, set constrains on EOFs to ensure ecological interpretability).
 
 Here are some references to my work:
 

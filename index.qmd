@@ -7,7 +7,7 @@ title: ""
 
 I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment. I currently work at University Bretagne Sud as associate professor in statistics (IUT Vannes, Data Science department) in the GIS group of the Lab-STICC (UMR 6285, <a href="https://labsticc.fr/fr/equipes/decide"> DECIDE team</a>).
 
-My research focus on **statistical integration for spatio-temporal modeling in ecological and environmental applications**.
+My research focus on **statistical integration for spatio-temporal modeling in ecology and environmental sciences**.
 
 You'll find additional details in the following pages!
 
