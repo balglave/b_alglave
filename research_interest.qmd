@@ -2,17 +2,25 @@
 title: "Research interests"
 ---
 
-<!-- #  -->
+Modeling ecological and environmental processes in both space and time is critical to address the current challenges raised by global change.
 
-<!-- I have worked on the development of spatio-temporal population dynamics models that combines massive sources of data to tackle the effect of climate change on marine populations. -->
+For instance, mapping species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.
 
-<!-- in hierarchical spatio-temporal models -->
+Identifying where and when urban areas are vulnerable to overheating is critical to adapt urban planning and ensure a better cooling of cities in response to climate change.
 
-<!-- - <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">Olmos et al. (2023)</a> for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea. -->
+Thanks to citizen science and declarative data, a massive amount of data is becoming available to address these challenges at an unprecedented spatio-temporal resolution.
 
-<!-- <center> -->
-<!-- ![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"} -->
-<!-- </center> -->
+My research seeks to develop **spatio-temporal statistical methods** to integrate these datasets and provide the knowledge for tackling these practical issues.
+
+Integrating all these datasets requires tackling strong methodological issues. Combining multiple and heterogeneous datasets in a single statistical framework is a first challenge, which is referred to as **integrated modeling** in ecology. Also, the data to be integrated do not necessarily follow a well-defined sampling plan, and accounting for potential **sampling bias** is key in providing reliable inference of the process under study. Data are also often available at a rough scale, while the process under study is required to be available at a fine scale. This is usually referred to as a **change of support** problem (or change of scale). Note that I adopt the **hierarchical formalism** to integrate the different data sources and handle the distinct source of bias that arise from the data.
+
+When all the data are integrated, they give access to a huge amount of information (*i.e.* spatial information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping the process under study (**dimension-reduction**).
+
+In the few sections below, I present the different axes of my research work. At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with a specific emphasis on fish distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to environmental topics, particularly the interactions between climate and territorial spatial planning.
+
+<center>
+![**Abundance spatio-temporal predictions of an integrated population dynamics model <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">(Olmos et al., 2023)</a>**](ressource/images/snow_crab_ab.png){width="75%"}
+</center>
 
 ## Handling preferential sampling
 
@@ -28,8 +36,9 @@ You'll find some description of this approach in the following references:
 
 ## Handling change of support
 
-In addition to preferential sampling, these massive datasets can be defined at a rough spatio-temporal scale while the process of interest must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study. 
-I developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict species distribution at a fine scale.
+In addition to preferential sampling, these massive datasets are often available at a rough spatio-temporal scale while the process of interest must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study.
+
+I developed a statistical approach handling change of support for complex environmental data (zero-inflated data with heavy tails). It allows to combine (massive) areal-level data and point-level data to map species distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict fish distribution at a fine scale.
 
 - <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
 
@@ -37,7 +46,7 @@ I developed a statistical approach handling change of support for complex enviro
 
 Once the different sources of bias have been identified, all the datasets can be combined in a single hierarchical spatio-temporal model.
 
-I'm currently working on an integrated hierarchical spatio-temporal model that accounts for both change of support and preferential sampling. It is the basis for a generic integrated hierarchical model aiming at combining heterogneous datasets for ecological and environmental applications.
+I'm currently working on an integrated hierarchical spatio-temporal model that accounts for both change of support and preferential sampling. It is the basis for a generic integrated hierarchical model aiming at combining heterogeneous datasets for ecological and environmental applications.
 
 <center>
 ![**Conceptual diagram of the hierarchical model**](ressource/images/conceptual_framework.png)
@@ -51,7 +60,7 @@ In my research, I intend to adapt these methods to address ecological issues (e.
 
 Here are some references to my work:
 
-- <a href="https://hal.science/hal-04693871">Alglave et al. (under review)</a> for an introduction to the basics of EOFs and some statistical development of EOFs.
+- <a href="https://hal.science/hal-04693871">Alglave et al. (under review)</a> for an introduction to the basics of EOFs and some statistical development of EOFs to address specific ecological issues.
 
 - <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2024)</a> for an application of EOFs to identify essential habitats from a spatio-temporal species distribution model.
 
