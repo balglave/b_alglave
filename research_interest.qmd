@@ -39,7 +39,7 @@ See:
 ![**Estimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)**](ressource/images/snow_crab_ab.png){width="75%"}
 </center>
 
-## Multivariate analysis of spatial/spatio-temporal data
+## Dimension reduction for spatial/spatio-temporal data
 
 Massive data sources give access to huge amount of spatial information over long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOFs method (Empirical Orthogonal Functions). I am interested in the development of these methods, how these methods are related between each other and how they can be used to analyse environmental spatio-temporal processes in the context of climate change.
 
