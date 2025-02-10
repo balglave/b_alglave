@@ -2,11 +2,11 @@
 title: "Research interests"
 ---
 
-Modeling ecological and environmental processes in both space and time is critical to address the current challenges raised by global change.
+Modeling ecological and environmental processes in both space and time is critical to address the current challenges raised by global change. For instance, 
 
-For instance, mapping species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.
+- mapping species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.
 
-Identifying where and when urban areas are vulnerable to overheating is critical to adapt urban planning and ensure a better cooling of cities in response to climate change.
+- identifying where and when urban areas are vulnerable to overheating is critical to adapt urban planning and ensure a better cooling of cities in response to climate change.
 
 Thanks to citizen science and declarative data, a massive amount of data is becoming available to address these challenges at an unprecedented spatio-temporal resolution.
 
