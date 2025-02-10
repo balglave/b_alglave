@@ -4,42 +4,42 @@
     "href": "index.html",
     "title": "Baptiste Alglave",
     "section": "",
-    "text": "I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment. I currently work at University Bretagne Sud as associate professor in statistics (IUT Vannes, Data Science department). I work currently within the GIS group of the Lab-STICC (UMR 6285,  DECIDE team).\nMy research focus on statistical integration for spatio-temporal modeling in ecological and environmental applications.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email: baptiste.alglave@univ-ubs.fr\nMy current work address: 8 Rue Michel de Montaigne, 56000 Vannes"
+    "text": "I am an applied statistician with a specific interest in statistical modeling applied to ecology and environment. I currently work at University Bretagne Sud as associate professor in statistics (IUT Vannes, Data Science department) in the GIS group of the Lab-STICC (UMR 6285,  DECIDE team).\nMy research focus on statistical integration for spatio-temporal modeling in ecological and environmental applications.\nYou’ll find additional details in the following pages!\n\n\n\n\n\nCV\n\n\n\nIf you want to contact me, here are some information.\nMy Email: baptiste.alglave@univ-ubs.fr\nMy current work address: 8 Rue Michel de Montaigne, 56000 Vannes"
   },
   {
     "objectID": "research_interest.html",
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "I developed an integrated spatio-temporal hierarchical model to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial declaration data.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (2023) for a spatio-temporal version of the framework."
+    "text": "Inferring ecological or environmental processes (e.g. species spatio-temporal distribution) can be done through diverse source of data some of which do not necessarily follow a standardized sampling plan (opportunistic sampling). In some cases, the sampling agents target areas where they know the variable under study is high. The typical example is the case of fishermen that target areas where fish biomass is higher. In such case, the sampling is called preferential. Developing methods that handle preferential sampling is a critical issue to provide unbiased predictions of the process under study.\nSince my PhD, I have been developing an integrated spatio-temporal hierarchical model to map fish species distribution. It accounts for preferential sampling to integrate massive commercial catch declaration data and standardized fine-scale scientific survey data.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (2023) for a spatio-temporal version of the framework."
   },
   {
-    "objectID": "research_interest.html#handling-non-homogeneous-and-preferential-sampling",
-    "href": "research_interest.html#handling-non-homogeneous-and-preferential-sampling",
+    "objectID": "research_interest.html#handling-preferential-sampling",
+    "href": "research_interest.html#handling-preferential-sampling",
     "title": "Research interests",
     "section": "",
-    "text": "I developed an integrated spatio-temporal hierarchical model to map fish distribution. It feeds on massive catch declaration data and standardized fine-scale scientific survey data. It accounts for preferential sampling of the commercial declaration data.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (2023) for a spatio-temporal version of the framework."
+    "text": "Inferring ecological or environmental processes (e.g. species spatio-temporal distribution) can be done through diverse source of data some of which do not necessarily follow a standardized sampling plan (opportunistic sampling). In some cases, the sampling agents target areas where they know the variable under study is high. The typical example is the case of fishermen that target areas where fish biomass is higher. In such case, the sampling is called preferential. Developing methods that handle preferential sampling is a critical issue to provide unbiased predictions of the process under study.\nSince my PhD, I have been developing an integrated spatio-temporal hierarchical model to map fish species distribution. It accounts for preferential sampling to integrate massive commercial catch declaration data and standardized fine-scale scientific survey data.\nYou’ll find some description of this approach in the following references:\n\nAlglave et al. (2022) for a spatial version of the framework.\nAlglave et al. (2023) for a spatio-temporal version of the framework."
   },
   {
     "objectID": "research_interest.html#handling-change-of-support",
     "href": "research_interest.html#handling-change-of-support",
     "title": "Research interests",
     "section": "Handling change of support",
-    "text": "Handling change of support\nI also developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution.\n\nAlglave et al. (under review) for a model accounting for change of support.\n\n\n\n\n\nConceptual diagram of the hierarchical model"
+    "text": "Handling change of support\nIn addition to preferential sampling, these massive datasets can be defined at a rough spatio-temporal scale while the process of interest must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study. I developed a statistical approach handling change of support for complex environmental data (zero-inflated data with long tails). It allows to combine (massive) areal-level data and point-level data to map fish distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict species distribution at a fine scale.\n\nAlglave et al. (under review) for a model accounting for change of support."
   },
   {
-    "objectID": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models",
-    "href": "research_interest.html#modelling-mechanisms-in-hierarchical-spatio-temporal-models",
+    "objectID": "research_interest.html#integrating-the-different-data-sources",
+    "href": "research_interest.html#integrating-the-different-data-sources",
     "title": "Research interests",
-    "section": "Modelling mechanisms in hierarchical spatio-temporal models",
-    "text": "Modelling mechanisms in hierarchical spatio-temporal models\nI have worked on the development of spatio-temporal population dynamics models that combines massive sources of data to tackle the effect of climate change on marine populations.\nSee:\n\nOlmos et al. (2023) for a spatio-temporal model representing population dynamics of the Snow Crab in the Eastern Bering Sea.\nRovellini et al. (2024) for a mechanistic spatio-temporal model linking climate stressors to ecological processes.\n\n\n\n\n\nEstimates of abundance of the spatio-temporal stock assessment method developped by Olmos et al. (2023)"
+    "section": "Integrating the different data sources",
+    "text": "Integrating the different data sources\nOnce the different sources of bias have been identified, all the datasets can be combined in a single hierarchical spatio-temporal model.\nI’m currently working on an integrated hierarchical spatio-temporal model that accounts for both change of support and preferential sampling. It is the basis for a generic integrated hierarchical model aiming at combining heterogneous datasets for ecological and environmental applications.\n\n\n\n\nConceptual diagram of the hierarchical model"
   },
   {
-    "objectID": "research_interest.html#dimension-reduction-for-spatialspatio-temporal-data",
-    "href": "research_interest.html#dimension-reduction-for-spatialspatio-temporal-data",
+    "objectID": "research_interest.html#dimension-reduction-for-spatio-temporal-data",
+    "href": "research_interest.html#dimension-reduction-for-spatio-temporal-data",
     "title": "Research interests",
-    "section": "Dimension reduction for spatial/spatio-temporal data",
-    "text": "Dimension reduction for spatial/spatio-temporal data\nMassive data sources give access to huge amount of spatial information over long time series. Methods to decompose the spatio-temporal variability of the signal into simple spatial and temporal patterns have been developed for the past 50 years based on the EOFs method (Empirical Orthogonal Functions). I am interested in the development of these methods, how these methods are related between each other and how they can be used to analyse environmental spatio-temporal processes in the context of climate change.\nHere are some references to my work:\n\nAlglave et al. (under review) for an introduction to the basics of EOFs and some statistical development of EOFs.\nAlglave et al. (2024) for an application of EOFs to identify essential habitats from a spatio-temporal species distrution model.\n\n\n\n\n\nEOFs results for common sole in the Bay of Biscay between 2008 and 2018"
+    "section": "Dimension reduction for spatio-temporal data",
+    "text": "Dimension reduction for spatio-temporal data\nOnce integrated, all these data sources give access to a huge amount of spatial information over long time series (e.g. species distribution on large spatial domain that cover a wide temporal span). Methods to reduce the dimension of these data are critical to analyse and interpret such data. Empirical Orthogonal Functions (EOFs) are the keystone method for reducing the dimension of spatio-temporal data.\nIn my research, I intend to adapt these methods to address ecological issues (e.g. extend these methods to the multivariate case, set constrains on EOFs to ensure ecological interpretability).\nHere are some references to my work:\n\nAlglave et al. (under review) for an introduction to the basics of EOFs and some statistical development of EOFs.\nAlglave et al. (2024) for an application of EOFs to identify essential habitats from a spatio-temporal species distribution model.\n\n\n\n\n\nEOFs results for common sole in the Bay of Biscay between 2008 and 2018"
   },
   {
     "objectID": "supervision.html",
