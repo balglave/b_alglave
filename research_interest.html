@@ -140,16 +140,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Modeling ecological and environmental processes in both space and time is critical to address the current challenges raised by global change. For instance,</p>
-<ul>
-<li><p>mapping species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.</p></li>
-<li><p>identifying where and when urban areas are vulnerable to overheating is critical to adapt urban planning and ensure a better cooling of cities in response to climate change.</p></li>
-</ul>
+<p>Modeling species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.</p>
 <p>Thanks to citizen science and declarative data, a massive amount of data is becoming available to address these challenges at an unprecedented spatio-temporal resolution.</p>
-<p>My research seeks to develop <strong>spatio-temporal statistical methods</strong> to integrate these datasets and provide the knowledge for tackling these practical issues.</p>
-<p>Integrating all these datasets requires tackling strong methodological issues. Combining multiple and heterogeneous datasets in a single statistical framework is a first challenge, which is referred to as <strong>integrated modeling</strong> in ecology. Also, the data to be integrated do not necessarily follow a well-defined sampling plan, and accounting for potential <strong>sampling bias</strong> is key in providing reliable inference of the process under study. Data are also often available at a rough scale, while the process under study is required to be available at a fine scale. This is usually referred to as a <strong>change of support</strong> problem (or change of scale). Note that I adopt the <strong>hierarchical formalism</strong> to integrate the different data sources and handle the distinct source of bias that arise from the data.</p>
-<p>When all the data are integrated, they give access to a huge amount of information (<em>i.e.</em> spatial information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping the process under study (<strong>dimension-reduction</strong>).</p>
-<p>In the few sections below, I present the different axes of my research work. At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with an emphasis on fish spatio-temporal distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to other environmental topics, particularly the interactions between climate and territorial spatial planning.</p>
+<p>My research seeks to develop <strong>spatio-temporal statistical methods</strong> to integrate these datasets for mapping species distribution in space and time.</p>
+<p>Integrating all these datasets raised strong methodological issues. Combining multiple and heterogeneous datasets in a single statistical framework is a first challenge, which is referred to as <strong>integrated modeling</strong> in ecology. Also, the data to be integrated do not necessarily follow a well-defined sampling plan, and accounting for potential <strong>sampling bias</strong> is key in providing reliable inference of the process under study. Data are also often available at a rough scale, while the process under study is required to be available at a fine scale. This is usually referred to as a <strong>change of support</strong> problem (or change of scale). Note that I adopt the <strong>hierarchical formalism</strong> to integrate the different data sources and handle the distinct source of bias that arise from the data.</p>
+<p>When all the data are integrated, they give access to a huge amount of information on species distribution (<em>i.e.</em> information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping species spatio-temporal distribution (<strong>dimension-reduction</strong>).</p>
+<p>In the few sections below, I present the different axes of my research work.</p>
+<!-- At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with an emphasis on fish spatio-temporal distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to other environmental topics, particularly the interactions between climate and territorial spatial planning. -->
 <center>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -160,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 </center>
 <section id="handling-preferential-sampling" class="level2">
 <h2 class="anchored" data-anchor-id="handling-preferential-sampling">Handling preferential sampling</h2>
-<p>Inferring ecological or environmental processes (<em>e.g.</em> species spatio-temporal distribution) can be done through diverse source of data some of which do not necessarily follow a standardized sampling plan (<strong>opportunistic sampling</strong>). In some cases, the sampling agents target areas where they know the variable under study is high. The typical example is the case of fishermen that target areas where fish biomass is higher. In such case, the sampling is called <strong>preferential</strong>. Developing methods that handle preferential sampling is a critical issue to provide unbiased predictions of the process under study.</p>
+<p>Inferring species spatio-temporal distribution can be done through diverse source of data some of which do not necessarily follow a standardized sampling plan (<strong>opportunistic sampling</strong>). In some cases, the sampling agents target areas where they know the variable under study is high. The typical example is the case of fishermen that target areas where fish biomass is higher. In such case, the sampling is called <strong>preferential</strong>. Developing methods that handle preferential sampling is a critical issue to provide unbiased predictions of the process under study.</p>
 <p>Since my PhD, I have been developing an integrated spatio-temporal hierarchical model to map fish species distribution. It accounts for preferential sampling to integrate massive commercial catch declaration data and standardized fine-scale scientific survey data.</p>
 <p>You’ll find some description of this approach in the following references:</p>
 <ul>
@@ -170,8 +167,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="handling-change-of-support" class="level2">
 <h2 class="anchored" data-anchor-id="handling-change-of-support">Handling change of support</h2>
-<p>In addition to preferential sampling, these massive datasets are often available at a rough spatio-temporal scale while the process of interest must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study.</p>
-<p>I developed a statistical approach handling change of support for complex environmental data (zero-inflated data with heavy tails). It allows to combine (massive) areal-level data and point-level data to map species distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict fish distribution at a fine scale.</p>
+<p>In addition to preferential sampling, these massive datasets are often available at a rough spatio-temporal scale while the process of interest (species distribution) must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study.</p>
+<p>I developed a statistical approach handling change of support for complex ecological data (zero-inflated data with heavy tails). It allows to combine (massive) areal-level data and point-level data to map species distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict fish distribution at a fine scale.</p>
 <ul>
 <li><a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al.&nbsp;(under review)</a> for a model accounting for change of support.</li>
 </ul>
@@ -191,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="dimension-reduction-for-spatio-temporal-data" class="level2">
 <h2 class="anchored" data-anchor-id="dimension-reduction-for-spatio-temporal-data">Dimension reduction for spatio-temporal data</h2>
-<p>Once integrated, all these data sources give access to a huge amount of spatial information over long time series (<em>e.g.</em> species distribution on large spatial domain that cover a wide temporal span). Methods to reduce the dimension of these data are critical to analyse and interpret such data. Empirical Orthogonal Functions (EOFs) are the keystone method for reducing the dimension of spatio-temporal data.</p>
+<p>Once integrated, all these data sources give access to a huge amount of spatial information over long time series. Methods to reduce the dimension of these data are critical to analyse and interpret such information. Empirical Orthogonal Functions (EOFs) are the keystone method for reducing the dimension of spatio-temporal data.</p>
 <p>In my research, I intend to adapt these methods to address specific ecological issues (e.g.&nbsp;extend these methods to the multivariate case, set constrains on EOFs to ensure ecological interpretability).</p>
 <p>Here are some references to my work:</p>
 <ul>
