@@ -8,11 +8,11 @@ Thanks to citizen science and declarative data, a massive amount of data is beco
 
 My research seeks to develop **spatio-temporal statistical methods** to integrate these datasets for mapping species distribution in space and time.
 
-Integrating all these datasets raises strong methodological issues. Combining multiple and heterogeneous datasets in a single statistical framework is a first challenge, which is referred to as **integrated modeling** in ecology. Also, the data to be integrated do not necessarily follow a well-defined sampling plan, and accounting for potential **sampling bias** is key in providing reliable inference of the process under study. Data are also often available at a rough scale, while the process under study is required to be available at a fine scale. This is usually referred to as a **change of support** problem (or change of scale). Note that I adopt the **hierarchical formalism** to integrate the different data sources and handle the distinct source of bias that arise from the data.
+Integrating all these datasets raises strong methodological issues. Typically, combining multiple and heterogeneous datasets in a single statistical framework requires to account for potential **sampling bias** (opportunistic/preferential sampling). Data are also often available at a rough scale, while the process under study need to be available at a fine scale (**change of support** or change of scale problem). 
 
 When all the data are integrated, they give access to a huge amount of information on species distribution (*i.e.* information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping species spatio-temporal distribution (**dimension-reduction**).
 
-In the few sections below, I present the different axes of my research work. 
+In the few sections below, I present the different axes of my research work. I first present the methodological bottlenecks that need to be addressed before integrating the datasets (preferential sampling, change of support). I then introduce a tool to integrate data while accounting for preferential sampling and change of support. I finally deal with dimension-reduction methods for spatio-temporal data.
 
 <!-- At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with an emphasis on fish spatio-temporal distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to other environmental topics, particularly the interactions between climate and territorial spatial planning. -->
 
