@@ -25,7 +25,7 @@ These slides are mainly based on:
 
 -   Cressie, Noel, and Christopher K. Wikle. Statistics for spatio-temporal data. John Wiley & Sons, 2015.
 
--   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href=https://www6.inrae.fr/mia-paris/Seminaires/Workshop/>link</a>
+-   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune.
 
 <br>
 
@@ -47,6 +47,4 @@ These slides are mainly based on:
 
 -   Krainski, Elias, et al. Advanced spatial modeling with stochastic partial differential equations using R and INLA. Chapman and Hall/CRC, 2018. <a href=https://becarioprecario.bitbucket.io/spde-gitbook/>link</a>
 
--   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune. <a href=https://www6.inrae.fr/mia-paris/Seminaires/Workshop/>link</a>
-
-<br>
+-   a workshop provided by Thomas Opitz and Denis Allard at Rochebrune.
