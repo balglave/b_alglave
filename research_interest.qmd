@@ -2,66 +2,37 @@
 title: "Research interests"
 ---
 
-Modeling species distribution in space and time is a key challenge for conservation. Typically, such information is crucial to identify essential habitats or biodiversity hotspots and to design protected areas.
 
-Thanks to citizen science and declarative data, a massive amount of data is becoming available to address these challenges at an unprecedented spatio-temporal resolution.
+#### Mapping species distribution to inform marine spatial planning
 
-My research seeks to develop **spatio-temporal statistical methods** to integrate these datasets for mapping species distribution in space and time.
+- Alglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsac032">lien</a>
 
-Integrating all these datasets raises strong methodological issues. Typically, combining multiple and heterogeneous datasets in a single statistical framework requires to account for potential **sampling bias** (opportunistic/preferential sampling). Data are also often available at a rough scale, while the process under study need to be available at a fine scale (**change of support** or change of scale problem). 
+- Alglave B., Vermard Y., Rivot E., Etienne M.P., Woillez M. (2023). Identifying mature fish aggregation areas during spawning season by combining catch declarations and scientific survey data. Canadian Journal of Fisheries and Aquatic Sciences. <a href="http://dx.doi.org/10.1139/cjfas-2022-0110">lien</a>
 
-When all the data are integrated, they give access to a huge amount of information on species distribution (*i.e.* information available over large spatial domains and long time period). Providing a low rank representation of the process of interest is pivotal to identify the main mechanisms shaping species spatio-temporal distribution (**dimension-reduction**).
+- Alglave B., Mourguiart B., Vermard Y., Rivot E., Woillez M., Kristensen K., Etienne M.P. (2025). Change of support for zero-inflated data: deriving fine scale species distribution inferences from spatially aggregated data. Journal of the Royal Statistical Society Series C: Applied Statistics. <a href="https://doi.org/10.1093/jrsssc/qlaf056">lien</a> 
 
-In the few sections below, I present the different axes of my research work. I first present the methodological bottlenecks that need to be addressed before integrating the datasets (preferential sampling, change of support). I then introduce a model to integrate data while accounting for preferential sampling and change of support. I finally deal with dimension-reduction methods for spatio-temporal data.
-
-<!-- At this point, my research applications have focused on ecological applications and specifically species distribution modeling (with an emphasis on fish spatio-temporal distribution). As an associate professor in the geography group of the Lab-STICC, I am broadening my research scope to other environmental topics, particularly the interactions between climate and territorial spatial planning. -->
 
 <center>
-![**Abundance spatio-temporal predictions of an integrated population dynamics model <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">(Olmos et al., 2023)</a>**](ressource/images/snow_crab_ab.png){width="75%"}
+![**Conceptual diagram of the hierarchical model developped to map fish distribution**](ressource/images/conceptual_framework.png)
 </center>
 
-## Handling preferential sampling
 
-Inferring species spatio-temporal distribution can be done through diverse source of data some of which do not necessarily follow a standardized sampling plan (**opportunistic sampling**). In some cases, the sampling agents target areas where they know the variable under study is high. The typical example is the case of fishermen that target areas where fish biomass is higher. In such case, the sampling is called **preferential**. Developing methods that handle preferential sampling is a critical issue to provide unbiased predictions of the process under study.
+#### Analysing species distribution to identify functional areas
 
-Since my PhD, I have been developing an integrated spatio-temporal hierarchical model to map fish species distribution. It accounts for preferential sampling to integrate massive commercial catch declaration data and standardized fine-scale scientific survey data.
+- Alglave B., Olmos, M., Casemajor, J., Etienne, M. P., Rivot, E., Woillez, M., Vermard, Y. (2024). Investigating fish reproduction phenology and essential habitats by identifying the main spatio-seasonal patterns of fish distribution. ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsae099">lien</a> 
 
-You'll find some description of this approach in the following references:
-
-- <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2022)</a> for a spatial version of the framework.
-
-- <a href="https://hal.archives-ouvertes.fr/hal-03674691/">Alglave et al. (2023)</a> for a spatio-temporal version of the framework.
-
-## Handling change of support
-
-In addition to preferential sampling, these massive datasets are often available at a rough spatio-temporal scale while the process of interest (species distribution) must be inferred at a fine scale. This is typically a change of support problem (or change of scale problem). Spatio-temporal statistical models need to account for change of support to provide reliable predictions of the process under study.
-
-I developed a statistical approach handling change of support for complex ecological data (zero-inflated data with heavy tails). It allows to combine (massive) areal-level data and point-level data to map species distribution. It has been applied on commercial catch declarations data (defined at the scale of 0.5° x 1° ICES rectangles) to predict fish distribution at a fine scale.
-
-- <a href="https://hal.archives-ouvertes.fr/hal-03878990">Alglave et al. (under review)</a> for a model accounting for change of support.
-
-## Integrating the different data sources
-
-Once the different sources of bias have been identified, all the datasets can be combined in a single hierarchical spatio-temporal model.
-
-I'm currently working on an integrated hierarchical spatio-temporal model that accounts for both change of support and preferential sampling. It is the basis for a generic integrated hierarchical model aiming at combining heterogeneous datasets for ecological and environmental applications.
+- Michel M., Alglave B., Olmos M., Torterotot M., Virgili A., Martin-Marin S., Royer J.Y., Samaran F. (2025). Modelling the influence of environmental factors on the acoustic presence of blue whale populations in the Southern Indian Ocean. Scientific Reports (Nature). <a href="https://doi.org/10.1038/s41598-025-02941-9">lien</a>
 
 <center>
-![**Conceptual diagram of the hierarchical model**](ressource/images/conceptual_framework.png)
+![**EOFs results for common sole in the Bay of Biscay between 2008 and 2018 <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2024)</a>**](ressource/images/phenology_sole.png){width="75%"}
 </center>
 
-## Dimension reduction for spatio-temporal data
 
-Once integrated, all these data sources give access to a huge amount of spatial information over long time series. Methods to reduce the dimension of these data are critical to analyse and interpret such information. Empirical Orthogonal Functions (EOFs) are the keystone method for reducing the dimension of spatio-temporal data.
+#### Identifying urban profiles based on overheating factors
 
-In my research, I intend to adapt these methods to address specific ecological issues (e.g. extend these methods to the multivariate case, set constrains on EOFs to ensure ecological interpretability).
+- Alglave B., Besnard P., Bernard J., Bocher E., Goussef M., Leconte F. (2025). Identifying urban profiles with regard to overheating factors. Application to French municipalities (SAGEO conference). Avignon, France, May 2025. <a href="https://github.com/balglave/b_alglave/blob/c74100dde269714e38f4cde4982549f0f08f74b3/ressource/pdf/sageo_2025_alglave.pdf">lien1</a>, <a href="https://github.com/balglave/b_alglave/blob/c74100dde269714e38f4cde4982549f0f08f74b3/ressource/pdf/sageo_2025_alglave.pdf">lien2</a>
 
-Here are some references to my work:
-
-- <a href="https://hal.science/hal-04693871">Alglave et al. (under review)</a> for an introduction to the basics of EOFs and some statistical development of EOFs to address specific ecological issues.
-
-- <a href="https://doi.org/10.1093/icesjms/fsac032">Alglave et al. (2024)</a> for an application of EOFs to identify essential habitats from a spatio-temporal species distribution model.
 
 <center>
-![**EOFs results for common sole in the Bay of Biscay between 2008 and 2018**](ressource/images/phenology_sole.png){width="75%"}
+![**Maps of local climate zones for five French municipalities <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2025)</a>**](ressource/images/cluster_cities_map.png){width="75%"}
 </center>
