@@ -3,7 +3,7 @@ title: "Teaching"
 editor: visual
 ---
 
-I currently give the following courses at University Bretagne Sud and Institut Agro Rennes. The teaching material should be soon online.
+I currently give the following courses at University Bretagne Sud and Institut Agro (Rennes). The teaching material should be online soon.
 
 -   **Bayesian linear model** (Master)
 
@@ -15,7 +15,7 @@ I currently give the following courses at University Bretagne Sud and Institut A
 
 <!--# Sampling and experimental design (Bachelor) -->
 
-In addition, here are two workshops that I frequently give to ecologists and/or statisticians as an introduction on spatio-temporal modeling for ecology.
+In addition, here are two workshops that I frequently give to ecologists and/or statisticians as an introduction to spatio-temporal modeling for ecology.
 
 ### Spatial and spatio-temporal statistics applied to ecology and environment
 
