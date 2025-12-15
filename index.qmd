@@ -23,7 +23,7 @@ You'll find additional details in the following pages!
 
 <a href="ressource/pdf/cv_baptiste_alglave_short.pdf" style="color:#d0d3d4;font-weight:bold;text-decoration:none">Short CV</a>
 
-<!-- <a href="ressource/pdf/cv_baptiste_alglave.pdf" style="color:#d0d3d4;font-weight:bold;text-decoration:none">Long CV</a> -->
+<a href="ressource/pdf/cv_baptiste_alglave.pdf" style="color:#d0d3d4;font-weight:bold;text-decoration:none">Long CV</a>
 
 </center>
 :::
