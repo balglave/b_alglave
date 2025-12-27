@@ -13,6 +13,12 @@ I work as an applied statistician with a specific interest in statistical method
 
 You'll find additional details in the following pages!
 
+If you want to contact me, here is:
+
+- **my Email:** baptiste.alglave@univ-ubs.fr
+
+- **my current work address:** 8 Rue Michel de Montaigne, 56000 Vannes
+
 :::
 ::: {.column width="5%"}
 
@@ -28,10 +34,3 @@ You'll find additional details in the following pages!
 </center>
 :::
 ::::
-
-
-If you want to contact me, here are some information.
-
-**My Email:** baptiste.alglave@univ-ubs.fr
-
-**My current work address:** 8 Rue Michel de Montaigne, 56000 Vannes

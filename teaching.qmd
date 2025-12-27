@@ -5,13 +5,15 @@ editor: visual
 
 I currently give the following courses at University Bretagne Sud and Institut Agro (Rennes). The teaching material should be online soon.
 
--   **Bayesian linear model** (Master)
+-   **Descriptive statistics** (Bachelor)
 
 -   **Introduction to spatial and spatio-temporal statistics** (Bachelor and Master)
 
+<!-- -->
+
 -   **Maximum likelihood estimation** (Bachelor)
 
--   **Descriptive statistics** (Bachelor)
+-   **Bayesian linear model** (Master)
 
 <!--# Sampling and experimental design (Bachelor) -->
 
