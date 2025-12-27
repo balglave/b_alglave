@@ -3,33 +3,35 @@ title: "Research interests"
 ---
 
 
-#### Mapping species distribution to inform marine spatial planning
+#### Inferring species spatio-temporal distribution from multiple data sources
 
-- Alglave B., Mourguiart B., Vermard Y., Rivot E., Woillez M., Kristensen K., Etienne M.P. (2025). Change of support for zero-inflated data: deriving fine scale species distribution inferences from spatially aggregated data. Journal of the Royal Statistical Society Series C: Applied Statistics. <a href="https://doi.org/10.1093/jrsssc/qlaf056">lien</a> 
+- Alglave B., Mourguiart B., Vermard Y., Rivot E., Woillez M., Kristensen K., Etienne M.P. (2025). Change of support for zero-inflated data: deriving fine scale species distribution inferences from spatially aggregated data. Journal of the Royal Statistical Society Series C: Applied Statistics. <a href="https://doi.org/10.1093/jrsssc/qlaf056">link</a> 
 
-- Alglave B., Vermard Y., Rivot E., Etienne M.P., Woillez M. (2023). Identifying mature fish aggregation areas during spawning season by combining catch declarations and scientific survey data. Canadian Journal of Fisheries and Aquatic Sciences. <a href="http://dx.doi.org/10.1139/cjfas-2022-0110">lien</a>
+- Alglave B., Vermard Y., Rivot E., Etienne M.P., Woillez M. (2023). Identifying mature fish aggregation areas during spawning season by combining catch declarations and scientific survey data. Canadian Journal of Fisheries and Aquatic Sciences. <a href="http://dx.doi.org/10.1139/cjfas-2022-0110">link</a>
 
-- Alglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsac032">lien</a>
+- Alglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsac032">link</a>
 
 <center>
 ![**Conceptual diagram of the hierarchical model developped to map fish distribution**](ressource/images/conceptual_framework.png)
 </center>
 
 
-#### Analysing species distribution to identify functional areas
+#### Dimension reduction of spatio-temporal ecological data
 
-- Michel M., Alglave B., Olmos M., Torterotot M., Virgili A., Martin-Marin S., Royer J.Y., Samaran F. (2025). Modelling the influence of environmental factors on the acoustic presence of blue whale populations in the Southern Indian Ocean. Scientific Reports (Nature). <a href="https://doi.org/10.1038/s41598-025-02941-9">lien</a>
+- Michel M., Alglave B., Olmos M., Torterotot M., Virgili A., Martin-Marin S., Royer J.Y., Samaran F. (2025). Modelling the influence of environmental factors on the acoustic presence of blue whale populations in the Southern Indian Ocean. Scientific Reports (Nature). <a href="https://doi.org/10.1038/s41598-025-02941-9">link</a>
 
-- Alglave B., Olmos, M., Casemajor, J., Etienne, M. P., Rivot, E., Woillez, M., Vermard, Y. (2024). Investigating fish reproduction phenology and essential habitats by identifying the main spatio-seasonal patterns of fish distribution. ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsae099">lien</a> 
+- Alglave B., Olmos, M., Casemajor, J., Etienne, M. P., Rivot, E., Woillez, M., Vermard, Y. (2024). Investigating fish reproduction phenology and essential habitats by identifying the main spatio-seasonal patterns of fish distribution. ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsae099">link</a> 
+
+- Alglave B., Dufée B., Obakrim S., Thorson J. T. (*in prep*). Empirical Orthogonal Functions for ecology. <a href="https://hal.science/hal-04693871">link</a>
 
 <center>
 ![**EOFs results for common sole in the Bay of Biscay between 2008 and 2018 <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2024)</a>**](ressource/images/phenology_sole.png){width="100%"}
 </center>
 
 
-#### Identifying urban profiles based on overheating factors
+#### Classifying urban profiles based on overheating factors
 
-- Alglave B., Besnard P., Bernard J., Bocher E., Gousseff M., Leconte F. (2025). Identifying urban profiles with regard to overheating factors. Application to French municipalities (SAGEO conference). Avignon, France, May 2025. <a href="https://github.com/balglave/b_alglave/blob/c74100dde269714e38f4cde4982549f0f08f74b3/ressource/pdf/sageo_2025_alglave.pdf">lien1</a>, <a href="https://github.com/balglave/b_alglave/blob/4ad6c90bed7c923336075b0157d385c4a297c0a4/ressource/pdf/stats_seminar_vannes_2025_alglave.pdf">lien2</a>
+- Alglave B., Besnard P., Bernard J., Bocher E., Gousseff M., Leconte F. (2025). Identifying urban profiles with regard to overheating factors. Application to French municipalities (SAGEO conference). Avignon, France, May 2025. <a href="https://github.com/balglave/b_alglave/blob/c74100dde269714e38f4cde4982549f0f08f74b3/ressource/pdf/sageo_2025_alglave.pdf">link1</a>, <a href="https://github.com/balglave/b_alglave/blob/4ad6c90bed7c923336075b0157d385c4a297c0a4/ressource/pdf/stats_seminar_vannes_2025_alglave.pdf">link2</a>
 
 
 <center>
