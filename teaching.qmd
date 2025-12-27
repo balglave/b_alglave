@@ -7,11 +7,9 @@ I currently give the following courses at University Bretagne Sud and Institut A
 
 -   **Descriptive statistics** (Bachelor)
 
--   **Introduction to spatial and spatio-temporal statistics** (Bachelor and Master)
-
-<!-- -->
-
 -   **Maximum likelihood estimation** (Bachelor)
+
+-   **Introduction to spatial and spatio-temporal statistics** (Bachelor and Master)
 
 -   **Bayesian linear model** (Master)
 
