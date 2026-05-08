@@ -5,7 +5,7 @@ title: ""
 :::: {.columns}
 ::: {.column width="75%"}
 
-I am an applied statistician and quantitative ecologist, with a specific interest in spatial and spatio-temporal statistics for ecology. My research aims at developing new and original statistical models to investigate species distribution and population dynamics in the context of climate change and threats on ecosystems. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
+I am an applied statistician and quantitative ecologist, with a specific interest in spatial and spatio-temporal statistics for ecology. My research advances new and original statistical methods to investigate species distribution and population dynamics in the context of climate change and threats on ecosystems. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
 
 <!-- My research intend to develop statistical tools to inform spatial planning in a context of climate change and threats on ecosystems. -->
 
