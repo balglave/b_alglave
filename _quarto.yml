@@ -15,6 +15,8 @@ website:
       - text: "CV"
         href: ressource/pdf/cv_baptiste_alglave_short.pdf
 
+body-header: banner.html   # ← add this line
+
 format:
   html:
     theme: styles.scss
