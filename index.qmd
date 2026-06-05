@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "BA"
 ---
 
 ```{=html}
@@ -8,7 +8,7 @@ title: ""
     🌿 🐟 🌊
   </div>
   <div style="display:inline-flex; align-items:center; gap:6px; background:rgba(255,255,255,0.15); border:0.5px solid rgba(255,255,255,0.25); border-radius:20px; font-size:12px; padding:4px 12px; margin-bottom:14px;">
-    🌱 Quantitative Ecologist & Applied Statistician
+    🌱 Quantitative Ecologist & Applied Statistician 🌊
   </div>
   <p style="font-size:22px; font-weight:500; margin:0 0 6px;">Baptiste Alglave</p>
   <p style="font-size:14px; color:rgba(255,255,255,0.75); margin:0 0 18px;">Associate Professor · Université Bretagne Sud · Lab-STICC (UMR 6285)</p>
@@ -16,7 +16,7 @@ title: ""
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📍 Species distribution</span>
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📊 Spatio-temporal statistics</span>
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📈 Population dynamics</span>
-    <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🌊 Marine ecosystems</span>
+    <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🌡️ Climate change</span>
   </div>
 </div>
 ```

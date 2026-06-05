@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Baptiste Alglave"
+  title: "Main page"
   navbar:
     background: "#1a4a2e"
     foreground: "white"
