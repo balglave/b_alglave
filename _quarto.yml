@@ -5,12 +5,16 @@ project:
 website:
   title: "Baptiste Alglave"
   navbar:
+    background: "#1a3a4a"
+    foreground: "white"
     left:
       - research_interest.qmd
       - teaching.qmd
       # - supervision.qmd
+    right:
+      - text: "CV"
+        href: ressource/pdf/cv_baptiste_alglave_short.pdf
 
-  
 format:
   html:
     theme: styles.scss
@@ -19,7 +23,3 @@ format:
 runs:
   using: 'node20'
   main: 'main.js'
-  
-# Publishing Jekyll style on github: https://idratherbewriting.com/documentation-theme-jekyll/mydoc_publishing_github_pages.html
-# Jekyll styles: https://github.com/topics/jekyll-theme
-# for information: https://quarto.org/docs/websites/

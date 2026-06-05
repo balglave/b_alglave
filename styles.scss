@@ -212,3 +212,16 @@ table,
 .list-group {
   font-size: $font-size-sm;
 }
+
+.navbar-nav .nav-link {
+  opacity: 0.75;
+  &:hover, &.active { opacity: 1; }
+}
+
+.navbar .btn, .navbar a[href$=".pdf"] {
+  background: #5dcaa5;
+  color: #04342c !important;
+  font-weight: 500;
+  border-radius: 6px;
+  padding: 5px 14px;
+}
