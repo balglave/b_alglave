@@ -4,7 +4,6 @@ project:
 
 website:
   title: "Baptiste Alglave"
-  body-header: banner.html        # ← add this here, inside website:
   navbar:
     background: "#1a4a2e"
     foreground: "white"

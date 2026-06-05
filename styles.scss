@@ -226,6 +226,15 @@ table,
   padding: 5px 14px;
 }
 
-.quarto-title h1.title {
-  display: none;
+
+.quarto-title-banner {
+  background: linear-gradient(135deg, #2d6a4f 0%, #52b788 60%, #74c69d 100%) !important;
+}
+
+.quarto-title-banner h1 {
+  display: none !important;
+}
+
+#title-block-header h1 {
+  display: none !important;
 }
