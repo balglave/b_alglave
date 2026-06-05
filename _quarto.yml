@@ -5,7 +5,7 @@ project:
 website:
   title: "Main page"
   navbar:
-    background: "#1a4a2e"
+    background: "#45896f"
     foreground: "white"
     left:
       - research_interest.qmd
