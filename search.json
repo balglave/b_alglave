@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baptiste Alglave",
+    "section": "",
+    "text": "I am a quantitative ecologist and applied statistician, with a specific interest in species distribution, population dynamics and spatio-temporal statistical modeling. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).\n\n\nYou’ll find additional details in the following pages!\nIf you want to contact me, here is:\n\nmy email: baptiste.alglave@univ-ubs.fr\nmy current work address: 8 Rue Michel de Montaigne, 56000 Vannes\n\n\n\n\n\n\nShort CV\nLong CV"
+  },
+  {
     "objectID": "research_interest.html",
     "href": "research_interest.html",
     "title": "Research interests",
     "section": "",
-    "text": "Inferring species spatio-temporal distribution from multiple data sources\n\nAlglave B., Mourguiart B., Vermard Y., Rivot E., Woillez M., Kristensen K., Etienne M.P. (2025). Change of support for zero-inflated data: deriving fine scale species distribution inferences from spatially aggregated data. Journal of the Royal Statistical Society Series C: Applied Statistics. link\nAlglave B., Vermard Y., Rivot E., Etienne M.P., Woillez M. (2023). Identifying mature fish aggregation areas during spawning season by combining catch declarations and scientific survey data. Canadian Journal of Fisheries and Aquatic Sciences. link\nAlglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. link\n\n\n\n\n\nConceptual diagram of the hierarchical model developped to map fish distribution\n\n\n\n\n\nDimension reduction for spatio-temporal ecological data\n\nMichel M., Alglave B., Olmos M., Torterotot M., Virgili A., Martin-Marin S., Royer J.Y., Samaran F. (2025). Modelling the influence of environmental factors on the acoustic presence of blue whale populations in the Southern Indian Ocean. Scientific Reports (Nature). link\nAlglave B., Olmos, M., Casemajor, J., Etienne, M. P., Rivot, E., Woillez, M., Vermard, Y. (2024). Investigating fish reproduction phenology and essential habitats by identifying the main spatio-seasonal patterns of fish distribution. ICES Journal of Marine Science. link\nAlglave B., Dufée B., Obakrim S., Thorson J. T. (in prep). Empirical Orthogonal Functions for ecology. link\n\n\n\n\n\nEOFs results for common sole in the Bay of Biscay between 2008 and 2018 (Alglave et al., 2024)\n\n\n\n\n\nClassifying urban profiles based on overheating factors\n\nAlglave B., Besnard P., Bernard J., Bocher E., Gousseff M., Leconte F. (2025). Identifying urban profiles with regard to overheating factors. Application to French municipalities (SAGEO conference). Avignon, France, May 2025. link1, link2\n\n\n\n\n\nMaps of local climate zones for five French municipalities (Alglave et al., 2025)"
+    "text": "Species distribution, spatial ecology and spatio-temporal statistics\n\n\n\n\nMain spatial and temporal patterns of common sole in the Bay of Biscay between 2008 and 2018 (Alglave et al., 2024). This is related to sole phenology.\n\n\n\nSome references:\n\nMichel M., Alglave B., Olmos M., Torterotot M., Virgili A., Martin-Marin S., Royer J.Y., Samaran F. (2025). Modelling the influence of environmental factors on the acoustic presence of blue whale populations in the Southern Indian Ocean. Scientific Reports (Nature). link\nAlglave B., Mourguiart B., Vermard Y., Rivot E., Woillez M., Kristensen K., Etienne M.P. (2025). Change of support for zero-inflated data: deriving fine scale species distribution inferences from spatially aggregated data. Journal of the Royal Statistical Society Series C: Applied Statistics. link\n\n\n\n\nAlglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. link\n\n\n\nPopulation dynamics, climate change and mechanistico-statistic modeling\n\n\n\n\nSpatio-temporal abundance estimates from an integrated population dynamics model for the snwo crab of the Eastern Bering Sea (Olmos et al., 2023)\n\n\n\nSome references:\n\nSzuwalski C., Alglave B., Balstad L.J., Olmos M., Punt A.E., Richar J., Stockhausen W., and Veron M. (2026). Density dependence modulates climate change impacts on eastern Bering Sea snow crab. Journal of Applied Ecology. link\nRovellini A., Punt A.E., Bryan M.D., Kaplan I.C., Dorn M.W., Aydin K., Fulton E.A., Alglave B., Baker M.R., Carroll G., Ferriss B.E., Haltuch M.A., Hayes A.L., Hermann A.J., Hernvann P.Y., Holsman K.K., Liu O.R., McHuron E., Morzaria-Luna H.N., Moss J., Surma S., Weise M.T. (2024). Linking climate stressors to ecological processes in ecosystem models, with a case study from the Gulf of Alaska. ICES Journal of Marine Science. link\nOlmos M., Cao J., Thorson J.T., Punt A.E., Monnahan C.C., Alglave B., Szuwalski C. (2023). A step towards the integration of spatial dynamics in population dynamics models: Eastern Bering Sea snow crab as a case study. Ecological Modelling. link"
   },
   {
     "objectID": "teaching.html",
@@ -19,12 +26,5 @@
     "title": "Opportunities",
     "section": "",
     "text": "Master thesis (M2, 6 months). Mapping and profiling French cities based on local climate zones. link\n\n\n\n\n\nLocal climate zones for Renes"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Baptiste Alglave",
-    "section": "",
-    "text": "I am an applied statistician and quantitative ecologist, with a specific interest in spatial and spatio-temporal statistics for ecology. My research advances new and original statistical methods to investigate species distribution and population dynamics in the context of climate change and threats on ecosystems. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).\n\n\nYou’ll find additional details in the following pages!\nIf you want to contact me, here is:\n\nmy email: baptiste.alglave@univ-ubs.fr\nmy current work address: 8 Rue Michel de Montaigne, 56000 Vannes\n\n\n\n\n\n\nShort CV\nLong CV"
   }
 ]
