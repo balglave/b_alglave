@@ -1,21 +1,17 @@
 project:
   type: website
   output-dir: docs
-  
+
 website:
   title: "Baptiste Alglave"
+  body-header: banner.html        # ← add this here, inside website:
   navbar:
-    background: "#1a3a4a"
+    background: "#1a4a2e"
     foreground: "white"
     left:
       - research_interest.qmd
       - teaching.qmd
       # - supervision.qmd
-    right:
-      - text: "CV"
-        href: ressource/pdf/cv_baptiste_alglave_short.pdf
-
-body-header: banner.html   # ← add this line
 
 format:
   html:
