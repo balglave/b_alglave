@@ -5,7 +5,7 @@ title: "Research interests"
 #### Species distribution, spatial ecology and spatio-temporal statistics
 
 <center>
-![**Main spatial and temporal patterns of common sole in the Bay of Biscay between 2008 and 2018 <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2024)</a>. This is related to sole phenology.**](ressource/images/phenology_sole.png){width="100%"}
+![**Main phenological patterns of common sole in the Bay of Biscay. Obtained from monthly species distribution between 2008 and 2018 <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2024)</a>.**](ressource/images/phenology_sole.png){width="100%"}
 </center>
 
 Some references:
@@ -21,7 +21,7 @@ Some references:
 - Alglave B., Rivot E., Etienne M.P., Woillez M., Thorson J.T., Vermard Y. (2022). Combining scientific survey and commercial catch data to map fish distribution.ICES Journal of Marine Science. <a href="https://doi.org/10.1093/icesjms/fsac032">link</a>
 
 
-#### Population dynamics, climate change and mechanistico-statistic modeling
+#### Population dynamics, climate change and mechanistico-statistical modeling
 
 <center>
 ![**Spatio-temporal abundance estimates from an integrated population dynamics model for the snwo crab of the Eastern Bering Sea <a href="https://doi.org/10.1016/j.ecolmodel.2023.110484">(Olmos et al., 2023)</a>**](ressource/images/snow_crab_ab.png){width="100%"}
