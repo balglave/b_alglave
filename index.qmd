@@ -17,6 +17,7 @@ title: "BA"
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📊 Spatio-temporal statistics</span>
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📈 Population dynamics</span>
     <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🌡️ Climate change</span>
+    <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🗺️ Biogeography</span>
   </div>
 </div>
 ```
@@ -24,7 +25,7 @@ title: "BA"
 :::: {.columns}
 ::: {.column width="75%"}
 
-I am a quantitative ecologist and applied statistician, with a specific interest in species distribution, population dynamics and spatio-temporal statistical modeling. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
+Applied statistician and quantitative ecologist with a specific interest in spatio-temporal statistics, species distribution, population dynamics and biogeography. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
 
 You'll find additional details in the following pages!
 
