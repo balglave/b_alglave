@@ -15,7 +15,7 @@ title: "BA"
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
   <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📊 Spatial statistics</span>
   <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📈 Population dynamics</span>
-  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🗺️ Biogeography and species distribution</span>
+  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🗺️ Biogeography</span>
   <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🔔 Latent variable models</span>
   </div>
 </div>
