@@ -13,10 +13,10 @@ title: "BA"
   <p style="font-size:22px; font-weight:500; margin:0 0 6px;">Baptiste Alglave</p>
   <p style="font-size:14px; color:rgba(255,255,255,0.75); margin:0 0 18px;">Associate Professor · Université Bretagne Sud · Lab-STICC (UMR 6285)</p>
   <div style="display:flex; gap:8px; flex-wrap:wrap;">
-    <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📈 Population dynamics</span>
+  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📊 Spatial statistics</span>
+  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📈 Population dynamics</span>
   <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🗺️ Biogeography and species distribution</span>
-  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">📊 Spatial and spatio-temporal statistics</span>
-    <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🔔 Latent variable models</span>
+  <span style="background:rgba(255,255,255,0.12); border:0.5px solid rgba(255,255,255,0.2); border-radius:20px; font-size:12px; padding:4px 12px; color:rgba(255,255,255,0.85);">🔔 Latent variable models</span>
   </div>
 </div>
 ```
@@ -24,7 +24,7 @@ title: "BA"
 :::: {.columns}
 ::: {.column width="75%"}
 
-Quantitative ecologist and applied statistician with a specific interest in spatial statistics, biogeography, species distribution modeling and population dynamics. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
+Quantitative ecologist and applied statistician with a specific interest in spatial statistics, biogeography and population dynamics. I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285).
 
 You'll find additional details in the following pages!
 
