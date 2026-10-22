@@ -2,7 +2,7 @@
 title: "Research interests"
 ---
 
-#### Biogeography and spatial statistics
+#### Spatial ecology and spatio-temporal statistics
 
 <center>
 ![**Main phenological patterns of common sole in the Bay of Biscay. Obtained from monthly species distribution between 2008 and 2018 <a href="https://doi.org/10.1093/icesjms/fsae099">(Alglave et al., 2024)</a>.**](ressource/images/phenology_sole.png){width="100%"}

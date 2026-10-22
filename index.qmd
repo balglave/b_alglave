@@ -24,7 +24,7 @@ title: "BA"
 :::: {.columns}
 ::: {.column width="75%"}
 
-I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285). I have a specific interest in latent variable modeling, spatial statistics, biogeography and population dynamics.
+I work at University Bretagne Sud as an associate professor of statistics (IUT Vannes, Data Science department) in the GIS group of Lab-STICC (UMR 6285). I have a specific interest in latent variable modeling and spatio-temporal statistics for spatial ecology and population dynamics.
 
 You'll find additional details in the following pages!
 
